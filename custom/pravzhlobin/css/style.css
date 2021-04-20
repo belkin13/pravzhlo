@@ -8087,3 +8087,28 @@ footer {
 a.tabledrag-handle .handle {
   display: table-cell;
   padding-right: 1rem !important; }
+
+@font-face {
+  font-family: 'bukyvede';
+  src: url("bukyvede_light-webfont.eot");
+  src: url("bukyvede_light-webfont.eot?#iefix") format("embedded-opentype"), url("bukyvede_light-webfont.woff2") format("woff2"), url("bukyvede_light-webfont.woff") format("woff"), url("bukyvede_light-webfont.ttf") format("truetype"), url("bukyvede_light-webfont.svg#bukyvede_lightregular") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'bukyvede';
+  src: url("bukyvede-bold-webfont.eot");
+  src: url("bukyvede-bold-webfont.eot?#iefix") format("embedded-opentype"), url("bukyvede-bold-webfont.woff2") format("woff2"), url("bukyvede-bold-webfont.woff") format("woff"), url("bukyvede-bold-webfont.ttf") format("truetype"), url("bukyvede-bold-webfont.svg#bukyvedebold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'bukyvede';
+  src: url("bukyvede-italic-webfont.eot");
+  src: url("bukyvede-italic-webfont.eot?#iefix") format("embedded-opentype"), url("bukyvede-italic-webfont.woff2") format("woff2"), url("bukyvede-italic-webfont.woff") format("woff"), url("bukyvede-italic-webfont.ttf") format("truetype"), url("bukyvede-italic-webfont.svg#bukyvedeitalic") format("svg");
+  font-weight: 400;
+  font-style: italic; }
+@font-face {
+  font-family: 'bukyvede';
+  src: url("bukyvede-regular-webfont.eot");
+  src: url("bukyvede-regular-webfont.eot?#iefix") format("embedded-opentype"), url("bukyvede-regular-webfont.woff2") format("woff2"), url("bukyvede-regular-webfont.woff") format("woff"), url("bukyvede-regular-webfont.ttf") format("truetype"), url("bukyvede-regular-webfont.svg#bukyvederegular") format("svg");
+  font-weight: 400;
+  font-style: normal; }
