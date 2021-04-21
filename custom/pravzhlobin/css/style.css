@@ -8112,3 +8112,5 @@ a.tabledrag-handle .handle {
   src: url("../fonts/bukyvede-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bukyvede-regular-webfont.woff2") format("woff2"), url("../fonts/bukyvede-regular-webfont.woff") format("woff"), url("../fonts/bukyvede-regular-webfont.ttf") format("truetype"), url("../fonts/bukyvede-regular-webfont.svg#bukyvederegular") format("svg");
   font-weight: 400;
   font-style: normal; }
+.navbar {
+  background-color: #f5f5f5; }
