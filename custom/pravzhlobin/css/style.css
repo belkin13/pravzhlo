@@ -8904,3 +8904,6 @@ a.tabledrag-handle .handle {
 .fc-event-container .fc-title {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: .75rem; }
+
+.fc-scroller, .fc-widget-content {
+  height: auto !important; }
