@@ -8881,8 +8881,11 @@ a.tabledrag-handle .handle {
   position: relative; }
   .paragraph--type--information-card::before {
     position: absolute;
-    content: url(../img/info-header.svg);
-    top: 0;
+    background-image: url(../img/info-header.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -40px;
     left: 50%;
     margin-left: -150px;
-    width: 300px; }
+    width: 300px;
+    height: 40px; }
