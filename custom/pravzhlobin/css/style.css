@@ -8899,11 +8899,18 @@ a.tabledrag-handle .handle {
     width: 300px;
     height: 110px; }
 
+.calendar-day-add .fc-time {
+  display: none; }
+
 .fc-event-container .fc-content {
   white-space: normal !important; }
 .fc-event-container .fc-title {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: .75rem; }
+  font-size: .85rem;
+  letter-spacing: -1px; }
+
+.fc-day-grid-event {
+  margin: 4px 2px 0; }
 
 .fc-scroller, .fc-widget-content {
   height: auto !important; }

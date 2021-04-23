@@ -63,17 +63,25 @@
     }
 }
 
-
+.calendar-day-add {
+    .fc-time {
+        display:none;
+    }
+}
 .fc-event-container {
     .fc-content {
         white-space:normal !important;
     }
     .fc-title {
         font-family:$font-family-monospace;
-        font-size:.75rem;
+        font-size:.85rem;
+        letter-spacing:-1px;
     }
 }
+.fc-day-grid-event {
+    margin:4px 2px 0;
 
+}
 .fc-scroller, .fc-widget-content {
     height:auto !important;
 }
