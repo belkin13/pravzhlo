@@ -8872,13 +8872,14 @@ a.tabledrag-handle .handle {
 
 /* Information Card */
 .paragraph--type--information-card {
-  background-color: yellow;
+  background-color: rgba(255, 210, 73, 0.3);
   max-width: 1000px;
   margin: 0 auto;
   padding: 2rem;
   width: 100%;
   min-height: 300px;
-  position: relative; }
+  position: relative;
+  border: 3px solid #000; }
   .paragraph--type--information-card::before {
     display: block;
     content: "";
@@ -8886,8 +8887,8 @@ a.tabledrag-handle .handle {
     background-image: url(../img/info-header.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    top: -40px;
+    top: -78px;
     left: 50%;
     margin-left: -150px;
     width: 300px;
-    height: 40px; }
+    height: 110px; }
