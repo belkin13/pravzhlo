@@ -8899,6 +8899,8 @@ a.tabledrag-handle .handle {
     width: 300px;
     height: 110px; }
 
+.fc-event-container .fc-content {
+  white-space: normal; }
 .fc-event-container .fc-title {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: .75rem; }
