@@ -38,7 +38,7 @@
 .paragraph--type--information-card {
     background-color:rgba(255, 210, 73,.3);
     max-width:1000px;
-    margin:4rem auto 0;
+    margin:5rem auto 0;
     padding:3rem 2rem 2rem;
     width:100%;
     min-height:200px;
@@ -60,5 +60,15 @@
         margin-left:-150px;
         width:300px;
         height:110px;
+    }
+}
+
+.fc-event-container {
+    .fc-content {
+        white-space:normal;
+    }
+    .fc-title {
+        font-family:$font-family-monospace;
+        font-size:.75rem;
     }
 }
