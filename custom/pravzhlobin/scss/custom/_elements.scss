@@ -63,9 +63,10 @@
     }
 }
 
+
 .fc-event-container {
     .fc-content {
-        white-space:normal;
+        white-space:normal !important;
     }
     .fc-title {
         font-family:$font-family-monospace;
