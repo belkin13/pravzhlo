@@ -29,3 +29,21 @@
         }
     }
 }
+/* Information Card */
+.paragraph--type--information-card {
+    background-color:yellow;
+    max-width:1000px;
+    margin:0 auto;
+    padding:2rem;
+    width:100%;
+    min-height:300px;
+    position:relative;
+    &::before {
+        position:absolute;
+        content:url(../img/info-header.svg);
+        top:0;
+        left:50%;
+        margin-left:-150px;
+        width:300px;
+    }
+}
