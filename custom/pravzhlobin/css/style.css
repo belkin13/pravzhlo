@@ -8880,6 +8880,8 @@ a.tabledrag-handle .handle {
   min-height: 300px;
   position: relative; }
   .paragraph--type--information-card::before {
+    display: block;
+    content: "";
     position: absolute;
     background-image: url(../img/info-header.svg);
     background-size: contain;

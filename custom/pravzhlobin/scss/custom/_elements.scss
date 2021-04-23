@@ -39,6 +39,8 @@
     min-height:300px;
     position:relative;
     &::before {
+        display:block;
+        content:"";
         position:absolute;
         background-image:url(../img/info-header.svg);
         background-size:contain;
