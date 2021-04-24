@@ -8920,7 +8920,9 @@ a.tabledrag-handle .handle {
   margin: 0 auto;
   position: relative; }
 
-.main-slider-uzor, .owl-wrapper-outer::after {
+.main-slider-uzor,
+.page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::after,
+.page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::before {
   width: 140px;
   height: 140px;
   position: absolute;
@@ -8928,14 +8930,14 @@ a.tabledrag-handle .handle {
   background-size: contain;
   background-repeat: no-repeat; }
 
-.owl-wrapper-outer::after, .owl-wrapper-outer::before {
+.page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::after, .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::before {
   content: "";
   display: block; }
-.owl-wrapper-outer::after {
+.page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::after {
   left: -40px;
   bottom: -44px;
   transform: rotate(270deg); }
-.owl-wrapper-outer::before {
+.page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::before {
   right: -40px;
   bottom: -44px;
   transform: rotate(-270deg); }
