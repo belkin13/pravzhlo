@@ -94,7 +94,9 @@
     }
 }
 
-.main-slider-uzor, .owl-wrapper-outer::after {
+.main-slider-uzor,
+.page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::after, 
+.page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::before {
     width:140px;
     height:140px;
     position:absolute;
@@ -104,8 +106,7 @@
     
 }
 
-
-.owl-wrapper-outer {
+.page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls {
     &::after, &::before {
         content:"";
         display:block;
