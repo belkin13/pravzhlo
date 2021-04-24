@@ -8920,7 +8920,7 @@ a.tabledrag-handle .handle {
   margin: 0 auto;
   position: relative; }
 
-.main-slider-uzor {
+.main-slider-uzor, .owl-wrapper-outer::after {
   width: 40px;
   height: 40px;
   position: absolute;
@@ -8928,13 +8928,21 @@ a.tabledrag-handle .handle {
   background-size: contain;
   background-repeat: no-repeat; }
 
-.left-top-uzor {
+.owl-wrapper-outer::after {
+  content: "";
+  display: block;
   left: 0;
-  top: 0; }
+  bottom: 0; }
+
+.left-top-uzor {
+  left: -40px;
+  top: -44px;
+  transform: rotate(135deg); }
 
 .right-top-uzor {
-  right: 0;
-  top: 0; }
+  right: -40px;
+  top: -44px;
+  transform: rotate(-135deg); }
 
 .left-bottom-uzor {
   left: 0;
