@@ -106,14 +106,21 @@
 
 
 .owl-wrapper-outer {
-    &::after {
+    &::after, &::before {
         content:"";
         display:block;
-        left:0;
-        bottom:0;
+    }
+    &::after {
+        left:-40px;
+        bottom:-44px;
+        transform:rotate(270deg);
+    }
+    &::before {
+        right:-40px;
+        bottom:-44px;
+        transform:rotate(-270deg);
     }
 }
-
 
 .left-top-uzor {
     left:-40px;
@@ -124,12 +131,4 @@
     right:-40px;
     top:-44px;
     transform:rotate(-135deg);
-}
-.left-bottom-uzor {
-    left:0;
-    bottom:0;
-}
-.right-bottom-uzor {
-    right:0;
-    bottom:0;
 }
