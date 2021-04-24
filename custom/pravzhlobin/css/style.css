@@ -8914,3 +8914,7 @@ a.tabledrag-handle .handle {
 
 .fc-scroller, .fc-widget-content {
   height: auto !important; }
+
+.page-node-type-main-page .view-main-slider .owl-carousel {
+  max-width: 1200px;
+  margin: 0 auto; }
