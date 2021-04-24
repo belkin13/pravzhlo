@@ -8921,8 +8921,8 @@ a.tabledrag-handle .handle {
   position: relative; }
 
 .main-slider-uzor, .owl-wrapper-outer::after {
-  width: 40px;
-  height: 40px;
+  width: 140px;
+  height: 140px;
   position: absolute;
   background-image: url(../img/uzor-sq.svg);
   background-size: contain;
