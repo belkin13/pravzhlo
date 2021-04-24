@@ -1,0 +1,63 @@
+pravzhlobin.screen.mob:
+  label: MOBILE
+  mediaQuery: '(max-width: 575px)'
+  weight: 8
+  multipliers:
+    - 1x
+    - 2x
+pravzhlobin.screen.mobtab:
+  label: MOBILE AND TABLET
+  mediaQuery: '(max-width: 991px)'
+  weight: 7
+  multipliers:
+    - 1x
+    - 2x   
+pravzhlobin.screen.tablg:
+  label: TABLET LG
+  mediaQuery: '(min-width: 992px) and (max-width: 1199px)'
+  weight: 6
+  multipliers:
+    - 1x
+    - 2x          
+pravzhlobin.screen.tabmd:
+  label: TABLET MD
+  mediaQuery: '(min-width: 768px) and (max-width: 991px)'
+  weight: 5
+  multipliers:
+    - 1x
+    - 2x 
+pravzhlobin.screen.tabsm:
+  label: TABLET SM
+  mediaQuery: '(min-width: 576px) and (max-width: 767px)'
+  weight: 4
+  multipliers:
+    - 1x
+    - 2x      
+pravzhlobin.screen.taball:
+  label: TABLET ALL
+  mediaQuery: '(min-width: 576px) and (max-width: 991px)'
+  weight: 3
+  multipliers:
+    - 1x
+    - 2x     
+pravzhlobin.screen.desk:
+  label: DESKTOP
+  mediaQuery: '(min-width: 992px)'
+  weight: 2
+  multipliers:
+    - 1x
+    - 2x
+pravzhlobin.screen.deskxl:
+  label: DESKTOP XL
+  mediaQuery: '(min-width: 1200px)'
+  weight: 1
+  multipliers:
+    - 1x
+    - 2x    
+pravzhlobin.screen.deskall:
+  label: ALL
+  mediaQuery: '(min-width: 0)'
+  weight: 0
+  multipliers:
+    - 1x
+    - 2x        
