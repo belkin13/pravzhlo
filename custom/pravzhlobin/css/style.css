@@ -8877,6 +8877,9 @@ a.tabledrag-handle .handle {
   padding-top: 3rem;
   padding-bottom: 3rem; }
 
+.narrow-container.container {
+  max-width: 1200px; }
+
 /* Information Card */
 .paragraph--type--information-card {
   background-color: rgba(255, 210, 73, 0.3);
@@ -8963,8 +8966,12 @@ a.tabledrag-handle .handle {
   max-width: 400px;
   margin: 0 auto; }
 
+.tabs {
+  margin-bottom: 2rem; }
+
 .field--name-field-main-image {
-  max-width: 1076px;
+  max-width: 800px;
   margin: 0 auto 3rem; }
   .field--name-field-main-image img {
-    width: 100%; }
+    width: 100%;
+    height: auto; }
