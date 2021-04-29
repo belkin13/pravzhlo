@@ -8873,6 +8873,10 @@ a.tabledrag-handle .handle {
 .m-bottom {
   margin-bottom: 5rem; }
 
+.region-content {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
 /* Information Card */
 .paragraph--type--information-card {
   background-color: rgba(255, 210, 73, 0.3);
