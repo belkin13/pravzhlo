@@ -8971,7 +8971,18 @@ a.tabledrag-handle .handle {
 
 .field--name-field-main-image {
   max-width: 800px;
-  margin: 0 auto 3rem; }
+  margin: 0 auto 3rem;
+  position: relative; }
   .field--name-field-main-image img {
     width: 100%;
     height: auto; }
+
+.ramka .ramka-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-image: url(../img/ramka.svg);
+  background-repeat: repeat-y;
+  background-color: transparent; }
