@@ -64,11 +64,13 @@
           <div>
         {% endif %}
         {% for item in items %}
-          <div{{ item.attributes }}>{{ item.content }}</div>
-          <div class="ramka-top ramka"></div>
-          <div class="ramka-bottom ramka"></div>
-          <div class="ramka-left ramka"></div>
-          <div class="ramka-right ramka"></div>
+          <div{{ item.attributes }}>
+            {{ item.content }}
+            <div class="ramka-top ramka"></div>
+            <div class="ramka-bottom ramka"></div>
+            <div class="ramka-left ramka"></div>
+            <div class="ramka-right ramka"></div>
+          </div>      
         {% endfor %}
         {% if multiple %}
           </div>
