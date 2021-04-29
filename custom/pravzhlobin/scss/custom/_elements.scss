@@ -176,14 +176,42 @@
 
 
 .ramka {
-    &.ramka-top {
-        position:absolute;
-        top:0;
+    position:absolute;
+    background-color:transparent;
+    &.ramka-top {        
+        top:-50px;
         left:0;
         width:100%;
-        height:30px;
-        background-image:url(../img/ramka.svg);
-        background-repeat:repeat-y;
-        background-color:transparent;
+        height:50px;
+        background-image:url(../img/ramka-top.svg);
+        background-repeat:repeat-y;      
+        background-size:50px;
+    }
+    &.ramka-bottom {        
+        bottom:-50px;
+        left:0;
+        width:100%;
+        height:50px;
+        background-image:url(../img/ramka-bottom.svg);
+        background-repeat:repeat-y;      
+        background-size:50px;
+    }
+    &.ramka-left {        
+        top:0;
+        left:-50px;
+        width:50px;
+        height:100%;
+        background-image:url(../img/ramka-left.svg);
+        background-repeat:repeat-x;      
+        background-size:50px;
+    }
+    &.ramka-right {        
+        top:0;
+        left:-50px;
+        width:50px;
+        height:100%;
+        background-image:url(../img/ramka-left.svg);
+        background-repeat:repeat-x;      
+        background-size:50px;
     }
 }
