@@ -8977,7 +8977,7 @@ a.tabledrag-handle .handle {
     width: 100%;
     height: auto; }
 
-.ramka .ramka-top {
+.ramka.ramka-top {
   position: absolute;
   top: 0;
   left: 0;
