@@ -50,10 +50,10 @@
      inkscape:current-layer="svg42" />
   <g
      id="#fdfdfdff"
-     transform="rotate(90)" />
+     transform="scale(-1)" />
   <g
      id="#2b2b2bff"
-     transform="rotate(90,68.494076,70.03)">
+     transform="rotate(180,68.494076,70.03)">
     <path
        fill="#ffd249"
        opacity="1"

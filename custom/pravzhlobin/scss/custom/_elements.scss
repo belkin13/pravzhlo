@@ -184,7 +184,7 @@
         width:100%;
         height:50px;
         background-image:url(../img/ramka-top.svg);
-        background-repeat:repeat-y;      
+        background-repeat:repeat-x;      
         background-size:50px;
     }
     &.ramka-bottom {        
@@ -193,7 +193,7 @@
         width:100%;
         height:50px;
         background-image:url(../img/ramka-bottom.svg);
-        background-repeat:repeat-y;      
+        background-repeat:repeat-x;      
         background-size:50px;
     }
     &.ramka-left {        
@@ -202,16 +202,16 @@
         width:50px;
         height:100%;
         background-image:url(../img/ramka-left.svg);
-        background-repeat:repeat-x;      
+        background-repeat:repeat-y;      
         background-size:50px;
     }
     &.ramka-right {        
         top:0;
-        left:-50px;
+        right:-50px;
         width:50px;
         height:100%;
-        background-image:url(../img/ramka-left.svg);
-        background-repeat:repeat-x;      
+        background-image:url(../img/ramka-right.svg);
+        background-repeat:repeat-y;      
         background-size:50px;
     }
 }
