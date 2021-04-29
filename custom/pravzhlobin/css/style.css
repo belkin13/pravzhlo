@@ -9003,7 +9003,8 @@ a.tabledrag-handle .handle {
     height: calc(100% + 92px);
     background-image: url(../img/ramka-left.svg);
     background-repeat: repeat-y;
-    background-size: 50px; }
+    background-size: 50px;
+    border-radius: 35px 0 0 35px; }
   .ramka.ramka-right {
     top: -45px;
     right: -50px;
@@ -9011,7 +9012,8 @@ a.tabledrag-handle .handle {
     height: calc(100% + 92px);
     background-image: url(../img/ramka-right.svg);
     background-repeat: repeat-y;
-    background-size: 50px; }
+    background-size: 50px;
+    border-radius: 0 35px 35px 0; }
 
 .field--name-field-main-text {
   padding: 2rem 0; }

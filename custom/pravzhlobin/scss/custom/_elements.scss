@@ -204,6 +204,7 @@
         background-image:url(../img/ramka-left.svg);
         background-repeat:repeat-y;      
         background-size:50px;
+        border-radius:35px 0 0 35px;
     }
     &.ramka-right {        
         top:-45px;
@@ -213,6 +214,7 @@
         background-image:url(../img/ramka-right.svg);
         background-repeat:repeat-y;      
         background-size:50px;
+        border-radius:0 35px 35px 0;
     }
 }
 
