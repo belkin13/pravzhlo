@@ -9012,3 +9012,6 @@ a.tabledrag-handle .handle {
     background-image: url(../img/ramka-right.svg);
     background-repeat: repeat-y;
     background-size: 50px; }
+
+.field--name-field-main-text {
+  padding: 2rem 0; }
