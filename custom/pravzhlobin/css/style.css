@@ -8971,7 +8971,7 @@ a.tabledrag-handle .handle {
 
 .field--name-field-main-image {
   max-width: 800px;
-  margin: 0 auto 3rem;
+  margin: 3rem auto;
   position: relative; }
   .field--name-field-main-image img {
     width: 100%;
@@ -9015,3 +9015,7 @@ a.tabledrag-handle .handle {
 
 .field--name-field-main-text {
   padding: 2rem 0; }
+  .field--name-field-main-text h2 {
+    font-size: 2.5rem; }
+  .field--name-field-main-text p {
+    font-size: 2rem; }
