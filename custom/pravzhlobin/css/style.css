@@ -8958,3 +8958,7 @@ a.tabledrag-handle .handle {
 .path-user .user-login-form {
   max-width: 400px;
   margin: 0 auto; }
+
+.field--name-field-main-image {
+  max-width: 1600px;
+  margin: 0 auto 3rem; }
