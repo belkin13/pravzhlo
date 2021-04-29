@@ -85,3 +85,62 @@
 .fc-scroller, .fc-widget-content {
     height:auto !important;
 }
+
+.page-node-type-main-page {
+    .block-views-blockmain-slider-block-1, .block-field-blocknodemain-pagebody {
+        max-width:1200px;
+        margin:0 auto;
+        position:relative;
+    }
+}
+
+.page-node-type-main-page {
+    .block-field-blocknodemain-pagebody {
+        p {
+            font-size:1.5rem;
+        }
+    }
+}
+
+
+.main-slider-uzor,
+.page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::after, 
+.page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::before {
+    width:140px;
+    height:140px;
+    position:absolute;
+    background-image:url(../img/uzor-sq-y.svg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    
+}
+
+
+
+.page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls {
+    &::after, &::before {
+        content:"";
+        display:block;
+    }
+    &::after {
+        left:-50px;
+        bottom:-39px;
+        transform:rotate(48deg);
+    }
+    &::before {
+        right:-44px;
+        bottom:-44px;
+        transform:rotate(-43deg);
+    }
+}
+
+.left-top-uzor {
+    left:-45px;
+    top:-49px;
+    transform:rotate(136deg);
+}
+.right-top-uzor {
+    right:-49px;
+    top:-44px;
+    transform:rotate(-134deg);
+}
