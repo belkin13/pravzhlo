@@ -8960,5 +8960,7 @@ a.tabledrag-handle .handle {
   margin: 0 auto; }
 
 .field--name-field-main-image {
-  max-width: 1600px;
+  max-width: 1076px;
   margin: 0 auto 3rem; }
+  .field--name-field-main-image img {
+    width: 100%; }
