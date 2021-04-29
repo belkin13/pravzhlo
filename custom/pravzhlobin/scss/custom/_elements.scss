@@ -196,20 +196,20 @@
         background-repeat:repeat-x;      
         background-size:50px;
     }
-    &.ramka-left {        
-        top:0;
+    &.ramka-left {
+        top:-45px;
         left:-50px;
         width:50px;
-        height:100%;
+        height:calc(100% + 92px);
         background-image:url(../img/ramka-left.svg);
         background-repeat:repeat-y;      
         background-size:50px;
     }
     &.ramka-right {        
-        top:0;
+        top:-45px;
         right:-50px;
         width:50px;
-        height:100%;
+        height:calc(100% + 92px);
         background-image:url(../img/ramka-right.svg);
         background-repeat:repeat-y;      
         background-size:50px;
