@@ -8954,6 +8954,8 @@ a.tabledrag-handle .handle {
   padding: 2rem 8rem;
   min-height: 116px;
   background: rgba(255, 210, 73, 0.3); }
+  .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body h2, .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body p {
+    color: #000; }
   .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body h2 {
     font-size: 2rem; }
   .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body p {
@@ -8974,7 +8976,8 @@ a.tabledrag-handle .handle {
   width: 100%; }
   .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls .owl-pagination span {
     background: #ffd249;
-    color: #000; }
+    color: #000;
+    font-size: 1.5rem; }
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls .owl-buttons {
   position: absolute;
   width: 100%;

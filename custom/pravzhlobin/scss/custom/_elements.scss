@@ -151,6 +151,9 @@
             padding:2rem 8rem;
             min-height:116px;
             background:rgba(255, 210, 73,.3);
+            h2, p {
+                color:#000;
+            }
             h2 {
                 font-size:2rem;
             }
@@ -180,6 +183,7 @@
                 span {
                     background:#ffd249;
                     color:#000;
+                    font-size:1.5rem;
                 }
             }
             .owl-buttons {
