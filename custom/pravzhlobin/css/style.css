@@ -9021,3 +9021,6 @@ a.tabledrag-handle .handle {
     font-size: 2.5rem; }
   .field--name-field-main-text p {
     font-size: 2rem; }
+
+footer {
+  background-color: #ccc; }
