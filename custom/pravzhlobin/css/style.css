@@ -8956,13 +8956,14 @@ a.tabledrag-handle .handle {
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body {
   border-top: 3px solid #000;
   min-height: 116px;
-  padding: 1.2rem 8rem .2rem; }
+  padding: 1.2rem 8rem .5rem; }
   .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body h2, .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body p {
     color: #000; }
   .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body h2 {
     font-size: 2rem; }
   .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body p {
-    font-size: 1.2rem; }
+    font-size: 1.1rem;
+    font-family: Courier, sans-serif; }
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-carousel .owl-wrapper {
   display: flex !important; }
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-carousel .owl-item {
