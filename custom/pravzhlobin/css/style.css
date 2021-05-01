@@ -8948,9 +8948,10 @@ a.tabledrag-handle .handle {
   background-size: contain;
   background-repeat: no-repeat; }
 
-.page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body {
-  padding: 1rem 8rem;
+.page-node-type-main-page .block-views-blockmain-slider-block-1 .views-field-field-slider-image a {
   text-decoration: none; }
+.page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body {
+  padding: 1rem 8rem; }
   .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body h2 {
     font-size: 2rem; }
   .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body p {
@@ -8966,6 +8967,10 @@ a.tabledrag-handle .handle {
   right: -44px;
   bottom: -44px;
   transform: rotate(-43deg); }
+.page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls .owl-buttons {
+  position: absolute;
+  width: 100%;
+  top: 50%; }
 
 .left-top-uzor {
   left: -45px;

@@ -142,9 +142,14 @@
 
 .page-node-type-main-page {
     .block-views-blockmain-slider-block-1 {
+        .views-field-field-slider-image {
+            a {
+                text-decoration:none;
+            }
+        }
         .slide-body {
             padding:1rem 8rem;
-            text-decoration:none;
+            
             h2 {
                 font-size:2rem;
             }
@@ -152,6 +157,7 @@
                 font-size:1.5rem;
             }
         }
+
         .owl-controls {
             &::after, &::before {
                 content:"";
@@ -166,6 +172,11 @@
                 right:-44px;
                 bottom:-44px;
                 transform:rotate(-43deg);
+            }
+            .owl-buttons {
+                position:absolute;
+                width:100%;
+                top:50%;
             }
         }
     }
