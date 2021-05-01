@@ -8869,8 +8869,8 @@ a.tabledrag-handle .handle {
   color: #999; }
   .navbar-expand-lg .navbar-nav .nav-link:hover, .navbar-expand-lg .navbar-nav .nav-link:active, .navbar-expand-lg .navbar-nav .nav-link.active {
     color: #000; }
-  .navbar-expand-lg .navbar-nav .nav-link .dropdown-toggle::after {
-    vertical-align: .1em; }
+.navbar-expand-lg .navbar-nav .dropdown-toggle::after {
+  vertical-align: .1em; }
 @media (min-width: 768px) {
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     min-width: 22rem; }

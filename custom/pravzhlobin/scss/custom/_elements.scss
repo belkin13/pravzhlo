@@ -25,13 +25,13 @@
             color:#999;
             &:hover, &:active, &.active {
                 color:#000;
-            }
-            .dropdown-toggle {
-                &::after {
-                    vertical-align:.1em;
-                }
-            }          
+            }                    
         }
+        .dropdown-toggle {
+            &::after {
+                vertical-align:.1em;
+            }
+        } 
         .dropdown-menu {
             @include media-breakpoint-up(md){
                 min-width:22rem;
