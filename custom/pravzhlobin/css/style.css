@@ -8951,7 +8951,9 @@ a.tabledrag-handle .handle {
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .views-field-field-slider-image a {
   text-decoration: none; }
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body {
-  padding: 1rem 8rem; }
+  padding: 2rem 8rem;
+  min-height: 116px;
+  background: rgba(255, 210, 73, 0.3); }
   .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body h2 {
     font-size: 2rem; }
   .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body p {
@@ -8967,6 +8969,12 @@ a.tabledrag-handle .handle {
   right: -44px;
   bottom: -44px;
   transform: rotate(-43deg); }
+.page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls .owl-pagination {
+  position: absolute;
+  width: 100%; }
+  .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls .owl-pagination span {
+    background: #ffd249;
+    color: #000; }
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls .owl-buttons {
   position: absolute;
   width: 100%;

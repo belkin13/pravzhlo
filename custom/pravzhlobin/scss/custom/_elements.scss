@@ -148,8 +148,9 @@
             }
         }
         .slide-body {
-            padding:1rem 8rem;
-            
+            padding:2rem 8rem;
+            min-height:116px;
+            background:rgba(255, 210, 73,.3);
             h2 {
                 font-size:2rem;
             }
@@ -172,6 +173,14 @@
                 right:-44px;
                 bottom:-44px;
                 transform:rotate(-43deg);
+            }
+            .owl-pagination {
+                position:absolute;
+                width:100%;
+                span {
+                    background:#ffd249;
+                    color:#000;
+                }
             }
             .owl-buttons {
                 position:absolute;
