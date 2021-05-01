@@ -148,9 +148,10 @@
             }
         }
         .slide-body {
-            padding:2rem 8rem;
+            padding:1.2rem 8rem .2;
             min-height:116px;
             background:rgba(255, 210, 73,.3);
+            border-top:3px solid #000;
             h2, p {
                 color:#000;
             }
@@ -158,10 +159,20 @@
                 font-size:2rem;
             }
             p {
-                font-size:1.5rem;
+                font-size:1.2rem;
             }
         }
-
+        
+        .owl-carousel {
+            .owl-stage {
+                display: flex;
+            }
+            .owl-item {
+                display: flex;
+                flex: 1 0 auto;
+            }
+        }
+        
         .owl-controls {
             &::after, &::before {
                 content:"";
