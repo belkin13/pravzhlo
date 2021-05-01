@@ -8948,6 +8948,13 @@ a.tabledrag-handle .handle {
   background-size: contain;
   background-repeat: no-repeat; }
 
+.page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body {
+  padding: 1rem 8rem;
+  text-decoration: none; }
+  .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body h2 {
+    font-size: 2rem; }
+  .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body p {
+    font-size: 1.5rem; }
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::after, .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::before {
   content: "";
   display: block; }

@@ -140,20 +140,34 @@
 
 
 
-.page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls {
-    &::after, &::before {
-        content:"";
-        display:block;
-    }
-    &::after {
-        left:-50px;
-        bottom:-39px;
-        transform:rotate(48deg);
-    }
-    &::before {
-        right:-44px;
-        bottom:-44px;
-        transform:rotate(-43deg);
+.page-node-type-main-page {
+    .block-views-blockmain-slider-block-1 {
+        .slide-body {
+            padding:1rem 8rem;
+            text-decoration:none;
+            h2 {
+                font-size:2rem;
+            }
+            p {
+                font-size:1.5rem;
+            }
+        }
+        .owl-controls {
+            &::after, &::before {
+                content:"";
+                display:block;
+            }
+            &::after {
+                left:-50px;
+                bottom:-39px;
+                transform:rotate(48deg);
+            }
+            &::before {
+                right:-44px;
+                bottom:-44px;
+                transform:rotate(-43deg);
+            }
+        }
     }
 }
 
