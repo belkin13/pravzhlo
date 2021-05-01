@@ -8951,7 +8951,7 @@ a.tabledrag-handle .handle {
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .views-field-field-slider-image a {
   text-decoration: none; }
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body {
-  padding: 1.2rem 8rem .2;
+  padding: 1.2rem 8rem .2rem;
   min-height: 116px;
   background: rgba(255, 210, 73, 0.3);
   border-top: 3px solid #000; }
