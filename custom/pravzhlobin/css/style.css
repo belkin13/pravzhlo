@@ -8971,6 +8971,19 @@ a.tabledrag-handle .handle {
   position: absolute;
   width: 100%;
   top: 50%; }
+  .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls .owl-buttons div {
+    background: #ffd249;
+    color: #000; }
+  .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls .owl-buttons .owl-prev {
+    position: absolute;
+    left: -42px;
+    font-size: 1.5rem;
+    top: -32px; }
+  .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls .owl-buttons .owl-next {
+    position: absolute;
+    right: -42px;
+    font-size: 1.5rem;
+    top: -32px; }
 
 .left-top-uzor {
   left: -45px;

@@ -177,6 +177,22 @@
                 position:absolute;
                 width:100%;
                 top:50%;
+                div {
+                    background:#ffd249;
+                    color:#000;
+                }
+                .owl-prev {
+                    position:absolute;
+                    left:-42px;
+                    font-size:1.5rem;
+                    top:-32px;                
+                }
+                .owl-next {
+                    position:absolute;
+                    right:-42px;
+                    font-size:1.5rem;
+                    top:-32px;
+                }
             }
         }
     }
