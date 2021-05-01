@@ -8871,12 +8871,12 @@ a.tabledrag-handle .handle {
     color: #000; }
   .navbar-expand-lg .navbar-nav .nav-link .dropdown-toggle::after {
     vertical-align: .1em; }
-  @media (min-width: 768px) {
-    .navbar-expand-lg .navbar-nav .nav-link .dropdown-menu {
-      min-width: 22rem; }
-      .navbar-expand-lg .navbar-nav .nav-link .dropdown-menu .nav-link {
-        font-size: 1.3rem;
-        line-height: 1.2em; } }
+@media (min-width: 768px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    min-width: 22rem; }
+    .navbar-expand-lg .navbar-nav .dropdown-menu .nav-link {
+      font-size: 1.3rem;
+      line-height: 1.2em; } }
 
 .m-bottom {
   margin-bottom: 5rem; }

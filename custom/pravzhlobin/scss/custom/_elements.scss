@@ -30,14 +30,14 @@
                 &::after {
                     vertical-align:.1em;
                 }
-            }
-            .dropdown-menu {
-                @include media-breakpoint-up(md){
-                    min-width:22rem;
-                    .nav-link {
-                        font-size:1.3rem;
-                        line-height:1.2em;
-                    }
+            }          
+        }
+        .dropdown-menu {
+            @include media-breakpoint-up(md){
+                min-width:22rem;
+                .nav-link {
+                    font-size:1.3rem;
+                    line-height:1.2em;
                 }
             }
         }
