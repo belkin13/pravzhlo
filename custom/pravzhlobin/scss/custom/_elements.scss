@@ -26,6 +26,20 @@
             &:hover, &:active, &.active {
                 color:#000;
             }
+            .dropdown-toggle {
+                &::after {
+                    vertical-align:.1em;
+                }
+            }
+            .dropdown-menu {
+                @include media-breakpoint-up(md){
+                    min-width:22rem;
+                    .nav-link {
+                        font-size:1.3rem;
+                        line-height:1.2em;
+                    }
+                }
+            }
         }
     }
 }
@@ -230,4 +244,5 @@
 
 footer {
     background-color:#ccc;
+    border-top:dotted 3px #444;
 }
