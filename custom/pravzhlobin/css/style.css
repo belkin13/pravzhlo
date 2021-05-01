@@ -8964,7 +8964,7 @@ a.tabledrag-handle .handle {
   .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body p {
     font-size: 1.2rem; }
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-carousel .owl-wrapper {
-  display: flex; }
+  display: flex !important; }
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-carousel .owl-item {
   display: flex; }
   .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-carousel .owl-item > div {
