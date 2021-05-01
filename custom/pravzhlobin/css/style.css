@@ -8966,6 +8966,9 @@ a.tabledrag-handle .handle {
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-carousel .owl-item {
   display: flex;
   flex: 1 0 auto; }
+  .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-carousel .owl-item > div {
+    display: flex;
+    flex-direction: column; }
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::after, .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::before {
   content: "";
   display: block; }
