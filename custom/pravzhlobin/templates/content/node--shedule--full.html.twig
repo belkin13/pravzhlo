@@ -87,9 +87,9 @@
   <div{{ content_attributes.addClass('node__content') }}>
     {{ content }}
 
-    {{content.field_first_day.value | date('U') | date('Y-m') }}
+    {{content.field_first_day.value | date('U') | date_modify("+1 day") | date('Y-m-d') }}
 
-    {{content.field_first_day.value|date('Y-m')}}
+    {{content.field_first_day.value | date('Y-m-d')}}
 
     {#{content.field_first_day.0|date("m/d/Y")}}
 
