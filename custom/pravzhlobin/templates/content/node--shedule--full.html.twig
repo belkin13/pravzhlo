@@ -90,11 +90,11 @@
 
     {{content.field_first_day}}
 
-    {{content.field_first_day.value}}
+    {{content.field_first_day}}
 
-    {{content.field_first_day.value | date('U') | date_modify("+1 day") | date('Y-m-d') }}
+    {{content.field_first_day | date('U') | date_modify("+1 day") | date('Y-m-d') }}
 
-    {{content.field_first_day.value | date('Y-m-d')}}
+    {{content.field_first_day | date('Y-m-d')}}
 
     {#{content.field_first_day.0|date("m/d/Y")}}
 
