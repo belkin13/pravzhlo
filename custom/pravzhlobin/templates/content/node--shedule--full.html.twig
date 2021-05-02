@@ -87,6 +87,11 @@
   <div{{ content_attributes.addClass('node__content') }}>
     {{ content }}
 
+
+    {{content.field_first_day}}
+
+    {{content.field_first_day.value}}
+
     {{content.field_first_day.value | date('U') | date_modify("+1 day") | date('Y-m-d') }}
 
     {{content.field_first_day.value | date('Y-m-d')}}
@@ -98,11 +103,6 @@
     {{content.field_first_day.0|date_modify("+2 day")|date("m/d/Y")}}
 
     {{content.field_first_day.0|date_modify("+3 day")|date("m/d/Y")}#}
-
-
-    {{ node.created.value|date('Y-m') }}
-
-    {{ node.created.value }}
 
   </div>
 
