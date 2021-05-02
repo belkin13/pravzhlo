@@ -87,8 +87,8 @@
   <div{{ content_attributes.addClass('node__content') }}>
     {{ content }}
 
-    {{content.field_first_day|date_modify("+1 day")|format_date('custom', 'M d Y')}}
-    {{content.field_first_day|date_modify("+2 day")|format_date('custom', 'M d Y')}}
+    {{content.field_first_day|date_modify("-1day")|date("m/d/Y")}}
+
 
 
 
