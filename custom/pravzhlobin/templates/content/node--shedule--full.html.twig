@@ -100,7 +100,9 @@
     {{content.field_first_day.0|date_modify("+3 day")|date("m/d/Y")}#}
 
 
+    {{ node.created.value|date('Y-m') }}
 
+    {{ node.created.value }}
 
   </div>
 
