@@ -89,7 +89,7 @@
 
     {{content.field_first_day}}
 
-    {{content.field_first_day|date('U')}}
+    {{content.field_first_day.value|date('U')|date("m/d/Y")}}
 
     {#{content.field_first_day.0|date("m/d/Y")}}
 
