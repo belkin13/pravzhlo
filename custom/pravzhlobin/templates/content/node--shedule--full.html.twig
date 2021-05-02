@@ -93,7 +93,7 @@
 
     {#{ firstdate | date('U') | format_date('custom', 'M d Y') }#}
     {{ firstdate | date_modify("+1 day") | date('U') | format_date('custom', 'M d Y') }}
-
+    {{ firstdate | date_modify("+7 day") | date('U') | format_date('custom', 'M d Y') }}
 
 
     {#{content.field_first_day | format_date('custom', 'd M Y') }#}
