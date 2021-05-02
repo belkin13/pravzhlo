@@ -89,9 +89,9 @@
 
 
     {#{kint(content.field_first_day)}#}
-    {% set firstdate = content.field_first_day.0.start_date["#attributes"]["datetime"] %}
+    {% set firstdate = content.field_first_day.0["#attributes"]["datetime"] %}
 
-    {{ firstdate | format_date('custom', 'M d Y') }}
+    {{ firstdate | date('U') | format_date('custom', 'M d Y') }}
 
 
 
