@@ -91,7 +91,7 @@
     {{kint(content.field_first_day)}}
 
 
-    {{content.field_first_day.value | format_date('custom', 'd M Y') }}
+    {#{content.field_first_day | format_date('custom', 'd M Y') }#}
 
     {#{content.field_first_day.0 | date('Y-m-d')}#}
 
