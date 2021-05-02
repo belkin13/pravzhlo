@@ -91,13 +91,13 @@
 
     {{content.field_first_day.0}}
 
-    {{content.field_first_day.0|date("m/d/Y")}}
+    {#{content.field_first_day.0|date("m/d/Y")}}
 
     {{content.field_first_day.0|date_modify("+1 day")|date("m/d/Y")}}
 
     {{content.field_first_day.0|date_modify("+2 day")|date("m/d/Y")}}
 
-    {{content.field_first_day.0|date_modify("+3 day")|date("m/d/Y")}}
+    {{content.field_first_day.0|date_modify("+3 day")|date("m/d/Y")}#}
 
 
 
