@@ -102,7 +102,9 @@
       </thead>
       <tbody>
         <tr>
-          <th scope="row">Понедельник{{ firstdate | date_modify("+1 day") | date('U') | format_date('custom', 'd m') }}</th>
+          <th scope="row">
+            Понедельник</br>
+            {{ firstdate | date_modify("+1 day") | date('U') | format_date('custom', 'd F') }}</th>
           <td></td>
           <td></td>
         </tr>
