@@ -91,22 +91,56 @@
     {#{kint(content.field_first_day)}#}
     {% set firstdate = content.field_first_day.0["#attributes"]["datetime"] %}
 
-    {#{ firstdate | date('U') | format_date('custom', 'M d Y') }#}
-    {{ firstdate | date_modify("+1 day") | date('U') | format_date('custom', 'M d Y') }}
-    {{ firstdate | date_modify("+7 day") | date('U') | format_date('custom', 'M d Y') }}
+
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">День недели</th>
+          <th scope="col">События, праздники, святые</th>
+          <th scope="col">Богослужения</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Понедельник{{ firstdate | date_modify("+1 day") | date('U') | format_date('custom', 'd M') }}</th>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
 
 
-    {#{content.field_first_day | format_date('custom', 'd M Y') }#}
 
-    {#{content.field_first_day.0 | date('Y-m-d')}#}
-
-    {#{content.field_first_day.0|date("m/d/Y")}}
-
-    {{content.field_first_day.0|date_modify("+1 day")|date("m/d/Y")}}
-
-    {{content.field_first_day.0|date_modify("+2 day")|date("m/d/Y")}}
-
-    {{content.field_first_day.0|date_modify("+3 day")|date("m/d/Y")}#}
 
   </div>
 
