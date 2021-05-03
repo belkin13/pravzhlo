@@ -86,8 +86,6 @@
 
   <div{{ content_attributes.addClass('node__content') }}>
     {#{ content }#}
-
-
     {#{kint(content)}#}
 
     {% set firstdate = content.field_first_day.0["#attributes"]["datetime"] %}
@@ -107,7 +105,7 @@
             {{ firstdate | date('U') | format_date('custom', 'd F') }}
           </th>
           <td>{{content.field_monday.0['#paragraph'].get('field_events').value|raw}}</td>
-          <td></td>
+          <td>{{content.field_monday.0['#paragraph'].get('field_shedule').value|raw}}</td>
         </tr>
         <tr>
           <th scope="row">
@@ -116,7 +114,7 @@
           </th>
           </th>
           <td>{{content.field_tuesday.0['#paragraph'].get('field_events').value|raw}}</td>
-          <td></td>
+          <td>{{content.field_tuesday.0['#paragraph'].get('field_shedule').value|raw}}</td>
         </tr>
         <tr>
           <th scope="row">
@@ -124,7 +122,7 @@
             {{ firstdate | date_modify("+2 day") | date('U') | format_date('custom', 'd F') }}
           </th>
           <td>{{content.field_wednesday.0['#paragraph'].get('field_events').value|raw}}</td>
-          <td></td>
+          <td>{{content.field_wednesday.0['#paragraph'].get('field_shedule').value|raw}}</td>
         </tr>
         <tr>
           <th scope="row">
@@ -132,7 +130,7 @@
             {{ firstdate | date_modify("+3 day") | date('U') | format_date('custom', 'd F') }}
           </th>
           <td>{{content.field_thursday.0['#paragraph'].get('field_events').value|raw}}</td>
-          <td></td>
+          <td>{{content.field_thursday.0['#paragraph'].get('field_shedule').value|raw}}</td>
         </tr>
         <tr>
           <th scope="row">
@@ -140,7 +138,7 @@
             {{ firstdate | date_modify("+4 day") | date('U') | format_date('custom', 'd F') }}
           </th>
           <td>{{content.field_friday.0['#paragraph'].get('field_events').value|raw}}</td>
-          <td></td>
+          <td>{{content.field_friday.0['#paragraph'].get('field_shedule').value|raw}}</td>
         </tr>
         <tr>
           <th scope="row">
@@ -148,7 +146,7 @@
             {{ firstdate | date_modify("+5 day") | date('U') | format_date('custom', 'd F') }}
           </th>
           <td>{{content.field_saturday.0['#paragraph'].get('field_events').value|raw}}</td>
-          <td></td>
+          <td>{{content.field_saturday.0['#paragraph'].get('field_shedule').value|raw}}</td>
         </tr>
         <tr>
           <th scope="row">
@@ -156,14 +154,9 @@
             {{ firstdate | date_modify("+6 day") | date('U') | format_date('custom', 'd F') }}
           </th>
           <td>{{content.field_sunday.0['#paragraph'].get('field_events').value|raw}}</td>
-          <td></td>
+          <td>{{content.field_sunday.0['#paragraph'].get('field_shedule').value|raw}}</td>
         </tr>
       </tbody>
     </table>
-
-
-
-
   </div>
-
 </article>
