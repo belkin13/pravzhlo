@@ -85,13 +85,12 @@
 <article{{ attributes.addClass(classes) }}>
 
   <div{{ content_attributes.addClass('node__content') }}>
-    {{ content }}
+    {#{ content }#}
 
 
-    {{kint(content)}}
+    {#{kint(content)}#}
 
     {% set firstdate = content.field_first_day.0["#attributes"]["datetime"] %}
-
 
     <table class="table">
       <thead class="thead-dark">
