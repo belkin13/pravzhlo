@@ -107,7 +107,7 @@
             Понедельник</br>
             {{ firstdate | date('U') | format_date('custom', 'd F') }}
           </th>
-          <td>{{content.field_monday.0['#paragraph'].get('field_events').value}}</td>
+          <td>{{content.field_monday.0['#paragraph'].get('field_events').value|raw}}</td>
           <td></td>
         </tr>
         <tr>
@@ -116,7 +116,7 @@
             {{ firstdate | date_modify("+1 day") | date('U') | format_date('custom', 'd F') }}
           </th>
           </th>
-          <td></td>
+          <td>{{content.field_tuesday.0['#paragraph'].get('field_events').value|raw}}</td>
           <td></td>
         </tr>
         <tr>
@@ -124,7 +124,7 @@
             Среда</br>
             {{ firstdate | date_modify("+2 day") | date('U') | format_date('custom', 'd F') }}
           </th>
-          <td></td>
+          <td>{{content.field_wednesday.0['#paragraph'].get('field_events').value|raw}}</td>
           <td></td>
         </tr>
         <tr>
@@ -132,7 +132,7 @@
             Четверг</br>
             {{ firstdate | date_modify("+3 day") | date('U') | format_date('custom', 'd F') }}
           </th>
-          <td></td>
+          <td>{{content.field_thursday.0['#paragraph'].get('field_events').value|raw}}</td>
           <td></td>
         </tr>
         <tr>
@@ -140,7 +140,7 @@
             Пятница</br>
             {{ firstdate | date_modify("+4 day") | date('U') | format_date('custom', 'd F') }}
           </th>
-          <td></td>
+          <td>{{content.field_friday.0['#paragraph'].get('field_events').value|raw}}</td>
           <td></td>
         </tr>
         <tr>
@@ -148,7 +148,7 @@
             Суббота</br>
             {{ firstdate | date_modify("+5 day") | date('U') | format_date('custom', 'd F') }}
           </th>
-          <td></td>
+          <td>{{content.field_saturday.0['#paragraph'].get('field_events').value|raw}}</td>
           <td></td>
         </tr>
         <tr>
@@ -156,7 +156,7 @@
             Воскресенье</br>
             {{ firstdate | date_modify("+6 day") | date('U') | format_date('custom', 'd F') }}
           </th>
-          <td></td>
+          <td>{{content.field_sunday.0['#paragraph'].get('field_events').value|raw}}</td>
           <td></td>
         </tr>
       </tbody>
