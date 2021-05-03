@@ -107,7 +107,7 @@
             Понедельник</br>
             {{ firstdate | date('U') | format_date('custom', 'd F') }}
           </th>
-          <td>{{content.field_monday.0.get('field_events').value}}</td>
+          <td>{{content.field_monday.0['#paragraph'].get('field_events').value}}</td>
           <td></td>
         </tr>
         <tr>
