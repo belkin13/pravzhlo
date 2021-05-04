@@ -135,7 +135,7 @@
     background-image:url(../img/uzor-sq-y.svg);
     background-size:contain;
     background-repeat:no-repeat;
-    
+    z-index:1;
 }
 
 .page-node-type-main-page {
@@ -201,28 +201,30 @@
                     font-size:1.5rem;
                 }
             }*/
-            .owl-nav {
-                position:absolute;
-                width:100%;
-                top:50%;
-                div {
-                    background:#ffd249;
-                    color:#000;
-                }
-                .owl-prev {
-                    position:absolute;
-                    left:-42px;
-                    font-size:1.5rem;
-                    top:-32px;                
-                }
-                .owl-next {
-                    position:absolute;
-                    right:-42px;
-                    font-size:1.5rem;
-                    top:-32px;
-                }
-            }
+            
         //}
+    }
+}
+
+.owl-nav {
+    position:absolute;
+    width:100%;
+    top:50%;
+    div {
+        background:#ffd249;
+        color:#000;
+    }
+    .owl-prev {
+        position:absolute;
+        left:-42px;
+        font-size:1.5rem;
+        top:-32px;                
+    }
+    .owl-next {
+        position:absolute;
+        right:-42px;
+        font-size:1.5rem;
+        top:-32px;
     }
 }
 
