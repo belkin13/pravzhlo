@@ -40,7 +40,7 @@
         .on('changed.owl.carousel', function (e) {
           if (!flag) {
             flag = true;
-            $sync2.trigger('to.owl.carousel', [e.item.index, duration, true]);
+            sync2.trigger('to.owl.carousel', [e.item.index, duration, true]);
             flag = false;
           }
         });
@@ -57,13 +57,13 @@
           // these group settings are configured with Owl's UI in Drupal
         })
         .on('click', '.owl-item', function () {
-          $sync1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
+          sync1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
 
         })
         .on('changed.owl.carousel', function (e) {
           if (!flag) {
             flag = true;
-            $sync1.trigger('to.owl.carousel', [e.item.index, duration, true]);
+            sync1.trigger('to.owl.carousel', [e.item.index, duration, true]);
             flag = false;
           }
         });
