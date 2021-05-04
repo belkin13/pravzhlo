@@ -8930,7 +8930,7 @@ a.tabledrag-handle .handle {
 .fc-scroller, .fc-widget-content {
   height: auto !important; }
 
-.page-node-type-main-page .block-views-blockmain-slider-block-1, .page-node-type-main-page .block-field-blocknodemain-pagebody {
+.page-node-type-main-page .block-views-blockmain-slider-block-1, .page-node-type-main-page .block-field-blocknodemain-pagebody, .page-node-type-main-page .block-views-blockmain-slider-thumbs-block-1 {
   max-width: 1200px;
   margin: 0 auto;
   position: relative; }
