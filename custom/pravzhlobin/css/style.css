@@ -9012,7 +9012,8 @@ a.tabledrag-handle .handle {
     color: #000 !important;
     border-radius: 10px;
     padding: .5rem;
-    min-width: 40px; }
+    min-width: 40px;
+    text-transform: uppercase; }
   .owl-nav .owl-prev {
     position: absolute;
     left: -42px;
