@@ -27,7 +27,7 @@
         duration = 300;
 
     sync1.owlCarousel({
-          dots:true,
+          dots:false,
           mouseDrag:false,
           touchDrag:true,
           pullDrag:false,
@@ -47,7 +47,7 @@
         });
       sync2
         .owlCarousel({
-          dots:true,
+          dots:false,
           mouseDrag:false,
           touchDrag:true,
           pullDrag:false,
