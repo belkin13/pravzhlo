@@ -28,7 +28,7 @@
 
     sync1.owlCarousel({
           dots:true,
-          mouseDrag:true,
+          mouseDrag:false,
           touchDrag:true,
           pullDrag:false,
           margin:0,
@@ -47,7 +47,7 @@
       sync2
         .owlCarousel({
           dots:true,
-          mouseDrag:true,
+          mouseDrag:false,
           touchDrag:true,
           pullDrag:false,
           margin:0,
