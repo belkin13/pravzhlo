@@ -57,7 +57,7 @@
           items:3,
           // these group settings are configured with Owl's UI in Drupal
         })
-        .on('hover', '.owl-item', function () {
+        .on('mouseenter', '.owl-item', function () {
           sync1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
 
         })
