@@ -1,6 +1,6 @@
 global-styling:
   js:
-    js/owl.carousel2.thumbs.min.js
+    js/owl.carousel2.thumbs.min.js: {}
     js/main.js: { minified: true }
   css:
     theme:
