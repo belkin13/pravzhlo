@@ -205,30 +205,31 @@
         //}
     }
 }
-
-.owl-nav {
-    position:absolute;
-    width:100%;
-    top:50%;
-    button {
-        background:#ffd249 !important;
-        color:#000 !important;
-        border-radius:10px;
-        padding:.25rem 1rem !important;
-        min-width:40px;
-        text-transform:uppercase;
-    }
-    .owl-prev {
+.owl-carousel {
+    .owl-nav {
         position:absolute;
-        left:-42px;
-        font-size:1.5rem;
-        top:-32px;                
-    }
-    .owl-next {
-        position:absolute;
-        right:-42px;
-        font-size:1.5rem;
-        top:-32px;
+        width:100%;
+        top:50%;
+        button {
+            background:#ffd249 !important;
+            color:#000 !important;
+            border-radius:10px;
+            padding:.25rem 1rem !important;
+            min-width:40px;
+            text-transform:uppercase;
+        }
+        &.owl-prev {
+            position:absolute;
+            left:-42px;
+            font-size:1.5rem;
+            top:-32px;                
+        }
+        &.owl-next {
+            position:absolute;
+            right:-42px;
+            font-size:1.5rem;
+            top:-32px;
+        }
     }
 }
 

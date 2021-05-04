@@ -9003,23 +9003,23 @@ a.tabledrag-handle .handle {
       font-size: 1.1rem;
       font-family: Courier, sans-serif; }
 
-.owl-nav {
+.owl-carousel .owl-nav {
   position: absolute;
   width: 100%;
   top: 50%; }
-  .owl-nav button {
+  .owl-carousel .owl-nav button {
     background: #ffd249 !important;
     color: #000 !important;
     border-radius: 10px;
     padding: .25rem 1rem !important;
     min-width: 40px;
     text-transform: uppercase; }
-  .owl-nav .owl-prev {
+  .owl-carousel .owl-nav.owl-prev {
     position: absolute;
     left: -42px;
     font-size: 1.5rem;
     top: -32px; }
-  .owl-nav .owl-next {
+  .owl-carousel .owl-nav.owl-next {
     position: absolute;
     right: -42px;
     font-size: 1.5rem;
