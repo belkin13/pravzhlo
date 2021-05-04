@@ -8941,8 +8941,8 @@ a.tabledrag-handle .handle {
 .main-slider-uzor,
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::after,
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::before {
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
   position: absolute;
   background-image: url(../img/uzor-sq-y.svg);
   background-size: contain;
@@ -8977,11 +8977,11 @@ a.tabledrag-handle .handle {
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::after {
   left: -50px;
   bottom: -39px;
-  transform: rotate(48deg); }
+  transform: rotate(50deg); }
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::before {
   right: -44px;
   bottom: -44px;
-  transform: rotate(-43deg); }
+  transform: rotate(-45deg); }
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls .owl-pagination {
   position: absolute;
   width: 100%; }
@@ -9036,38 +9036,38 @@ a.tabledrag-handle .handle {
   position: absolute;
   background-color: transparent; }
   .ramka.ramka-top {
-    top: -50px;
+    top: -44px;
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 45px;
     background-image: url(../img/ramka-top.svg);
     background-repeat: repeat-x;
-    background-size: 50px; }
+    background-size: 45px; }
   .ramka.ramka-bottom {
-    bottom: -50px;
+    bottom: -44px;
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 45px;
     background-image: url(../img/ramka-bottom.svg);
     background-repeat: repeat-x;
-    background-size: 50px; }
+    background-size: 45px; }
   .ramka.ramka-left {
-    top: -45px;
-    left: -50px;
-    width: 50px;
-    height: calc(100% + 92px);
+    top: -42px;
+    left: -44px;
+    width: 45px;
+    height: calc(100% + 85px);
     background-image: url(../img/ramka-left.svg);
     background-repeat: repeat-y;
-    background-size: 50px;
+    background-size: 45px;
     border-radius: 35px 0 0 35px; }
   .ramka.ramka-right {
-    top: -45px;
-    right: -50px;
-    width: 50px;
-    height: calc(100% + 92px);
+    top: -42px;
+    right: -44px;
+    width: 45px;
+    height: calc(100% + 85px);
     background-image: url(../img/ramka-right.svg);
     background-repeat: repeat-y;
-    background-size: 50px;
+    background-size: 45px;
     border-radius: 0 35px 35px 0; }
 
 .field--name-field-main-text {
