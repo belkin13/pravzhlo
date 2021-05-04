@@ -134,6 +134,12 @@
             background-repeat:no-repeat;
             background-position:bottom;
             padding:1rem 1rem 7rem 1rem;
+            .views-field-body {
+                font-size:1rem;
+                font-style:italic;
+                font-family:sans-serif;
+            }
+            }
         }
     }
 }
