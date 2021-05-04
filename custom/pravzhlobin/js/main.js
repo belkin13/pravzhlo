@@ -21,7 +21,7 @@
 
   jQuery(document).ready(function ($) {
 
-    var sync1 = $(".block-views-blockmain-slider-block-1 .view-content .owl-carousel");// This is the ID of the block with the single item/big image. It's possible to use ID's of multiple slideshows, separated by a comma <- Make sure this is the ID of the div that also has the class "owl-carousel"
+    //var sync1 = $(".block-views-blockmain-slider-block-1 .view-content .owl-carousel");// This is the ID of the block with the single item/big image. It's possible to use ID's of multiple slideshows, separated by a comma <- Make sure this is the ID of the div that also has the class "owl-carousel"
   /*      sync2 = $(".block-views-blockmain-slider-block-1 .attachment .owl-carousel"), // This is the ID of the attachment with multiple items. It's possible to use ID's of multiple carousels, separated by a comma <- Make sure this is the ID of the div that also has the class "owl-carousel"
         flag = false,
         duration = 300;
@@ -39,7 +39,7 @@
         });
 */
 
-      var owl = jQuery($sync1);
+      var owl = $(".block-views-blockmain-slider-block-1 .view-content .owl-carousel");
         owl.owlCarousel({
           loop: true,
           items: 1,
