@@ -27,7 +27,14 @@
         duration = 300;
 
     sync1.owlCarousel({
-
+          dots:true,
+          mouseDrag:true,
+          touchDrag:true,
+          pullDrag:false,
+          margin:0,
+          lazyLoad:true,
+          nav:true,
+          items:1,
           // these group settings are configured with Owl's UI in Drupal, although "item:1" may be required to work on Android's native browser
         })
         .on('changed.owl.carousel', function (e) {
@@ -39,6 +46,14 @@
         });
       sync2
         .owlCarousel({
+          dots:true,
+          mouseDrag:true,
+          touchDrag:true,
+          pullDrag:false,
+          margin:0,
+          lazyLoad:true,
+          nav:true,
+          items:3,
           // these group settings are configured with Owl's UI in Drupal
         })
         .on('click', '.owl-item', function () {
