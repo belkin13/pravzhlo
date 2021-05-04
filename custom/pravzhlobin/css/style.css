@@ -8901,7 +8901,7 @@ a.tabledrag-handle .handle {
   width: 100%;
   min-height: 200px;
   position: relative;
-  border: 3px solid #000; }
+  border: 2px solid #ccc; }
   .paragraph--type--information-card p {
     font-size: 2rem;
     line-height: 1em; }
