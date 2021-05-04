@@ -37,18 +37,7 @@
             flag = false;
           }
         });
-*/
-
-    var owl = jQuery('.owl-carousel');
-    owl.owlCarousel({
-      loop: true,
-      items: 1,
-      thumbs: true,
-      thumbImage: true,
-      thumbContainerClass: 'owl-thumbs',
-      thumbItemClass: 'views-row'
-    });
-   /* sync2
+      sync2
         .owlCarousel({
           // these group settings are configured with Owl's UI in Drupal
         })
@@ -63,4 +52,15 @@
             flag = false;
           }
         });*/
+
+    var owl = jQuery('.owl-carousel');
+    owl.owlCarousel({
+      loop: true,
+      items: 1,
+      thumbs: true,
+      thumbImage: true,
+      thumbContainerClass: 'owl-thumbs',
+      thumbItemClass: 'views-row'
+    });
+   
   });
