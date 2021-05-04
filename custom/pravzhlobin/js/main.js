@@ -34,6 +34,7 @@
           margin:0,
           lazyLoad:true,
           nav:true,
+          navText: ["назад","вперёд"],
           items:1,
           // these group settings are configured with Owl's UI in Drupal, although "item:1" may be required to work on Android's native browser
         })

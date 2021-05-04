@@ -9002,23 +9002,24 @@ a.tabledrag-handle .handle {
     .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body p {
       font-size: 1.1rem;
       font-family: Courier, sans-serif; }
-  .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-nav {
+
+.owl-nav {
+  position: absolute;
+  width: 100%;
+  top: 50%; }
+  .owl-nav button {
+    background: #ffd249;
+    color: #000; }
+  .owl-nav .owl-prev {
     position: absolute;
-    width: 100%;
-    top: 50%; }
-    .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-nav div {
-      background: #ffd249;
-      color: #000; }
-    .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-nav .owl-prev {
-      position: absolute;
-      left: -42px;
-      font-size: 1.5rem;
-      top: -32px; }
-    .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-nav .owl-next {
-      position: absolute;
-      right: -42px;
-      font-size: 1.5rem;
-      top: -32px; }
+    left: -42px;
+    font-size: 1.5rem;
+    top: -32px; }
+  .owl-nav .owl-next {
+    position: absolute;
+    right: -42px;
+    font-size: 1.5rem;
+    top: -32px; }
 
 .left-top-uzor {
   left: -45px;
