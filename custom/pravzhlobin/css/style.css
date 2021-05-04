@@ -9011,19 +9011,20 @@ a.tabledrag-handle .handle {
     background: #ffd249 !important;
     color: #000 !important;
     border-radius: 10px;
-    padding: .25rem 1rem !important;
     min-width: 40px;
     text-transform: uppercase; }
     .owl-carousel .owl-nav button.owl-prev {
       position: absolute;
       left: -42px;
-      font-size: 1.5rem;
-      top: -32px; }
+      font-size: 1rem;
+      top: -32px;
+      padding: .25rem 1rem !important; }
     .owl-carousel .owl-nav button.owl-next {
       position: absolute;
       right: -42px;
-      font-size: 1.5rem;
-      top: -32px; }
+      font-size: 1rem;
+      top: -32px;
+      padding: .25rem 1rem !important; }
 
 .left-top-uzor {
   left: -45px;
