@@ -119,19 +119,6 @@
         margin:0 auto;
         position:relative;
     }
-    .block-views-blockmain-slider-block-1 {
-        .attachment {
-            .views-row {
-                background-image:url(../img/bg_bumaga_sm.png);
-                background-size:cover;
-                background-repeat:no-repeat;
-                padding:1rem 1rem 7rem 1rem;
-            }
-        }
-    }
-}
-
-.page-node-type-main-page {
     .block-field-blocknodemain-pagebody {
         p {
             font-size:1.5rem;
@@ -139,6 +126,16 @@
     }
 }
 
+.block-views-blockmain-slider-block-1 {
+    .attachment {
+        .views-row {
+            background-image:url(../img/bg_bumaga_sm.png);
+            background-size:cover;
+            background-repeat:no-repeat;
+            padding:1rem 1rem 7rem 1rem;
+        }
+    }
+}
 
 .main-slider-uzor,
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::after, 
