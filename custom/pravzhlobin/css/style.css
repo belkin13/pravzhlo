@@ -9017,6 +9017,8 @@ a.tabledrag-handle .handle {
     border-radius: 10px;
     min-width: 40px;
     text-transform: uppercase; }
+    .owl-carousel .owl-nav button.disabled {
+      display: none !important; }
     .owl-carousel .owl-nav button.owl-prev {
       position: absolute;
       left: -42px;
