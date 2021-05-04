@@ -4,6 +4,7 @@
 }
 
 .navbar-brand {
+    padding-bottom:0;
     a {
         &.site-title {
             font-size:3rem;
@@ -12,6 +13,9 @@
             display:inline-block;
             padding-top:.5rem;
         }
+    }
+    img {
+        height:70px;
     }
 } 
 
