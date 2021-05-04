@@ -8977,11 +8977,11 @@ a.tabledrag-handle .handle {
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::after {
   left: -50px;
   bottom: -39px;
-  transform: rotate(48deg); }
+  transform: rotate(50deg); }
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::before {
   right: -44px;
   bottom: -44px;
-  transform: rotate(-43deg); }
+  transform: rotate(-45deg); }
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls .owl-pagination {
   position: absolute;
   width: 100%; }
