@@ -8946,7 +8946,8 @@ a.tabledrag-handle .handle {
   position: absolute;
   background-image: url(../img/uzor-sq-y.svg);
   background-size: contain;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  z-index: 1; }
 
 .page-node-type-main-page .block-views-blockmain-slider-block-1 {
       /*  .owl-carousel {
@@ -9001,19 +9002,19 @@ a.tabledrag-handle .handle {
     .page-node-type-main-page .block-views-blockmain-slider-block-1 .slide-body p {
       font-size: 1.1rem;
       font-family: Courier, sans-serif; }
-  .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-navs {
+  .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-nav {
     position: absolute;
     width: 100%;
     top: 50%; }
-    .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-navs div {
+    .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-nav div {
       background: #ffd249;
       color: #000; }
-    .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-navs .owl-prev {
+    .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-nav .owl-prev {
       position: absolute;
       left: -42px;
       font-size: 1.5rem;
       top: -32px; }
-    .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-navs .owl-next {
+    .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-nav .owl-next {
       position: absolute;
       right: -42px;
       font-size: 1.5rem;
