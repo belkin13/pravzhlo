@@ -15,11 +15,42 @@
       }
     } 
 
-    $(document).ready(function(){
-      $('.owl-carousel').owlCarousel({
-        thumbs: true,
-        thumbsPrerendered: true
-      });
-    });
+    
   
   })(jQuery, Drupal, drupalSettings);
+
+  jQuery(document).ready(function ($) {
+
+    var $sync1 = $(".block-views-blockmain-slider-block-1 .view-content .owl-carousel"), // This is the ID of the block with the single item/big image. It's possible to use ID's of multiple slideshows, separated by a comma <- Make sure this is the ID of the div that also has the class "owl-carousel"
+        $sync2 = $(".block-views-blockmain-slider-block-1 .attachment .owl-carousel"), // This is the ID of the attachment with multiple items. It's possible to use ID's of multiple carousels, separated by a comma <- Make sure this is the ID of the div that also has the class "owl-carousel"
+        flag = false,
+        duration = 300;
+
+    $sync1
+        .owlCarousel({
+          // these group settings are configured with Owl's UI in Drupal, although "item:1" may be required to work on Android's native browser
+        })
+        .on('changed.owl.carousel', function (e) {
+          if (!flag) {
+            flag = true;
+            $sync2.trigger('to.owl.carousel', [e.item.index, duration, true]);
+            flag = false;
+          }
+        });
+
+    $sync2
+        .owlCarousel({
+          // these group settings are configured with Owl's UI in Drupal
+        })
+        .on('click', '.owl-item', function () {
+          $sync1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
+
+        })
+        .on('changed.owl.carousel', function (e) {
+          if (!flag) {
+            flag = true;
+            $sync1.trigger('to.owl.carousel', [e.item.index, duration, true]);
+            flag = false;
+          }
+        });
+  });
