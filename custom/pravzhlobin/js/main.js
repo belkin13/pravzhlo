@@ -55,6 +55,7 @@
           lazyLoad:true,
           nav:true,
           items:3,
+          onInitialized: carouselInitialized,
           // these group settings are configured with Owl's UI in Drupal
         })
         .on('mouseenter', '.owl-item', function () {
@@ -66,12 +67,17 @@
         .on('changed.owl.carousel', function (e) {
           if (!flag) {
             flag = true;
-            sync1.trigger('to.owl.carousel', [e.item.index, duration, true]);
-            
+            sync1.trigger('to.owl.carousel', [e.item.index, duration, true]);       
             flag = false;
-
           }
         });
+
+        function carouselInitialized(event){
+          sync2.find('.owl-item').removeClass('active');
+          sync2.find('.owl-item').first().addClass('active');
+        }
+
+
 
     /*var owl = jQuery('.owl-carousel');
     owl.owlCarousel({
