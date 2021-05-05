@@ -42,6 +42,8 @@
           if (!flag) {
             flag = true;
             sync2.trigger('to.owl.carousel', [e.item.index, duration, true]);
+            sync2.find('.owl-item').removeClass('active');
+            sync2.find('.owl-item').eq(e.item.index).addClass('active');
             flag = false;
           }
         });
