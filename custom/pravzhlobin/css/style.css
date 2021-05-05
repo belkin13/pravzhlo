@@ -8949,15 +8949,20 @@ a.tabledrag-handle .handle {
   padding: 1rem 2rem 5rem 2rem;
   margin-bottom: 2rem;
   transition: padding 0.3s ease, margin 0.3s ease;
-  cursor: pointer; }
-  .block-views-blockmain-slider-block-1 .attachment .views-row:hover, .block-views-blockmain-slider-block-1 .attachment .views-row:focus {
-    padding: 3rem 2rem 5rem 2rem;
-    margin-bottom: 0;
-    transition: padding 0.3s ease, margin 0.3s ease; }
+  cursor: pointer;
+  /*&:hover, &:focus {
+      padding:3rem 2rem 5rem 2rem;
+      margin-bottom:0;
+      transition:padding 0.3s ease, margin 0.3s ease;
+  }*/ }
   .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-body {
     font-size: 1rem;
     font-style: italic;
     font-family: sans-serif; }
+.block-views-blockmain-slider-block-1 .attachment .owl-item.active .views-row {
+  padding: 3rem 2rem 5rem 2rem;
+  margin-bottom: 0;
+  transition: padding 0.3s ease, margin 0.3s ease; }
 
 .main-slider-uzor,
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::after,
