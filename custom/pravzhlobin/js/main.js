@@ -59,13 +59,15 @@
         })
         .on('mouseenter', '.owl-item', function () {
           sync1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
-
+          this.items().removeClass('active');
+          $(this).addClass('active');
+          console.log($(this));
         })
         .on('changed.owl.carousel', function (e) {
           if (!flag) {
             flag = true;
             sync1.trigger('to.owl.carousel', [e.item.index, duration, true]);
-            console.log(e);
+            
             flag = false;
 
           }
