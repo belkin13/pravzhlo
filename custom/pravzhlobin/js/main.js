@@ -65,7 +65,9 @@
           if (!flag) {
             flag = true;
             sync1.trigger('to.owl.carousel', [e.item.index, duration, true]);
+            console.log(e);
             flag = false;
+
           }
         });
 
