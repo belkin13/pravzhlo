@@ -70,6 +70,10 @@
       </div>
     {% endfor %}
   {% endif %}
+    <div class="ramka-top ramka"></div>
+    <div class="ramka-bottom ramka"></div>
+    <div class="ramka-left ramka"></div>
+    <div class="ramka-right ramka"></div>
 {% else %}
   <div{{ attributes.addClass(classes) }}>
     <div{{ title_attributes.addClass(title_classes) }}>{{ label }}</div>
@@ -85,9 +89,5 @@
     {% if multiple %}
       </div>
     {% endif %}
-    <div class="ramka-top ramka"></div>
-    <div class="ramka-bottom ramka"></div>
-    <div class="ramka-left ramka"></div>
-    <div class="ramka-right ramka"></div>
   </div>
 {% endif %}
