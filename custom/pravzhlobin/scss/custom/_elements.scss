@@ -343,7 +343,7 @@
     }
 }
 .field--name-field-gallery {
-    margin:2rem 0 3rem;
+    margin:2rem 0 5rem;
     .field__item {
         display:none;
         &.field-item-1 {
@@ -357,7 +357,10 @@
         color:#000;
     }
 }
-
+.node--type-article.node--view-mode-full {
+    max-width:1280px;
+    margin:0 auto;
+}
 .field--name-field-main-text {
     padding:2rem 0;
     h2 {
