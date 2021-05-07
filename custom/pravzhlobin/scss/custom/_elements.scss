@@ -360,6 +360,10 @@
 .node--type-article.node--view-mode-full {
     max-width:1280px;
     margin:0 auto;
+    .field--name-body {
+        font-size:1.5rem;
+        font-family:'Courier New', Courier, monospace;
+    }
 }
 .field--name-field-main-text {
     padding:2rem 0;
