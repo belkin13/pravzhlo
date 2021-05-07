@@ -343,6 +343,13 @@
     }
 }
 
+.wrap-slide-title {
+    background:rgba(255, 255, 255, .5);
+    h2 {
+        color:#000;
+    }
+}
+
 .field--name-field-main-text {
     padding:2rem 0;
     h2 {
@@ -357,3 +364,4 @@ footer {
     background-color:#ccc;
     border-top:dotted 3px #444;
 }
+

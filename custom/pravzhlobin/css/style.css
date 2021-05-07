@@ -9117,6 +9117,11 @@ a.tabledrag-handle .handle {
     background-size: 45px;
     border-radius: 0 35px 35px 0; }
 
+.wrap-slide-title {
+  background: rgba(255, 255, 255, 0.5); }
+  .wrap-slide-title h2 {
+    color: #000; }
+
 .field--name-field-main-text {
   padding: 2rem 0; }
   .field--name-field-main-text h2 {
