@@ -9119,7 +9119,7 @@ a.tabledrag-handle .handle {
 
 .field--name-field-gallery .field__item {
   display: none; }
-  .field--name-field-gallery .field__item .field-item-1 {
+  .field--name-field-gallery .field__item.field-item-1 {
     display: block; }
 
 .wrap-slide-title {
