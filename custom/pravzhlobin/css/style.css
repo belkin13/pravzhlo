@@ -9122,3 +9122,9 @@ a.tabledrag-handle .handle {
 footer {
   background-color: #ccc;
   border-top: dotted 3px #444; }
+
+#shedule-table {
+  font-size: 1.5rem;
+  line-height: 1.2em; }
+  #shedule-table p {
+    margin-bottom: .5rem; }
