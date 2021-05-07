@@ -63,7 +63,7 @@
     </div>
   {% else %}
     {% for item in items %}
-      <div{{ attributes.addClass(classes, 'field__item').addClass(classes, 'count-item-'~{{ loop.index }}) }}>
+      <div{{ attributes.addClass(classes, 'field__item count-item-'~{{ loop.index }}) }}>
         {{ item.content }}
       </div>
     {% endfor %}
@@ -75,7 +75,7 @@
       <div class="field__items">
     {% endif %}
     {% for item in items %}
-      <div{{ item.attributes.addClass('field__item').addClass(classes, 'count-item-'~{{ loop.index }}) }}>
+      <div{{ item.attributes.addClass('field__item count-item-'~{{ loop.index }}) }}>
         {{ item.content }} 
       </div>
     {% endfor %}
