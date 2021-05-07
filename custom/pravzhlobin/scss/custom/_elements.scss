@@ -1,3 +1,35 @@
+
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@belkin13
+belkin13 /
+pravzhlo
+
+1
+0
+
+    0
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+
+    Settings
+
+pravzhlo/custom/pravzhlobin/scss/custom/_elements.scss
+Dimitrijus fix
+Latest commit 69b0d82 13 hours ago
+History
+0 contributors
+382 lines (360 sloc) 8.43 KB
 .navbar {
    background-color:$gray; 
    border-bottom:dotted 3px #ccc;
@@ -137,15 +169,22 @@
             margin-bottom:2rem;
             transition:padding 0.3s ease, margin 0.3s ease;
             cursor:pointer;
-            &:hover, &:focus {
+            /*&:hover, &:focus {
                 padding:3rem 2rem 5rem 2rem;
                 margin-bottom:0;
                 transition:padding 0.3s ease, margin 0.3s ease;
-            }
+            }*/
             .views-field-body {
                 font-size:1rem;
                 font-style:italic;
                 font-family:sans-serif;
+            }
+        }
+        .owl-item.active {
+            .views-row {
+                padding:3rem 2rem 5rem 2rem;
+                margin-bottom:0;
+                transition:padding 0.3s ease, margin 0.3s ease;
             }
         }
     }
@@ -199,7 +238,6 @@
                     flex-direction:column;
                 }
             }
-
         }*/
         
       //  .owl-controls {
@@ -335,7 +373,29 @@
         border-radius:0 35px 35px 0;
     }
 }
-
+.field--name-field-gallery {
+    margin:2rem 0 5rem;
+    .field__item {
+        display:none;
+        &.field-item-1 {
+            display:block;
+        }
+    } 
+}
+.wrap-slide-title {
+    background:rgba(255, 255, 255, .75);
+    h2 {
+        color:#000;
+    }
+}
+.node--type-article.node--view-mode-full {
+    max-width:1280px;
+    margin:0 auto;
+    .field--name-body {
+        font-size:1.5rem;
+        font-family:'Courier New', Courier, monospace;
+    }
+}
 .field--name-field-main-text {
     padding:2rem 0;
     h2 {
