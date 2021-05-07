@@ -9117,10 +9117,12 @@ a.tabledrag-handle .handle {
     background-size: 45px;
     border-radius: 0 35px 35px 0; }
 
-.field--name-field-gallery .field__item {
-  display: none; }
-  .field--name-field-gallery .field__item.field-item-1 {
-    display: block; }
+.field--name-field-gallery {
+  margin: 2rem 0 3rem; }
+  .field--name-field-gallery .field__item {
+    display: none; }
+    .field--name-field-gallery .field__item.field-item-1 {
+      display: block; }
 
 .wrap-slide-title {
   background: rgba(255, 255, 255, 0.75); }
