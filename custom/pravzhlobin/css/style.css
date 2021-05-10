@@ -8943,7 +8943,8 @@ a.tabledrag-handle .handle {
 
 .block-views-blockmain-slider-block-1 > .views-element-container > .view-main-slider > .view-content {
   padding: 3px;
-  background: rgba(255, 210, 73, 0.3); }
+  background: rgba(255, 210, 73, 0.3);
+  border: 2px solid #000; }
 .block-views-blockmain-slider-block-1 .attachment .views-row {
   background-image: url(../img/bg_bumaga_sm_l.png);
   background-size: cover;
@@ -8964,6 +8965,8 @@ a.tabledrag-handle .handle {
     font-family: sans-serif; }
   .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node {
     font-size: 1.5rem; }
+    .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a:hover, .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a:focus {
+      text-decoration: none; }
 .block-views-blockmain-slider-block-1 .attachment .owl-item.active .views-row {
   padding: 3rem 2rem 5rem 2rem;
   margin-bottom: 0;
@@ -9042,7 +9045,8 @@ a.tabledrag-handle .handle {
     color: #000 !important;
     border-radius: 10px;
     min-width: 40px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    border: 2px solid #000; }
     .owl-carousel .owl-nav button.disabled {
       display: none !important; }
     .owl-carousel .owl-nav button.owl-prev {

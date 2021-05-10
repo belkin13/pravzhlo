@@ -132,6 +132,7 @@
             > .view-content {
                 padding:3px;
                 background:rgba(255, 210, 73, .3);
+                border:2px solid #000;
             }
         }          
     }
@@ -157,6 +158,11 @@
             }
             .views-field-view-node {
                 font-size:1.5rem;
+                a {
+                    &:hover, &:focus {
+                        text-decoration:none;
+                    }
+                }
             }
         }
        
@@ -258,7 +264,8 @@
             color:#000 !important;
             border-radius:10px;
             min-width:40px;
-            text-transform:uppercase;   
+            text-transform:uppercase;
+            border:2px solid #000;   
             &.disabled {
                 display:none !important;
             } 
