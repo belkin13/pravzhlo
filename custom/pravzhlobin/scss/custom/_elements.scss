@@ -127,6 +127,12 @@
 }
 
 .block-views-blockmain-slider-block-1 {
+    .view-main-slider > {
+        .view-content {
+            padding:3px;
+            background:rgba(255, 210, 73, 0.3);
+        }          
+    }
     .attachment {
         .views-row {
             background-image:url(../img/bg_bumaga_sm_l.png);
@@ -148,6 +154,7 @@
                 font-family:sans-serif;
             }
         }
+       
         .owl-item.active {
             .views-row {
                 padding:3rem 2rem 5rem 2rem;
@@ -393,5 +400,7 @@ footer {
 }
 
 .footer-menu {
-   flex-direction:row;
+    .navbar-nav {
+        flex-direction:row;
+    }
 }

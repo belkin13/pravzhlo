@@ -8941,6 +8941,9 @@ a.tabledrag-handle .handle {
 .page-node-type-main-page .block-field-blocknodemain-pagebody p {
   font-size: 1.5rem; }
 
+.block-views-blockmain-slider-block-1 .view-main-slider > .view-content {
+  padding: 3px;
+  background: rgba(255, 210, 73, 0.3); }
 .block-views-blockmain-slider-block-1 .attachment .views-row {
   background-image: url(../img/bg_bumaga_sm_l.png);
   background-size: cover;
@@ -9156,5 +9159,5 @@ footer {
   max-width: 1280px;
   margin: 0 auto; }
 
-.footer-menu {
+.footer-menu .navbar-nav {
   flex-direction: row; }
