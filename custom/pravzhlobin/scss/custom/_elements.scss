@@ -132,7 +132,7 @@
             > .view-content {
                 padding:3px;
                 background:rgba(255, 210, 73, .3);
-                border:2px solid #000;
+                border:1px solid #ccc;
             }
         }          
     }
@@ -265,7 +265,7 @@
             border-radius:10px;
             min-width:40px;
             text-transform:uppercase;
-            border:2px solid #000;   
+            border:2px solid #ccc !important;   
             &.disabled {
                 display:none !important;
             } 
