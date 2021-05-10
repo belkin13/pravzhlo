@@ -8943,8 +8943,7 @@ a.tabledrag-handle .handle {
 
 .block-views-blockmain-slider-block-1 > .views-element-container > .view-main-slider > .view-content {
   padding: 3px;
-  background: rgba(255, 210, 73, 0.3);
-  border: 1px solid #ccc; }
+  background: rgba(255, 210, 73, 0.3); }
 .block-views-blockmain-slider-block-1 .attachment .views-row {
   background-image: url(../img/bg_bumaga_sm_l.png);
   background-size: cover;
@@ -9045,8 +9044,7 @@ a.tabledrag-handle .handle {
     color: #000 !important;
     border-radius: 10px;
     min-width: 40px;
-    text-transform: uppercase;
-    border: 2px solid #ccc !important; }
+    text-transform: uppercase; }
     .owl-carousel .owl-nav button.disabled {
       display: none !important; }
     .owl-carousel .owl-nav button.owl-prev {

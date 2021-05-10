@@ -132,7 +132,6 @@
             > .view-content {
                 padding:3px;
                 background:rgba(255, 210, 73, .3);
-                border:1px solid #ccc;
             }
         }          
     }
@@ -264,8 +263,7 @@
             color:#000 !important;
             border-radius:10px;
             min-width:40px;
-            text-transform:uppercase;
-            border:2px solid #ccc !important;   
+            text-transform:uppercase;  
             &.disabled {
                 display:none !important;
             } 
