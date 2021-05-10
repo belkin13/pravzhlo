@@ -155,6 +155,9 @@
                 font-style:italic;
                 font-family:sans-serif;
             }
+            .views-field-view-node {
+                font-size:1.5rem;
+            }
         }
        
         .owl-item.active {
@@ -363,6 +366,7 @@
     background:rgba(255, 255, 255, .75);
     h2 {
         color:#000;
+        margin-bottom:0;
     }
 }
 .node--type-article.node--view-mode-full {
