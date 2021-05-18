@@ -8917,7 +8917,13 @@ a.tabledrag-handle .handle {
       line-height: 1.2em; } }
 
 .m-bottom {
-  margin-bottom: 5rem; }
+  margin-bottom: 3rem; }
+  @media (min-width: 768px) {
+    .m-bottom {
+      margin-bottom: 4rem; } }
+  @media (min-width: 992px) {
+    .m-bottom {
+      margin-bottom: 5rem; } }
 
 .region-content {
   padding-top: 1.5rem;
@@ -8954,7 +8960,7 @@ a.tabledrag-handle .handle {
     background-image: url(../img/info-header.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    top: -60px;
+    top: -58px;
     left: 50%;
     margin-left: -110px;
     width: 220px;
