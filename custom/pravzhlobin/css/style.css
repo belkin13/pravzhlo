@@ -8856,6 +8856,16 @@ a.tabledrag-handle .handle {
 
 .navbar-brand {
   white-space: normal !important; }
+  .navbar-brand .site-logo {
+    width: 20%; }
+    @media (min-width: 576px) {
+      .navbar-brand .site-logo {
+        width: auto; } }
+  .navbar-brand .wrap-site-title {
+    width: 80%; }
+    @media (min-width: 576px) {
+      .navbar-brand .wrap-site-title {
+        width: auto; } }
   .navbar-brand a.site-title {
     font-size: 1.5rem;
     font-weight: 600;

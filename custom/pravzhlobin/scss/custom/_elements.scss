@@ -5,6 +5,18 @@
 
 .navbar-brand {
     white-space:normal !important;
+    .site-logo {
+        width:20%;
+        @include media-breakpoint-up(sm){
+            width:auto;
+        }
+    }
+    .wrap-site-title {
+        width:80%;
+        @include media-breakpoint-up(sm){
+            width:auto;
+        }
+    }
     a {
         &.site-title {
             font-size:1.5rem;
