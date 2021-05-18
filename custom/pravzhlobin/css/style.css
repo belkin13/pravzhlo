@@ -8954,11 +8954,23 @@ a.tabledrag-handle .handle {
     background-image: url(../img/info-header.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    top: -80px;
+    top: -60px;
     left: 50%;
-    margin-left: -150px;
-    width: 300px;
+    margin-left: -110px;
+    width: 220px;
     height: 110px; }
+    @media (min-width: 768px) {
+      .paragraph--type--information-card::before {
+        top: -67px;
+        margin-left: -130px;
+        width: 260px;
+        height: 110px; } }
+    @media (min-width: 992px) {
+      .paragraph--type--information-card::before {
+        top: -80px;
+        margin-left: -150px;
+        width: 300px;
+        height: 110px; } }
 
 .calendar-day-add .fc-time {
   display: none; }
@@ -9248,7 +9260,7 @@ a.tabledrag-handle .handle {
     .field--name-field-main-text {
       padding: 2rem 0; } }
   .field--name-field-main-text h2 {
-    font-size: 1.75rem; }
+    font-size: 1.5rem; }
     @media (min-width: 768px) {
       .field--name-field-main-text h2 {
         font-size: 2.2rem; } }
