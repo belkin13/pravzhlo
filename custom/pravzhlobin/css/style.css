@@ -8920,8 +8920,16 @@ a.tabledrag-handle .handle {
   margin-bottom: 5rem; }
 
 .region-content {
-  padding-top: 3rem;
-  padding-bottom: 3rem; }
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
+  @media (min-width: 768px) {
+    .region-content {
+      padding-top: 2.2rem;
+      padding-bottom: 2.2rem; } }
+  @media (min-width: 992px) {
+    .region-content {
+      padding-top: 3rem;
+      padding-bottom: 3rem; } }
 
 .narrow-container.container {
   max-width: 1200px; }
@@ -9113,8 +9121,14 @@ a.tabledrag-handle .handle {
 
 .field--name-field-main-image {
   max-width: 800px;
-  margin: 3rem auto;
+  margin: 1.8rem auto;
   position: relative; }
+  @media (min-width: 768px) {
+    .field--name-field-main-image {
+      margin: 2.4rem auto; } }
+  @media (min-width: 992px) {
+    .field--name-field-main-image {
+      margin: 3rem auto; } }
   .field--name-field-main-image img {
     width: 100%;
     height: auto; }
@@ -9226,11 +9240,29 @@ a.tabledrag-handle .handle {
     font-family: 'Courier New', Courier, monospace; }
 
 .field--name-field-main-text {
-  padding: 2rem 0; }
+  padding: 1rem 0; }
+  @media (min-width: 768px) {
+    .field--name-field-main-text {
+      padding: 1.5rem 0; } }
+  @media (min-width: 992px) {
+    .field--name-field-main-text {
+      padding: 2rem 0; } }
   .field--name-field-main-text h2 {
-    font-size: 2.5rem; }
+    font-size: 1.75rem; }
+    @media (min-width: 768px) {
+      .field--name-field-main-text h2 {
+        font-size: 2.2rem; } }
+    @media (min-width: 992px) {
+      .field--name-field-main-text h2 {
+        font-size: 2.5rem; } }
   .field--name-field-main-text p {
-    font-size: 2rem; }
+    font-size: 1.3rem; }
+    @media (min-width: 768px) {
+      .field--name-field-main-text p {
+        font-size: 1.8rem; } }
+    @media (min-width: 992px) {
+      .field--name-field-main-text p {
+        font-size: 2rem; } }
 
 footer {
   background-color: #ccc;

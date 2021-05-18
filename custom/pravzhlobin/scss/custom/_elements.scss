@@ -92,8 +92,16 @@
 }
 
 .region-content {
-    padding-top:3rem;
-    padding-bottom:3rem;
+    padding-top:1.5rem;
+    padding-bottom:1.5rem;
+    @include media-breakpoint-up(md){
+        padding-top:2.2rem;
+        padding-bottom:2.2rem;
+    }
+    @include media-breakpoint-up(lg){
+        padding-top:3rem;
+        padding-bottom:3rem;
+    }
 }
 
 .narrow-container.container {
@@ -347,8 +355,14 @@
 }
 .field--name-field-main-image {
     max-width:800px;
-    margin:3rem auto;
+    margin:1.8rem auto;
     position:relative;
+    @include media-breakpoint-up(md){
+        margin:2.4rem auto;
+    }
+    @include media-breakpoint-up(lg){
+        margin:3rem auto;
+    }
     img {
         width:100%;
         height:auto;
@@ -470,12 +484,30 @@
     }
 }
 .field--name-field-main-text {
-    padding:2rem 0;
+    padding:1rem 0;
+    @include media-breakpoint-up(md){
+        padding:1.5rem 0;
+    }
+    @include media-breakpoint-up(lg){
+        padding:2rem 0;
+    }
     h2 {
-        font-size:2.5rem;
+        font-size:1.75rem;
+        @include media-breakpoint-up(md){
+            font-size:2.2rem;
+        }
+        @include media-breakpoint-up(lg){
+            font-size:2.5rem;
+        }
     }
     p {
-        font-size:2rem;
+        font-size:1.3rem;
+        @include media-breakpoint-up(md){
+            font-size:1.8rem;
+        }
+        @include media-breakpoint-up(lg){
+            font-size:2rem;
+        }
     }
 }
 
