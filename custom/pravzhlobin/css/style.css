@@ -9123,39 +9123,87 @@ a.tabledrag-handle .handle {
   position: absolute;
   background-color: transparent; }
   .ramka.ramka-top {
-    top: -44px;
+    top: -24px;
     left: 0;
     width: 100%;
-    height: 45px;
+    height: 25px;
     background-image: url(../img/ramka-top.svg);
     background-repeat: repeat-x;
-    background-size: 45px; }
+    background-size: 25px; }
+    @media (min-width: 768px) {
+      .ramka.ramka-top {
+        top: -34px;
+        height: 35px;
+        background-size: 35px; } }
+    @media (min-width: 992px) {
+      .ramka.ramka-top {
+        top: -44px;
+        height: 45px;
+        background-size: 45px; } }
   .ramka.ramka-bottom {
-    bottom: -44px;
+    bottom: -24px;
     left: 0;
     width: 100%;
-    height: 45px;
+    height: 25px;
     background-image: url(../img/ramka-bottom.svg);
     background-repeat: repeat-x;
-    background-size: 45px; }
+    background-size: 25px; }
+    @media (min-width: 768px) {
+      .ramka.ramka-bottom {
+        bottom: -34px;
+        height: 35px;
+        background-size: 35px; } }
+    @media (min-width: 992px) {
+      .ramka.ramka-bottom {
+        bottom: -44px;
+        height: 45px;
+        background-size: 45px; } }
   .ramka.ramka-left {
-    top: -42px;
-    left: -44px;
-    width: 45px;
-    height: calc(100% + 85px);
+    top: -22px;
+    left: -24px;
+    width: 25px;
+    height: calc(100% + 45px);
     background-image: url(../img/ramka-left.svg);
     background-repeat: repeat-y;
-    background-size: 45px;
+    background-size: 25px;
     border-radius: 35px 0 0 35px; }
+    @media (min-width: 768px) {
+      .ramka.ramka-left {
+        top: -32px;
+        left: -34px;
+        width: 35px;
+        height: calc(100% + 65px);
+        background-size: 35px; } }
+    @media (min-width: 992px) {
+      .ramka.ramka-left {
+        top: -42px;
+        left: -44px;
+        width: 45px;
+        height: calc(100% + 85px);
+        background-size: 45px; } }
   .ramka.ramka-right {
-    top: -42px;
-    right: -44px;
-    width: 45px;
-    height: calc(100% + 85px);
+    top: -22px;
+    right: -24px;
+    width: 25px;
+    height: calc(100% + 45px);
     background-image: url(../img/ramka-right.svg);
     background-repeat: repeat-y;
-    background-size: 45px;
+    background-size: 25px;
     border-radius: 0 35px 35px 0; }
+    @media (min-width: 768px) {
+      .ramka.ramka-right {
+        top: -32px;
+        right: -34px;
+        width: 35px;
+        height: calc(100% + 65px);
+        background-size: 35px; } }
+    @media (min-width: 992px) {
+      .ramka.ramka-right {
+        top: -42px;
+        right: -44px;
+        width: 45px;
+        height: calc(100% + 85px);
+        background-size: 45px; } }
 
 .field--name-field-gallery {
   margin: 2rem 0 5rem; }
