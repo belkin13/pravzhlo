@@ -7,11 +7,18 @@
     padding-bottom:0;
     a {
         &.site-title {
-            font-size:3rem;
+            font-size:1.5rem;
             font-weight:600;
             line-height:1.3em;
             display:inline-block;
             padding-top:.5rem;
+            @include media-breakpoint-up(md){
+                font-size:2rem;
+            }
+            @include media-breakpoint-up(lg){
+                font-size:3rem;
+
+            }
         }
     }
     img {
