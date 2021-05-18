@@ -8855,7 +8855,7 @@ a.tabledrag-handle .handle {
   border-bottom: dotted 3px #ccc; }
 
 .navbar-brand {
-  padding-bottom: 0; }
+  white-space: normal !important; }
   .navbar-brand a.site-title {
     font-size: 1.5rem;
     font-weight: 600;
