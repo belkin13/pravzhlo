@@ -1,3 +1,10 @@
+p {
+    margin-bottom:.75rem;
+    @include media-breakpoint-up(lg){
+        margin-bottom:1rem;
+    }
+}
+
 .navbar {
    background-color:$gray; 
    border-bottom:dotted 3px #ccc;
@@ -88,12 +95,12 @@
 }
 
 .m-bottom {
-    margin-bottom:3rem;
+    margin-bottom:2rem;
     @include media-breakpoint-up(md){
-        margin-bottom:4rem;
+        margin-bottom:3rem;
     }
     @include media-breakpoint-up(lg){
-        margin-bottom:5rem;
+        margin-bottom:4rem;
     }
 }
 
@@ -119,7 +126,7 @@
     background-color:rgba(255, 210, 73,.3);
     max-width:1000px;
     margin:3rem auto 0;
-    padding:1rem .75rem .75rem;
+    padding:1.75rem .75rem .75rem;
     width:100%;
     min-height:200px;
     position:relative;
@@ -251,6 +258,20 @@
                 transition:padding 0.3s ease, margin 0.3s ease;
             }
         }
+
+        .owl-stage {
+            @include media-breakpoint-down(sm){
+                display: flex;
+                flex-direction: column;
+                .owl-item {
+                    width:100%;
+                }
+            }
+        }
+
+
+
+
     }
 }
 
