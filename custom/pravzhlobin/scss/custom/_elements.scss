@@ -218,13 +218,16 @@ p {
             > .view-content {
                 padding:3px;
                 background:rgba(255, 210, 73, .3);
+                img {
+                    height:auto;
+                }
             }
         }          
     }
     .attachment {
         .views-row {
             cursor:pointer;
-            @include media-breakpoint-up(sm){
+            @include media-breakpoint-up(md){
                 background-image:url(../img/bg_bumaga_sm_l.png);
                 background-size:cover;
                 background-repeat:no-repeat;
@@ -250,7 +253,7 @@ p {
        
         .owl-item.active {
             .views-row {
-                @include media-breakpoint-up(sm){
+                @include media-breakpoint-up(md){
                     padding:3rem 2rem 5rem 2rem;
                     margin-bottom:0;
                     transition:padding 0.3s ease, margin 0.3s ease;
@@ -523,9 +526,23 @@ p {
 }
 .wrap-slide-title {
     background:rgba(255, 255, 255, .75);
+    padding:.5rem;
+    @include media-breakpoint-up(md){
+        padding:1rem;
+    }
+    @include media-breakpoint-up(lg){
+        padding:1.5rem;
+    }
     h2 {
         color:#000;
         margin-bottom:0;
+        font-size:1rem;
+        @include media-breakpoint-up(md){
+            font-size:1.5rem;
+        }
+        @include media-breakpoint-up(lg){
+            font-size:2rem;
+        }
     }
 }
 .node--type-article.node--view-mode-full {

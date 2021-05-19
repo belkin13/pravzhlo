@@ -9024,9 +9024,11 @@ p {
 .block-views-blockmain-slider-block-1 > .views-element-container > .view-main-slider > .view-content {
   padding: 3px;
   background: rgba(255, 210, 73, 0.3); }
+  .block-views-blockmain-slider-block-1 > .views-element-container > .view-main-slider > .view-content img {
+    height: auto; }
 .block-views-blockmain-slider-block-1 .attachment .views-row {
   cursor: pointer; }
-  @media (min-width: 576px) {
+  @media (min-width: 768px) {
     .block-views-blockmain-slider-block-1 .attachment .views-row {
       background-image: url(../img/bg_bumaga_sm_l.png);
       background-size: cover;
@@ -9043,7 +9045,7 @@ p {
     font-size: 1.5rem; }
     .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a:hover, .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a:focus {
       text-decoration: none; }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .block-views-blockmain-slider-block-1 .attachment .owl-item.active .views-row {
     padding: 3rem 2rem 5rem 2rem;
     margin-bottom: 0;
@@ -9270,10 +9272,24 @@ p {
       display: block; }
 
 .wrap-slide-title {
-  background: rgba(255, 255, 255, 0.75); }
+  background: rgba(255, 255, 255, 0.75);
+  padding: .5rem; }
+  @media (min-width: 768px) {
+    .wrap-slide-title {
+      padding: 1rem; } }
+  @media (min-width: 992px) {
+    .wrap-slide-title {
+      padding: 1.5rem; } }
   .wrap-slide-title h2 {
     color: #000;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-size: 1rem; }
+    @media (min-width: 768px) {
+      .wrap-slide-title h2 {
+        font-size: 1.5rem; } }
+    @media (min-width: 992px) {
+      .wrap-slide-title h2 {
+        font-size: 2rem; } }
 
 .node--type-article.node--view-mode-full {
   max-width: 1280px;
