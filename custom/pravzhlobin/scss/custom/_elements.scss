@@ -126,14 +126,14 @@ p {
     background-color:rgba(255, 210, 73,.3);
     max-width:1000px;
     margin:3rem auto 0;
-    padding:1.75rem .75rem .75rem;
+    padding:2rem .75rem .75rem;
     width:100%;
-    min-height:200px;
+    min-height:100px;
     position:relative;
     border:2px solid #ccc;
     @include media-breakpoint-up(md){
         margin:4rem auto 0;
-        padding:2.2rem 1.5rem 1.5rem;
+        padding:2.7rem 1.5rem 1.5rem;
     }
     @include media-breakpoint-up(lg){
         margin:5rem auto 0;
