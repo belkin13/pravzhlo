@@ -9153,16 +9153,22 @@ p {
       display: none !important; }
     .owl-carousel .owl-nav button.owl-prev {
       position: absolute;
-      left: -42px;
+      left: -15px;
       font-size: 1rem;
       top: -32px;
       padding: .25rem 1rem !important; }
+      @media (min-width: 768px) {
+        .owl-carousel .owl-nav button.owl-prev {
+          left: -42px; } }
     .owl-carousel .owl-nav button.owl-next {
       position: absolute;
-      right: -42px;
+      right: -15px;
       font-size: 1rem;
       top: -32px;
       padding: .25rem 1rem !important; }
+      @media (min-width: 768px) {
+        .owl-carousel .owl-nav button.owl-next {
+          right: -42px; } }
 
 .left-top-uzor {
   left: -23px;

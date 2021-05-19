@@ -385,17 +385,23 @@ p {
             } 
             &.owl-prev {
                 position:absolute;
-                left:-42px;
+                left:-15px;
                 font-size:1rem;
                 top:-32px;  
-                padding:.25rem 1rem !important;              
+                padding:.25rem 1rem !important; 
+                @include media-breakpoint-up(md){
+                    left:-42px;
+                }
             }
             &.owl-next {
                 position:absolute;
-                right:-42px;
+                right:-15px;
                 font-size:1rem;
                 top:-32px;
                 padding:.25rem 1rem !important;
+                @include media-breakpoint-up(md){
+                    right:-42px;
+                }
             }
         }
     }
