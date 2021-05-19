@@ -223,19 +223,16 @@ p {
     }
     .attachment {
         .views-row {
-            background-image:url(../img/bg_bumaga_sm_l.png);
-            background-size:cover;
-            background-repeat:no-repeat;
-            background-position:bottom;
-            padding:1rem 2rem 5rem 2rem;
-            margin-bottom:2rem;
-            transition:padding 0.3s ease, margin 0.3s ease;
             cursor:pointer;
-            /*&:hover, &:focus {
-                padding:3rem 2rem 5rem 2rem;
-                margin-bottom:0;
+            @include media-breakpoint-up(sm){
+                background-image:url(../img/bg_bumaga_sm_l.png);
+                background-size:cover;
+                background-repeat:no-repeat;
+                background-position:bottom;
+                padding:1rem 2rem 5rem 2rem;
+                margin-bottom:2rem;
                 transition:padding 0.3s ease, margin 0.3s ease;
-            }*/
+            }
             .views-field-body {
                 font-size:1rem;
                 font-style:italic;
@@ -253,9 +250,11 @@ p {
        
         .owl-item.active {
             .views-row {
-                padding:3rem 2rem 5rem 2rem;
-                margin-bottom:0;
-                transition:padding 0.3s ease, margin 0.3s ease;
+                @include media-breakpoint-up(sm){
+                    padding:3rem 2rem 5rem 2rem;
+                    margin-bottom:0;
+                    transition:padding 0.3s ease, margin 0.3s ease;
+                }
             }
         }
 
@@ -263,8 +262,9 @@ p {
             @include media-breakpoint-down(sm){
                 display: flex;
                 flex-direction: column;
+                width:100% !important;
                 .owl-item {
-                    width:100%;
+                    width:100% !important;
                 }
             }
         }

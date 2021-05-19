@@ -9025,19 +9025,16 @@ p {
   padding: 3px;
   background: rgba(255, 210, 73, 0.3); }
 .block-views-blockmain-slider-block-1 .attachment .views-row {
-  background-image: url(../img/bg_bumaga_sm_l.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  padding: 1rem 2rem 5rem 2rem;
-  margin-bottom: 2rem;
-  transition: padding 0.3s ease, margin 0.3s ease;
-  cursor: pointer;
-  /*&:hover, &:focus {
-      padding:3rem 2rem 5rem 2rem;
-      margin-bottom:0;
-      transition:padding 0.3s ease, margin 0.3s ease;
-  }*/ }
+  cursor: pointer; }
+  @media (min-width: 576px) {
+    .block-views-blockmain-slider-block-1 .attachment .views-row {
+      background-image: url(../img/bg_bumaga_sm_l.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      padding: 1rem 2rem 5rem 2rem;
+      margin-bottom: 2rem;
+      transition: padding 0.3s ease, margin 0.3s ease; } }
   .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-body {
     font-size: 1rem;
     font-style: italic;
@@ -9046,16 +9043,18 @@ p {
     font-size: 1.5rem; }
     .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a:hover, .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a:focus {
       text-decoration: none; }
-.block-views-blockmain-slider-block-1 .attachment .owl-item.active .views-row {
-  padding: 3rem 2rem 5rem 2rem;
-  margin-bottom: 0;
-  transition: padding 0.3s ease, margin 0.3s ease; }
+@media (min-width: 576px) {
+  .block-views-blockmain-slider-block-1 .attachment .owl-item.active .views-row {
+    padding: 3rem 2rem 5rem 2rem;
+    margin-bottom: 0;
+    transition: padding 0.3s ease, margin 0.3s ease; } }
 @media (max-width: 767.98px) {
   .block-views-blockmain-slider-block-1 .attachment .owl-stage {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    width: 100% !important; }
     .block-views-blockmain-slider-block-1 .attachment .owl-stage .owl-item {
-      width: 100%; } }
+      width: 100% !important; } }
 
 .main-slider-uzor,
 .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::after,
