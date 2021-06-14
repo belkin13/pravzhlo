@@ -8966,7 +8966,7 @@ p {
       padding: 3rem 2rem 2rem; } }
   .paragraph--type--information-card p {
     font-size: 1.2rem;
-    line-height: 1em; }
+    line-height: 1.5em; }
     @media (min-width: 768px) {
       .paragraph--type--information-card p {
         font-size: 1.75rem; } }
@@ -9045,8 +9045,14 @@ p {
         font-style: italic; } }
   .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node {
     font-size: 1.5rem; }
-    .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a:hover, .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a:focus {
-      text-decoration: none; }
+    .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a {
+      display: inline-block;
+      padding: .5rem 1rem;
+      background-color: rgba(255, 210, 73, 0.3); }
+      .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a:hover, .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a:focus {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(255, 210, 73, 0.7); }
 @media (max-width: 991.98px) {
   .block-views-blockmain-slider-block-1 .attachment .owl-item.active .views-row {
     background-color: rgba(255, 210, 73, 0.3); } }
@@ -9335,7 +9341,7 @@ p {
   margin: 0 auto; }
   .node--type-article.node--view-mode-full .field--name-body {
     font-size: 1.5rem;
-    font-family: 'Courier New', Courier, monospace; }
+    font-family: Arial, Helvetica, sans-serif; }
 
 .field--name-field-main-text {
   padding: 1rem 0; }
