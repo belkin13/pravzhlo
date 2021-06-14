@@ -9235,9 +9235,9 @@ p {
         background-size: 35px; } }
     @media (min-width: 992px) {
       .ramka.ramka-top {
-        top: -44px;
-        height: 45px;
-        background-size: 45px; } }
+        top: -37px;
+        height: 38px;
+        background-size: 38px; } }
   .ramka.ramka-bottom {
     bottom: -24px;
     left: 0;
@@ -9253,9 +9253,9 @@ p {
         background-size: 35px; } }
     @media (min-width: 992px) {
       .ramka.ramka-bottom {
-        bottom: -44px;
-        height: 45px;
-        background-size: 45px; } }
+        bottom: -37px;
+        height: 38px;
+        background-size: 38px; } }
   .ramka.ramka-left {
     top: -22px;
     left: -24px;
@@ -9274,11 +9274,11 @@ p {
         background-size: 35px; } }
     @media (min-width: 992px) {
       .ramka.ramka-left {
-        top: -42px;
-        left: -44px;
-        width: 45px;
-        height: calc(100% + 85px);
-        background-size: 45px; } }
+        top: -34px;
+        left: -37px;
+        width: 38px;
+        height: calc(100% + 70px);
+        background-size: 38px; } }
   .ramka.ramka-right {
     top: -22px;
     right: -24px;
@@ -9297,11 +9297,11 @@ p {
         background-size: 35px; } }
     @media (min-width: 992px) {
       .ramka.ramka-right {
-        top: -42px;
-        right: -44px;
-        width: 45px;
-        height: calc(100% + 85px);
-        background-size: 45px; } }
+        top: -34px;
+        right: -37px;
+        width: 38px;
+        height: calc(100% + 70px);
+        background-size: 38px; } }
 
 .field--name-field-gallery {
   margin: 2rem 0 5rem; }

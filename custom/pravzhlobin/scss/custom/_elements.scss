@@ -477,9 +477,9 @@ p {
             background-size:35px;
         }
         @include media-breakpoint-up(lg){
-            top:-44px;
-            height:45px;
-            background-size:45px;
+            top:-37px;
+            height:38px;
+            background-size:38px;
         }
     }
     &.ramka-bottom {        
@@ -496,9 +496,9 @@ p {
             background-size:35px;
         }
         @include media-breakpoint-up(lg){
-            bottom:-44px;
-            height:45px;
-            background-size:45px;
+            bottom:-37px;
+            height:38px;
+            background-size:38px;
         }
     }
     &.ramka-left {
@@ -518,11 +518,11 @@ p {
             background-size:35px;
         }
         @include media-breakpoint-up(lg){
-            top:-42px;
-            left:-44px;
-            width:45px;
-            height:calc(100% + 85px);
-            background-size:45px;
+            top:-34px;
+            left:-37px;
+            width:38px;
+            height:calc(100% + 70px);
+            background-size:38px;
         }
     }
     &.ramka-right {        
@@ -542,11 +542,11 @@ p {
             background-size:35px;
         }
         @include media-breakpoint-up(lg){
-            top:-42px;
-            right:-44px;
-            width:45px;
-            height:calc(100% + 85px);
-            background-size:45px;
+            top:-34px;
+            right:-37px;
+            width:38px;
+            height:calc(100% + 70px);
+            background-size:38px;
         }
     }
 }
