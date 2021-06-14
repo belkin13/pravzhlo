@@ -248,11 +248,12 @@ p {
                 a {
                     display:inline-block;
                     padding:.5rem 1rem;
-                    background-color:rgba(255, 210, 73,.3);
+                    background-color:rgba(255, 210, 73,1);
+                    font-family:Arial, Helvetica, sans-serif;
+                    color:#000;
                     &:hover, &:focus {
-                        text-decoration:none;
-                        font-family:Arial, Helvetica, sans-serif;
-                        background-color:rgba(255, 210, 73,.7);
+                        text-decoration:none;               
+                        background-color:rgba(204, 164, 44, 1);
                     }
                 }
             }
