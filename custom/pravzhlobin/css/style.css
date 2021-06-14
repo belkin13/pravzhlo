@@ -9034,15 +9034,16 @@ p {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: bottom;
-      padding: 1rem 2rem 5rem 2rem;
-      margin-bottom: 2rem;
+      padding: 1rem 1.5rem 3rem 1.5rem;
+      margin-bottom: 1rem;
       transition: padding 0.3s ease, margin 0.3s ease; } }
+  @media (min-width: 992px) {
+    .block-views-blockmain-slider-block-1 .attachment .views-row {
+      padding: 1rem 2rem 5rem 2rem;
+      margin-bottom: 2rem; } }
   .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-body {
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif; }
-    @media (min-width: 768px) {
-      .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-body {
-        font-style: italic; } }
   .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node {
     font-size: 1.5rem; }
     .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a {
@@ -9052,7 +9053,8 @@ p {
       font-family: Arial, Helvetica, sans-serif;
       color: #000;
       margin-top: 1rem;
-      font-size: 1rem; }
+      font-size: 1rem;
+      border-radius: 5px; }
       .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a:hover, .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a:focus {
         text-decoration: none;
         background-color: #ebbc2f; }
@@ -9061,9 +9063,12 @@ p {
     background-color: rgba(255, 210, 73, 0.3); } }
 @media (min-width: 768px) {
   .block-views-blockmain-slider-block-1 .attachment .owl-item.active .views-row {
-    padding: 3rem 2rem 5rem 2rem;
+    padding: 2rem 1.5rem 3rem 1.5rem;
     margin-bottom: 0;
     transition: padding 0.3s ease, margin 0.3s ease; } }
+@media (min-width: 992px) {
+  .block-views-blockmain-slider-block-1 .attachment .owl-item.active .views-row {
+    padding: 3rem 2rem 5rem 2rem; } }
 @media (max-width: 767.98px) {
   .block-views-blockmain-slider-block-1 .attachment .owl-stage {
     display: flex;
