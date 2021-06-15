@@ -9235,7 +9235,8 @@ p {
       margin: 3rem auto; } }
   .field--name-field-main-image img {
     width: 100%;
-    height: auto; }
+    height: auto;
+    box-shadow: 0px 0px 6px 0px #000; }
 
 .ramka {
   position: absolute;
