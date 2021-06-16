@@ -251,16 +251,27 @@ p {
                 font-size:1.5rem;
                 a {
                     display:inline-block;
-                    padding:.25rem 2rem;
                     background-color:rgba(255, 210, 73,1);
-                    font-family:Arial, Helvetica, sans-serif;
+                    //font-family:Arial, Helvetica, sans-serif;
                     color:#000;
                     margin-top:1rem;
-                    font-size:1rem;
+                    font-size:.75rem;
                     border-radius:5px;
+                    text-transform:uppercase;               
+                    padding:.15rem .4rem .2rem !important;
+                    transition:all 0.3s ease, margin 0.3s ease;
                     &:hover, &:focus {
                         text-decoration:none;               
                         background-color:rgb(235, 188, 47);
+                    }
+                    @include media-breakpoint-up(md){
+                        right:-42px;
+                        padding:.2rem .5rem .25rem !important;
+                        font-size:.85rem;
+                    }
+                    @include media-breakpoint-up(lg){
+                        padding:.25rem 1rem .3rem !important;
+                        font-size:1rem;
                     }
                 }
             }
@@ -393,7 +404,7 @@ p {
         button {
             background:#ffd249 !important;
             color:#000 !important;
-            border-radius:10px;
+            border-radius:5px;
             min-width:40px;
             text-transform:uppercase;  
             &.disabled {
@@ -404,14 +415,15 @@ p {
                 left:-15px;
                 font-size:.75rem;
                 top:-32px;  
-                padding:.15rem .4rem !important; 
+                padding:.15rem .4rem .2rem !important; 
+                transition:all 0.3s ease, margin 0.3s ease;
                 @include media-breakpoint-up(md){
                     left:-42px;
-                    padding:.2rem .5rem !important;
+                    padding:.2rem .5rem .25rem !important;
                     font-size:.85rem;
                 }
                 @include media-breakpoint-up(lg){
-                    padding:.25rem 1rem !important;
+                    padding:.25rem 1rem .3rem !important;
                     font-size:1rem;
                 }
             }
@@ -420,14 +432,15 @@ p {
                 right:-15px;
                 font-size:.75rem;
                 top:-32px;
-                padding:.15rem .4rem !important;
+                padding:.15rem .4rem .2rem !important;
+                transition:all 0.3s ease, margin 0.3s ease;
                 @include media-breakpoint-up(md){
                     right:-42px;
-                    padding:.2rem .5rem !important;
+                    padding:.2rem .5rem .25rem !important;
                     font-size:.85rem;
                 }
                 @include media-breakpoint-up(lg){
-                    padding:.25rem 1rem !important;
+                    padding:.25rem 1rem .3rem !important;
                     font-size:1rem;
                 }
             }
