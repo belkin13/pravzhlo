@@ -75,25 +75,26 @@
     <article{{ attributes }}>
 
     
-      <div class="text-center">
+      <div class="text-center mb-5">
 
-          <div class="position-relative d-inline-block mb-4 mt-4">     
+          <div class="position-relative d-inline-block my-5">     
             {{ content.field_photo_gallery.0 }}
             <div class="ramka-top ramka"></div>
             <div class="ramka-bottom ramka"></div>
             <div class="ramka-left ramka"></div>
             <div class="ramka-right ramka"></div>
           </div>  
-
-          {{ title_prefix }}
-          {% if not page %}
-            <h2{{ title_attributes }}>
-              <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-            </h2>
-          {% endif %}
-          {{ title_suffix }}
-          {{ content.body }}
-          {{ content.links }}
+          <div class="clergyman-body">
+            {{ title_prefix }}
+            {% if not page %}
+              <h2{{ title_attributes }}>
+                <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+              </h2>
+            {% endif %}
+            {{ title_suffix }}
+            {{ content.body }}
+            {{ content.links }}
+          </div>  
       </div>
 
     </article>
