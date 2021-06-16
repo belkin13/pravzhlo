@@ -407,6 +407,10 @@ p {
             border-radius:5px;
             min-width:40px;
             text-transform:uppercase;  
+            &:hover, &:focus {
+                text-decoration:none;               
+                background-color:rgb(235, 188, 47) !important;
+            }
             &.disabled {
                 display:none !important;
             } 
@@ -416,11 +420,7 @@ p {
                 font-size:.75rem;
                 top:-32px;  
                 padding:.2rem .4rem .15rem !important; 
-                transition:all 0.3s ease, margin 0.3s ease;
-                &:hover, &:focus {
-                    text-decoration:none;               
-                    background-color:rgb(235, 188, 47);
-                }
+                transition:all 0.3s ease, margin 0.3s ease;          
                 @include media-breakpoint-up(md){
                     left:-42px;
                     padding:.25rem .5rem .2rem !important;
@@ -438,10 +438,6 @@ p {
                 top:-32px;
                 padding:.2rem .4rem .15rem !important;
                 transition:all 0.3s ease, margin 0.3s ease;
-                &:hover, &:focus {
-                    text-decoration:none;               
-                    background-color:rgb(235, 188, 47);
-                }
                 @include media-breakpoint-up(md){
                     right:-42px;
                     padding:.25rem .5rem .2rem !important;
