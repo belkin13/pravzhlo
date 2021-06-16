@@ -258,7 +258,7 @@ p {
                     font-size:.75rem;
                     border-radius:5px;
                     text-transform:uppercase;               
-                    padding:.15rem .4rem .2rem !important;
+                    padding:.2rem .4rem .15rem !important;
                     transition:all 0.3s ease, margin 0.3s ease;
                     &:hover, &:focus {
                         text-decoration:none;               
@@ -266,11 +266,11 @@ p {
                     }
                     @include media-breakpoint-up(md){
                         right:-42px;
-                        padding:.2rem .5rem .25rem !important;
+                        padding:.25rem .5rem .2rem !important;
                         font-size:.85rem;
                     }
                     @include media-breakpoint-up(lg){
-                        padding:.25rem 1rem .3rem !important;
+                        padding:.3rem 1rem .25rem !important;
                         font-size:1rem;
                     }
                 }
@@ -415,15 +415,15 @@ p {
                 left:-15px;
                 font-size:.75rem;
                 top:-32px;  
-                padding:.15rem .4rem .2rem !important; 
+                padding:.2rem .4rem .15rem !important; 
                 transition:all 0.3s ease, margin 0.3s ease;
                 @include media-breakpoint-up(md){
                     left:-42px;
-                    padding:.2rem .5rem .25rem !important;
+                    padding:.25rem .5rem .2rem !important;
                     font-size:.85rem;
                 }
                 @include media-breakpoint-up(lg){
-                    padding:.25rem 1rem .3rem !important;
+                    padding:.3rem 1rem .25rem !important;
                     font-size:1rem;
                 }
             }
@@ -432,15 +432,15 @@ p {
                 right:-15px;
                 font-size:.75rem;
                 top:-32px;
-                padding:.15rem .4rem .2rem !important;
+                padding:.2rem .4rem .15rem !important;
                 transition:all 0.3s ease, margin 0.3s ease;
                 @include media-breakpoint-up(md){
                     right:-42px;
-                    padding:.2rem .5rem .25rem !important;
+                    padding:.25rem .5rem .2rem !important;
                     font-size:.85rem;
                 }
                 @include media-breakpoint-up(lg){
-                    padding:.25rem 1rem .3rem !important;
+                    padding:.3rem 1rem .25rem !important;
                     font-size:1rem;
                 }
             }

@@ -9054,7 +9054,7 @@ p {
       font-size: .75rem;
       border-radius: 5px;
       text-transform: uppercase;
-      padding: .15rem .4rem .2rem !important;
+      padding: .2rem .4rem .15rem !important;
       transition: all 0.3s ease, margin 0.3s ease; }
       .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a:hover, .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a:focus {
         text-decoration: none;
@@ -9062,11 +9062,11 @@ p {
       @media (min-width: 768px) {
         .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a {
           right: -42px;
-          padding: .2rem .5rem .25rem !important;
+          padding: .25rem .5rem .2rem !important;
           font-size: .85rem; } }
       @media (min-width: 992px) {
         .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a {
-          padding: .25rem 1rem .3rem !important;
+          padding: .3rem 1rem .25rem !important;
           font-size: 1rem; } }
 @media (max-width: 991.98px) {
   .block-views-blockmain-slider-block-1 .attachment .owl-item.active .views-row {
@@ -9180,32 +9180,32 @@ p {
       left: -15px;
       font-size: .75rem;
       top: -32px;
-      padding: .15rem .4rem .2rem !important;
+      padding: .2rem .4rem .15rem !important;
       transition: all 0.3s ease, margin 0.3s ease; }
       @media (min-width: 768px) {
         .owl-carousel .owl-nav button.owl-prev {
           left: -42px;
-          padding: .2rem .5rem .25rem !important;
+          padding: .25rem .5rem .2rem !important;
           font-size: .85rem; } }
       @media (min-width: 992px) {
         .owl-carousel .owl-nav button.owl-prev {
-          padding: .25rem 1rem .3rem !important;
+          padding: .3rem 1rem .25rem !important;
           font-size: 1rem; } }
     .owl-carousel .owl-nav button.owl-next {
       position: absolute;
       right: -15px;
       font-size: .75rem;
       top: -32px;
-      padding: .15rem .4rem .2rem !important;
+      padding: .2rem .4rem .15rem !important;
       transition: all 0.3s ease, margin 0.3s ease; }
       @media (min-width: 768px) {
         .owl-carousel .owl-nav button.owl-next {
           right: -42px;
-          padding: .2rem .5rem .25rem !important;
+          padding: .25rem .5rem .2rem !important;
           font-size: .85rem; } }
       @media (min-width: 992px) {
         .owl-carousel .owl-nav button.owl-next {
-          padding: .25rem 1rem .3rem !important;
+          padding: .3rem 1rem .25rem !important;
           font-size: 1rem; } }
 
 .left-top-uzor {
