@@ -397,6 +397,15 @@ p {
         //}
     }
 }
+.btn-yellow {
+    background:#ffd249 !important;
+    color:#000 !important;
+    text-transform:uppercase;  
+    box-shadow:0px 2px 5px -1px #ccc;
+    &:hover, &:focus {              
+        background-color:rgb(235, 188, 47) !important;
+    }
+}
 .view-content.owl-carousel {
     div.owl-nav {
         position:absolute;
