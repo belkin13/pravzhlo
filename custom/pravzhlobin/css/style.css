@@ -9055,7 +9055,8 @@ p {
       border-radius: 5px;
       text-transform: uppercase;
       padding: .2rem .4rem .15rem !important;
-      transition: all 0.3s ease, margin 0.3s ease; }
+      transition: all 0.3s ease, margin 0.3s ease;
+      box-shadow: 0px 2px 5px -1px #ccc; }
       .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a:hover, .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a:focus {
         text-decoration: none;
         background-color: #ebbc2f; }
@@ -9172,44 +9173,39 @@ p {
     color: #000 !important;
     border-radius: 5px;
     min-width: 40px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    box-shadow: 0px 2px 5px -1px #ccc;
+    font-size: .75rem;
+    padding: .2rem .4rem .15rem !important;
+    transition: all 0.3s ease, margin 0.3s ease; }
     .owl-carousel .owl-nav button:hover, .owl-carousel .owl-nav button:focus {
       text-decoration: none;
       background-color: #ebbc2f !important; }
     .owl-carousel .owl-nav button.disabled {
       display: none !important; }
+    @media (min-width: 768px) {
+      .owl-carousel .owl-nav button {
+        padding: .25rem .5rem .2rem !important;
+        font-size: .85rem; } }
+    @media (min-width: 992px) {
+      .owl-carousel .owl-nav button {
+        padding: .3rem 1rem .25rem !important;
+        font-size: 1rem; } }
     .owl-carousel .owl-nav button.owl-prev {
       position: absolute;
       left: -15px;
-      font-size: .75rem;
-      top: -32px;
-      padding: .2rem .4rem .15rem !important;
-      transition: all 0.3s ease, margin 0.3s ease; }
+      top: -32px; }
       @media (min-width: 768px) {
         .owl-carousel .owl-nav button.owl-prev {
-          left: -42px;
-          padding: .25rem .5rem .2rem !important;
-          font-size: .85rem; } }
-      @media (min-width: 992px) {
-        .owl-carousel .owl-nav button.owl-prev {
-          padding: .3rem 1rem .25rem !important;
-          font-size: 1rem; } }
+          left: -42px; } }
     .owl-carousel .owl-nav button.owl-next {
       position: absolute;
       right: -15px;
-      font-size: .75rem;
       top: -32px;
-      padding: .2rem .4rem .15rem !important;
-      transition: all 0.3s ease, margin 0.3s ease; }
+      font-size: .75rem; }
       @media (min-width: 768px) {
         .owl-carousel .owl-nav button.owl-next {
-          right: -42px;
-          padding: .25rem .5rem .2rem !important;
-          font-size: .85rem; } }
-      @media (min-width: 992px) {
-        .owl-carousel .owl-nav button.owl-next {
-          padding: .3rem 1rem .25rem !important;
-          font-size: 1rem; } }
+          right: -42px; } }
 
 .left-top-uzor {
   left: -23px;
