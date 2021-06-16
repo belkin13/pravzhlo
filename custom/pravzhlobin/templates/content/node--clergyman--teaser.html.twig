@@ -74,11 +74,16 @@
     #}
     <article{{ attributes }}>
 
-      
-
+    
       <div{{ content_attributes }}>
-               
-          {{ content.field_photo_gallery.0 }}
+
+          <div class="position-relative">     
+            {{ content.field_photo_gallery.0 }}
+            <div class="ramka-top ramka"></div>
+            <div class="ramka-bottom ramka"></div>
+            <div class="ramka-left ramka"></div>
+            <div class="ramka-right ramka"></div>
+          </div>  
 
           {{ title_prefix }}
           {% if not page %}
