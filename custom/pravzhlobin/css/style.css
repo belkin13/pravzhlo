@@ -9182,6 +9182,9 @@ p {
       top: -32px;
       padding: .2rem .4rem .15rem !important;
       transition: all 0.3s ease, margin 0.3s ease; }
+      .owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-prev:focus {
+        text-decoration: none;
+        background-color: #ebbc2f; }
       @media (min-width: 768px) {
         .owl-carousel .owl-nav button.owl-prev {
           left: -42px;
@@ -9198,6 +9201,9 @@ p {
       top: -32px;
       padding: .2rem .4rem .15rem !important;
       transition: all 0.3s ease, margin 0.3s ease; }
+      .owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-next:focus {
+        text-decoration: none;
+        background-color: #ebbc2f; }
       @media (min-width: 768px) {
         .owl-carousel .owl-nav button.owl-next {
           right: -42px;
