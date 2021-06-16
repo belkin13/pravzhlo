@@ -9164,11 +9164,11 @@ p {
       font-size: 1.1rem;
       font-family: Arial, Helvetica, sans-serif; }
 
-.owl-carousel div.owl-nav {
+.view-content.owl-carousel div.owl-nav {
   position: absolute;
   width: 100%;
   top: 50%; }
-  .owl-carousel div.owl-nav button {
+  .view-content.owl-carousel div.owl-nav button {
     background: #ffd249 !important;
     color: #000 !important;
     border-radius: 5px;
@@ -9178,33 +9178,33 @@ p {
     font-size: .75rem !important;
     padding: .2rem .4rem .15rem !important;
     transition: all 0.3s ease, margin 0.3s ease !important; }
-    .owl-carousel div.owl-nav button:hover, .owl-carousel div.owl-nav button:focus {
+    .view-content.owl-carousel div.owl-nav button:hover, .view-content.owl-carousel div.owl-nav button:focus {
       text-decoration: none;
       background-color: #ebbc2f !important; }
-    .owl-carousel div.owl-nav button.disabled {
+    .view-content.owl-carousel div.owl-nav button.disabled {
       display: none !important; }
     @media (min-width: 768px) {
-      .owl-carousel div.owl-nav button {
+      .view-content.owl-carousel div.owl-nav button {
         padding: .25rem .5rem .2rem !important;
-        font-size: .85rem; } }
+        font-size: .85rem !important; } }
     @media (min-width: 992px) {
-      .owl-carousel div.owl-nav button {
+      .view-content.owl-carousel div.owl-nav button {
         padding: .3rem 1rem .25rem !important;
-        font-size: 1rem; } }
-    .owl-carousel div.owl-nav button.owl-prev {
+        font-size: 1rem !important; } }
+    .view-content.owl-carousel div.owl-nav button.owl-prev {
       position: absolute;
       left: -15px;
       top: -32px; }
       @media (min-width: 768px) {
-        .owl-carousel div.owl-nav button.owl-prev {
+        .view-content.owl-carousel div.owl-nav button.owl-prev {
           left: -42px; } }
-    .owl-carousel div.owl-nav button.owl-next {
+    .view-content.owl-carousel div.owl-nav button.owl-next {
       position: absolute;
       right: -15px;
       top: -32px;
       font-size: .75rem; }
       @media (min-width: 768px) {
-        .owl-carousel div.owl-nav button.owl-next {
+        .view-content.owl-carousel div.owl-nav button.owl-next {
           right: -42px; } }
 
 .left-top-uzor {
