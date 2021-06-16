@@ -74,18 +74,21 @@
     #}
     <article{{ attributes }}>
 
-      {{ title_prefix }}
-      {% if not page %}
-        <h2{{ title_attributes }}>
-          <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-        </h2>
-      {% endif %}
-      {{ title_suffix }}
+      
 
       <div{{ content_attributes }}>
-        {{ content.field_photo_gallery.0 }}
-        {{ content.body }}
-        {{ content.links }}
+               
+          {{ content.field_photo_gallery.0 }}
+
+          {{ title_prefix }}
+          {% if not page %}
+            <h2{{ title_attributes }}>
+              <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+            </h2>
+          {% endif %}
+          {{ title_suffix }}
+          {{ content.body }}
+          {{ content.links }}
       </div>
 
     </article>
