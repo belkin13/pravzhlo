@@ -9437,3 +9437,6 @@ footer {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center; }
+
+.views-row-last .razdelitel {
+  display: none; }
