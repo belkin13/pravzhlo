@@ -694,3 +694,10 @@ footer {
         flex-direction:row;
     }
 }
+
+.razdelitel {
+    height:20px;
+    background-image:url(../img/razdelitel.svg);
+    background-size:contain;
+    background-repeat:no-repeat;
+}
