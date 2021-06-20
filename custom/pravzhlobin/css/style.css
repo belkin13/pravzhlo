@@ -9440,3 +9440,9 @@ footer {
 
 .views-row-last .razdelitel {
   display: none; }
+
+.big-letter {
+  font-size: 120%;
+  color: #ffd249;
+  box-shadow: 1px 1px 1px 1px #000;
+  font-family: bukyvede, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
