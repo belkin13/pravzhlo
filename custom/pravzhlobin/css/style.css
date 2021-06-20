@@ -9442,7 +9442,8 @@ footer {
   display: none; }
 
 .big-letter {
-  font-size: 180% !important;
+  font-size: 250% !important;
+  font-weight: bold !important;
   color: #ffd249 !important;
   line-height: 1em !important;
   text-transform: uppercase !important;
