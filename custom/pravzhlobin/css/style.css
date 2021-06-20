@@ -9349,11 +9349,11 @@ p {
         height: calc(100% + 70px);
         background-size: 38px; } }
 
-.field--name-field-gallery {
+.field--name-field-gallery, .field--name-field-photo-gallery {
   margin: 2rem 0 5rem; }
-  .field--name-field-gallery .field__item {
+  .field--name-field-gallery .field__item, .field--name-field-photo-gallery .field__item {
     display: none; }
-    .field--name-field-gallery .field__item.field-item-1 {
+    .field--name-field-gallery .field__item.field-item-1, .field--name-field-photo-gallery .field__item.field-item-1 {
       display: block; }
 
 .wrap-slide-title {
