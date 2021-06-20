@@ -94,7 +94,11 @@
             {% endif %}
             {{ title_suffix }}
             {{ content.body }}
-            {{ content.links }}
+            {#{ content.links }#}
+
+            <a href="{{ url }}" class="btn btn-yellow">{{ "read more"|t }}</a>
+
+
           </div>  
       </div>
 
