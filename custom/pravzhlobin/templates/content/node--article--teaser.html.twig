@@ -93,6 +93,7 @@
         <div class="article-body">
         {{ title_prefix }}
         {% if not page %}
+            <p class="article-date">{{ node.getCreatedTime|format_date('article_date') }}</p>
             <h2 class="mt-3">
             <a href="{{ url }}" rel="bookmark">{{ label }}</a>
             </h2>
