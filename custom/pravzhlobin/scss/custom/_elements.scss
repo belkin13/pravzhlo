@@ -736,3 +736,10 @@ footer {
     text-shadow:1px 1px 1px #000 !important;
     font-family:bukyvede, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"!important;
 }
+
+.article-teaser {
+    img {
+        max-width:100%;
+        height:auto;
+    }
+}
