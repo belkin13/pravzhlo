@@ -741,6 +741,8 @@ footer {
     img {
         max-width:100%;
         height:auto;
+        border:3px solid #ffd249;
+        box-shadow:0 0 3px -2px #000;
     }
 }
 
@@ -751,6 +753,9 @@ footer {
         .article-body {
             h2 {
                 font-size:1.5rem;
+            }
+            .field--name-body {
+                font-size:1rem;
             }
         }
     }
