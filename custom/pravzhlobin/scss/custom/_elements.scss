@@ -748,5 +748,10 @@ footer {
     .view-content {
         margin:0 -15px;
         display:flex;
+        .article-body {
+            h2 {
+                font-size:1.5rem;
+            }
+        }
     }
 }

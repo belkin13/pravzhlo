@@ -86,14 +86,14 @@
 
     <article{{ attributes.addClass(classes)  }}>
         <div class="photo-article text-center">
-        <div class="position-relative d-inline-block mb-3">     
+        <div class="position-relative d-inline-block">     
             {{ content.field_slider_image.0 }}
         </div>  
         </div>  
         <div class="article-body">
         {{ title_prefix }}
         {% if not page %}
-            <h2 class="mt-4 text-center">
+            <h2 class="mt-3">
             <a href="{{ url }}" rel="bookmark">{{ label }}</a>
             </h2>
         {% endif %}
