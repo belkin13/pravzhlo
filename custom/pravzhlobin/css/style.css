@@ -9477,7 +9477,11 @@ footer {
   margin: 0 -15px;
   display: flex;
   flex-wrap: wrap; }
+  .view-taxonomy-term.view-display-id-page_1 .view-content .views-row {
+    margin-bottom: 2rem; }
   .view-taxonomy-term.view-display-id-page_1 .view-content .article-body h2 {
     font-size: 1.5rem; }
   .view-taxonomy-term.view-display-id-page_1 .view-content .article-body .field--name-body {
     font-size: 1rem; }
+  .view-taxonomy-term.view-display-id-page_1 .view-content .article-body .field--name-field-author {
+    display: inline; }

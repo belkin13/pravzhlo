@@ -751,6 +751,9 @@ footer {
         margin:0 -15px;
         display:flex;
         flex-wrap:wrap;
+        .views-row {
+            margin-bottom:2rem;
+        }
         .article-body {
             h2 {
                 font-size:1.5rem;
