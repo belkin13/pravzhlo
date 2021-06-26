@@ -89,7 +89,8 @@
     {#{kint(content)}#}
 
     {% set firstdate = content.field_first_day.0["#attributes"]["datetime"] %}
-
+{{ title_prefix }}
+{{ title_suffix }}
     <table id="shedule-table" class="table table-striped table-bordered table-hover">
       <thead class="thead-dark">
         <tr>
