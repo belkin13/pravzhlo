@@ -93,7 +93,7 @@
         <div class="article-body">
         {{ title_prefix }}
         {% if not page %}
-            <p class="article-date">{{ node.getCreatedTime|format_date('article_date') }} {{content.field_author}}</p>
+            <p class="article-date">{{ node.getCreatedTime|format_date('article_date') }} <label>Опубликовал:</label>{{content.field_author}}</p>
             
             <h2 class="mt-3">
             <a href="{{ url }}" rel="bookmark">{{ label }}</a>
