@@ -254,7 +254,8 @@ h1 {
         .views-row {
             cursor:pointer;
             background:$gray;
-            padding: 1rem 1.5rem;
+            padding:1rem 1.5rem;
+            border:1px solid #ccc;
             @include media-breakpoint-up(md){
                 background-image:url(../img/bg_bumaga_sm_l.png);
                 background-size:cover;
@@ -343,7 +344,6 @@ h1 {
                 }
             }
         }
-
         .owl-stage {
             @include media-breakpoint-down(sm){
                 display: flex;
@@ -354,10 +354,6 @@ h1 {
                 }
             }
         }
-
-
-
-
     }
 }
 
