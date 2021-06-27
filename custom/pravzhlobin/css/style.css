@@ -9401,7 +9401,13 @@ h1.display-4 {
         background-size: 38px; } }
 
 .field--name-field-gallery, .field--name-field-photo-gallery {
-  margin: 2rem 0 5rem; }
+  margin: 1.5rem 0 3rem; }
+  @media (min-width: 768px) {
+    .field--name-field-gallery, .field--name-field-photo-gallery {
+      margin: 1.8rem 0 4rem; } }
+  @media (min-width: 768px) {
+    .field--name-field-gallery, .field--name-field-photo-gallery {
+      margin: 2rem 0 5rem; } }
   .field--name-field-gallery .field__item, .field--name-field-photo-gallery .field__item {
     display: none; }
     .field--name-field-gallery .field__item.field-item-1, .field--name-field-photo-gallery .field__item.field-item-1 {

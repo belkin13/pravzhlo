@@ -650,7 +650,13 @@ h1 {
     }
 }
 .field--name-field-gallery, .field--name-field-photo-gallery {
-    margin:2rem 0 5rem;
+    margin:1.5rem 0 3rem;
+    @include media-breakpoint-up(md){
+        margin:1.8rem 0 4rem;
+    }
+    @include media-breakpoint-up(md){
+        margin:2rem 0 5rem;
+    }
     .field__item {
         display:none;
         &.field-item-1 {
