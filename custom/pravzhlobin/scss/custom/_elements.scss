@@ -245,9 +245,24 @@ p {
             .views-field-body {
                 font-size:1rem;     
                 font-family:Arial, Helvetica, sans-serif;
+                line-height:1.3em;
                // @include media-breakpoint-up(md){
                    // font-style:italic;
                // }
+            }
+            .views-field-title {
+                h4 {
+                    font-size:1.2rem;
+                    @include media-breakpoint-up(md){
+                        font-size:1.35rem;
+                    }
+                    @include media-breakpoint-up(lg){
+                        font-size:1.4rem;
+                    }
+                    @include media-breakpoint-up(xl){
+                        font-size:1.5rem;
+                    }
+                }
             }
             .views-field-view-node {
                 font-size:1.5rem;
@@ -272,7 +287,7 @@ p {
                         padding:.25rem .5rem .2rem !important;
                         font-size:.85rem;
                     }
-                    @include media-breakpoint-up(lg){
+                    @include media-breakpoint-up(xl){
                         padding:.3rem 1rem .25rem !important;
                         font-size:1rem;
                     }

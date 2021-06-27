@@ -9045,7 +9045,8 @@ p {
       padding: 1rem 2rem 3.5rem 2rem; } }
   .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-body {
     font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif; }
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3em; }
   .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node {
     font-size: 1.5rem; }
     .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a {
@@ -9067,7 +9068,7 @@ p {
           right: -42px;
           padding: .25rem .5rem .2rem !important;
           font-size: .85rem; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1200px) {
         .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a {
           padding: .3rem 1rem .25rem !important;
           font-size: 1rem; } }
