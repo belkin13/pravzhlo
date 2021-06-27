@@ -54,9 +54,10 @@
       'nav-item',
       'nav-link',
       item.in_active_trail ? 'active',
-      menu_level == 0 and (item.is_expanded or item.is_collapsed) ? 'dropdown-toggle disabled',
+      
     ]
   %}
+  {# menu_level == 0 and (item.is_expanded or item.is_collapsed) ? 'dropdown-toggle', #}
   {%
     set toggle_class = [
     ]
