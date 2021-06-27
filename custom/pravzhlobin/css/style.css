@@ -9406,6 +9406,9 @@ h1.display-4 {
     display: none; }
     .field--name-field-gallery .field__item.field-item-1, .field--name-field-photo-gallery .field__item.field-item-1 {
       display: block; }
+    .field--name-field-gallery .field__item img, .field--name-field-photo-gallery .field__item img {
+      max-width: 100%;
+      height: auto; }
 
 .wrap-slide-title {
   background: rgba(255, 255, 255, 0.75);
