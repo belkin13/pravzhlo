@@ -4,7 +4,6 @@ p {
         margin-bottom:1rem;
     }
 }
-
 .navbar {
    background-color:$gray; 
    border-bottom:dotted 3px #ccc;
@@ -240,6 +239,8 @@ h1 {
     .attachment {
         .views-row {
             cursor:pointer;
+            background:$gray;
+            padding: 1rem 1.5rem;
             @include media-breakpoint-up(md){
                 background-image:url(../img/bg_bumaga_sm_l.png);
                 background-size:cover;
@@ -309,8 +310,7 @@ h1 {
                     }
                 }
             }
-        }
-       
+        }     
         .owl-item.active {
             .views-row {
                 @include media-breakpoint-down(sm){

@@ -9039,7 +9039,9 @@ h1.display-4 {
   .block-views-blockmain-slider-block-1 > .views-element-container > .view-main-slider > .view-content img {
     height: auto; }
 .block-views-blockmain-slider-block-1 .attachment .views-row {
-  cursor: pointer; }
+  cursor: pointer;
+  background: #f5f5f5;
+  padding: 1rem 1.5rem; }
   @media (min-width: 768px) {
     .block-views-blockmain-slider-block-1 .attachment .views-row {
       background-image: url(../img/bg_bumaga_sm_l.png);
