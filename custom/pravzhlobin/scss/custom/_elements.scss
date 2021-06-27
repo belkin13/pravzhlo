@@ -284,9 +284,12 @@ p {
                     background-color:rgba(255, 210, 73,.3);
                 }
                 @include media-breakpoint-up(md){
-                    padding:2rem 1.5rem 3rem 1.5rem;
+                    padding:1.5rem 1.5rem 2rem 1.5rem;
                     margin-bottom:0;
                     transition:padding 0.3s ease, margin 0.3s ease;
+                }
+                @include media-breakpoint-up(lg){
+                    padding:2rem 1.5rem 4rem 1.5rem;
                 }
                 @include media-breakpoint-up(lg){
                     padding:3rem 2rem 5rem 2rem;
