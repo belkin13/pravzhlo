@@ -125,18 +125,18 @@ p {
 .paragraph--type--information-card {
     background-color:rgba(255, 210, 73,.3);
     max-width:1000px;
-    margin:3rem auto 0;
+    margin:5rem auto 0;
     padding:2rem .75rem .75rem;
     width:100%;
     min-height:100px;
     position:relative;
     border:2px solid #ccc;
     @include media-breakpoint-up(md){
-        margin:4rem auto 0;
+        margin:7rem auto 0;
         padding:2.7rem 1.5rem 1.5rem;
     }
     @include media-breakpoint-up(lg){
-        margin:5rem auto 0;
+        margin:8rem auto 0;
         padding:3rem 2rem 2rem;
     }
     p {
@@ -653,12 +653,12 @@ h2 {
     }
 }
 .field--name-field-main-text {
-    padding:1rem 0;
+    padding:1rem 0 .5rem;
     @include media-breakpoint-up(md){
-        padding:1.5rem 0;
+        padding:1.5rem 0 .5rem;
     }
     @include media-breakpoint-up(lg){
-        padding:2rem 0;
+        padding:2rem 0 .5rem;
     }
     p {
         font-size:1.3rem;
