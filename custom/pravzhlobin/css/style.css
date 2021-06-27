@@ -9035,10 +9035,11 @@ p {
       background-repeat: no-repeat;
       background-position: bottom;
       padding: 1rem 1.5rem 2rem 1.5rem;
-      margin-bottom: 1rem;
+      margin-bottom: .5rem;
       transition: padding 0.3s ease, margin 0.3s ease; } }
   @media (min-width: 992px) {
     .block-views-blockmain-slider-block-1 .attachment .views-row {
+      margin-bottom: 1rem;
       padding: 1rem 1.5rem 3.5rem 1.5rem; } }
   @media (min-width: 1200px) {
     .block-views-blockmain-slider-block-1 .attachment .views-row {
@@ -9082,7 +9083,11 @@ p {
       .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a {
         right: -42px;
         padding: .25rem .5rem .2rem !important;
-        font-size: .85rem; } }
+        font-size: .85rem;
+        background-color: transparent; }
+        .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a:hover, .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a:focus {
+          text-decoration: none;
+          background-color: transparent; } }
     @media (min-width: 1200px) {
       .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-view-node a {
         padding: .3rem 1rem .25rem !important;

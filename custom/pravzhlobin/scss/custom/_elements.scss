@@ -233,10 +233,11 @@ p {
                 background-repeat:no-repeat;
                 background-position:bottom;
                 padding:1rem 1.5rem 2rem 1.5rem;
-                margin-bottom:1rem;
+                margin-bottom:.5rem;
                 transition:padding 0.3s ease, margin 0.3s ease;
             }
             @include media-breakpoint-up(lg){
+                margin-bottom:1rem;
                 padding:1rem 1.5rem 3.5rem 1.5rem;
             }
             @include media-breakpoint-up(xl){
@@ -288,6 +289,11 @@ p {
                         right:-42px;
                         padding:.25rem .5rem .2rem !important;
                         font-size:.85rem;
+                        background-color:transparent;
+                        &:hover, &:focus {
+                            text-decoration:none;               
+                            background-color:transparent;
+                        }
                     }
                     @include media-breakpoint-up(xl){
                         padding:.3rem 1rem .25rem !important;
