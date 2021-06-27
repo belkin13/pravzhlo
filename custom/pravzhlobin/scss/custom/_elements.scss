@@ -255,7 +255,7 @@ h1 {
             cursor:pointer;
             background:$gray;
             padding:1rem 1.5rem;
-            border:1px solid #ccc;
+            border-bottom:1px solid #ccc;
             @include media-breakpoint-up(md){
                 background-image:url(../img/bg_bumaga_sm_l.png);
                 background-size:cover;
@@ -264,6 +264,7 @@ h1 {
                 padding:1rem 1.5rem 2rem 1.5rem;
                 margin-bottom:.5rem;
                 transition:padding 0.3s ease, margin 0.3s ease;
+                border-bottom:none;
             }
             @include media-breakpoint-up(lg){
                 margin-bottom:1rem;
