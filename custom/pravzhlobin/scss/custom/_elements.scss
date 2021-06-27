@@ -237,11 +237,11 @@ p {
                 transition:padding 0.3s ease, margin 0.3s ease;
             }
             @include media-breakpoint-up(lg){
-                padding:1rem 1.5rem 4rem 1.5rem;
+                padding:1rem 1.5rem 3.5rem 1.5rem;
                 margin-bottom:1.5rem;
             }
-            @include media-breakpoint-up(lg){
-                padding:1rem 2rem 5rem 2rem;
+            @include media-breakpoint-up(xl){
+                padding:1rem 2rem 3.5rem 2rem;
                 margin-bottom:2rem;
             }
             .views-field-body {
@@ -293,10 +293,10 @@ p {
                     transition:padding 0.3s ease, margin 0.3s ease;
                 }
                 @include media-breakpoint-up(lg){
-                    padding:2rem 1.5rem 4rem 1.5rem;
+                    padding:2rem 1.5rem 3.5rem 1.5rem;
                 }
-                @include media-breakpoint-up(lg){
-                    padding:3rem 2rem 5rem 2rem;
+                @include media-breakpoint-up(xl){
+                    padding:3rem 2rem 3.5rem 2rem;
                 }
             }
         }

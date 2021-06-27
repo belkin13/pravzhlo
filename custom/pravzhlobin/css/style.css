@@ -9039,11 +9039,11 @@ p {
       transition: padding 0.3s ease, margin 0.3s ease; } }
   @media (min-width: 992px) {
     .block-views-blockmain-slider-block-1 .attachment .views-row {
-      padding: 1rem 1.5rem 4rem 1.5rem;
+      padding: 1rem 1.5rem 3.5rem 1.5rem;
       margin-bottom: 1.5rem; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1200px) {
     .block-views-blockmain-slider-block-1 .attachment .views-row {
-      padding: 1rem 2rem 5rem 2rem;
+      padding: 1rem 2rem 3.5rem 2rem;
       margin-bottom: 2rem; } }
   .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-body {
     font-size: 1rem;
@@ -9083,10 +9083,10 @@ p {
     transition: padding 0.3s ease, margin 0.3s ease; } }
 @media (min-width: 992px) {
   .block-views-blockmain-slider-block-1 .attachment .owl-item.active .views-row {
-    padding: 2rem 1.5rem 4rem 1.5rem; } }
-@media (min-width: 992px) {
+    padding: 2rem 1.5rem 3.5rem 1.5rem; } }
+@media (min-width: 1200px) {
   .block-views-blockmain-slider-block-1 .attachment .owl-item.active .views-row {
-    padding: 3rem 2rem 5rem 2rem; } }
+    padding: 3rem 2rem 3.5rem 2rem; } }
 @media (max-width: 767.98px) {
   .block-views-blockmain-slider-block-1 .attachment .owl-stage {
     display: flex;
