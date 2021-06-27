@@ -9034,9 +9034,13 @@ p {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: bottom;
-      padding: 1rem 1.5rem 3rem 1.5rem;
+      padding: 1rem 1.5rem 2rem 1.5rem;
       margin-bottom: 1rem;
       transition: padding 0.3s ease, margin 0.3s ease; } }
+  @media (min-width: 992px) {
+    .block-views-blockmain-slider-block-1 .attachment .views-row {
+      padding: 1rem 1.5rem 4rem 1.5rem;
+      margin-bottom: 1.5rem; } }
   @media (min-width: 992px) {
     .block-views-blockmain-slider-block-1 .attachment .views-row {
       padding: 1rem 2rem 5rem 2rem;
