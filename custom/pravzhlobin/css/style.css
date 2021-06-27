@@ -9040,11 +9040,11 @@ p {
   @media (min-width: 992px) {
     .block-views-blockmain-slider-block-1 .attachment .views-row {
       padding: 1rem 1.5rem 3.5rem 1.5rem;
-      margin-bottom: 1.5rem; } }
+      margin-bottom: 1rem; } }
   @media (min-width: 1200px) {
     .block-views-blockmain-slider-block-1 .attachment .views-row {
       padding: 1rem 2rem 3.5rem 2rem;
-      margin-bottom: 1.5rem; } }
+      margin-bottom: 2rem; } }
   .block-views-blockmain-slider-block-1 .attachment .views-row .views-field-body {
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif; }
