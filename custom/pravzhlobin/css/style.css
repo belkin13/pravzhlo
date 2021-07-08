@@ -9416,6 +9416,11 @@ h1.display-4 {
       max-width: 100%;
       height: auto; }
 
+.field--name-field-gmap {
+  margin-top: 4rem; }
+  .field--name-field-gmap iframe {
+    width: 100%; }
+
 .wrap-slide-title {
   background: rgba(255, 255, 255, 0.75);
   padding: .5rem; }
