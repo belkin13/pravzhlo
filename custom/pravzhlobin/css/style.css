@@ -9539,15 +9539,15 @@ h1, .simple-letter {
   border: 3px solid #ffd249;
   box-shadow: 0 0 3px -2px #000; }
 
-.view-taxonomy-term.view-display-id-page_1 .view-content {
+.view-taxonomy-term.view-display-id-page_1 .view-content, .view-temples.view-display-id-page_1 .view-content {
   margin: 0 -15px;
   display: flex;
   flex-wrap: wrap; }
-  .view-taxonomy-term.view-display-id-page_1 .view-content .views-row {
+  .view-taxonomy-term.view-display-id-page_1 .view-content .views-row, .view-temples.view-display-id-page_1 .view-content .views-row {
     margin-bottom: 2rem; }
-  .view-taxonomy-term.view-display-id-page_1 .view-content .article-body h2 {
+  .view-taxonomy-term.view-display-id-page_1 .view-content .article-body h2, .view-temples.view-display-id-page_1 .view-content .article-body h2 {
     font-size: 1.5rem; }
-  .view-taxonomy-term.view-display-id-page_1 .view-content .article-body .field--name-body {
+  .view-taxonomy-term.view-display-id-page_1 .view-content .article-body .field--name-body, .view-temples.view-display-id-page_1 .view-content .article-body .field--name-body {
     font-size: 1rem; }
-  .view-taxonomy-term.view-display-id-page_1 .view-content .article-body .field--name-field-author {
+  .view-taxonomy-term.view-display-id-page_1 .view-content .article-body .field--name-field-author, .view-temples.view-display-id-page_1 .view-content .article-body .field--name-field-author {
     display: inline; }
