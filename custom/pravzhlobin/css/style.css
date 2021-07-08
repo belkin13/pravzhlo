@@ -9450,7 +9450,7 @@ h1.display-4 {
     .field--name-body {
       font-size: 1.4rem; } }
 
-.node--type-article.node--view-mode-full, .page-node-type-clergyman .region-content {
+.node--type-article.node--view-mode-full, .page-node-type-clergyman .region-content, .node--type-temple.node--view-mode-full {
   max-width: 1000px;
   margin: 0 auto; }
 
