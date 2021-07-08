@@ -9533,7 +9533,7 @@ h1, .simple-letter {
   text-shadow: 1px 1px 1px #000 !important;
   font-family: bukyvede, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important; }
 
-.article-teaser img {
+.article-teaser img, .temple-teaser img {
   max-width: 100%;
   height: auto;
   border: 3px solid #ffd249;
