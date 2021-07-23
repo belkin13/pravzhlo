@@ -8873,15 +8873,15 @@ h1.display-4 {
       font-size: 2.5rem; } }
 
 .btn-lg, .btn-group-lg > .btn, .btn-group-lg > a.button, .btn-group-lg > .btn, .btn-group-lg > a.button, .btn-group-lg > a.button {
-  padding: .25rem 1rem;
+  padding: .3rem 1rem .25rem;
   font-size: 1rem; }
   @media (min-width: 768px) {
     .btn-lg, .btn-group-lg > .btn, .btn-group-lg > a.button, .btn-group-lg > .btn, .btn-group-lg > a.button, .btn-group-lg > a.button {
-      padding: .4rem 1rem;
+      padding: .5rem 1rem .4rem;
       font-size: 1.2rem; } }
   @media (min-width: 992px) {
     .btn-lg, .btn-group-lg > .btn, .btn-group-lg > a.button, .btn-group-lg > .btn, .btn-group-lg > a.button, .btn-group-lg > a.button {
-      padding: .5rem 1rem;
+      padding: .7rem 1rem .5rem;
       font-size: 1.25rem; } }
 
 .navbar-brand {
@@ -9559,3 +9559,6 @@ h1, .simple-letter {
     font-size: 1rem; }
   .view-taxonomy-term.view-display-id-page_1 .view-content .article-body .field--name-field-author, .view-temples.view-display-id-page_1 .view-content .article-body .field--name-field-author {
     display: inline; }
+
+.faq-question {
+  font-size: 2rem; }
