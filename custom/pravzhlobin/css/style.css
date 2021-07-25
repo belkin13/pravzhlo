@@ -9581,9 +9581,9 @@ h1, .simple-letter {
     font-size: 2rem; }
   .view-faq-page .views-row .label {
     font-size: 1.5rem;
-    padding-bottom: 1.5rem;
-    margin-bottom: 1.5rem;
-    border-bottom: 1px solid #ccc; }
+    margin: 1.5rem 0 2rem;
+    border-bottom: 1px solid #ccc;
+    display: block; }
   .view-faq-page .views-row .text-answer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.8rem; }
