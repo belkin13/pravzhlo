@@ -9573,7 +9573,9 @@ h1, .simple-letter {
 
 .view-faq-page .views-row {
   width: 100%;
-  background-color: #ebbc2f !important;
+  background-color: rgba(255, 210, 73, 0.3);
   padding: 2rem 3rem;
   border: 2px solid #ccc;
   margin-bottom: 3rem; }
+  .view-faq-page .views-row .views-field-title {
+    font-size: 2rem; }

@@ -860,9 +860,12 @@ h1, .simple-letter {
 .view-faq-page {
     .views-row {
         width:100%;
-        background-color:rgb(235, 188, 47) !important;
+        background-color: rgba(255, 210, 73, .3);
         padding:2rem 3rem;
         border:2px solid #ccc;
         margin-bottom:3rem;
+        .views-field-title {
+            font-size:2rem;
+        }
     }
 }
