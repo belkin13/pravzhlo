@@ -9589,3 +9589,7 @@ h1, .simple-letter {
     font-size: 1.8rem; }
   .view-faq-page .views-row .views-field-field-detailed-question {
     font-size: 1.5rem; }
+
+.node--type-temple .field--label-inline {
+  font-size: 1.5rem;
+  margin-bottom: 1rem; }
