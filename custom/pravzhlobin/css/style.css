@@ -9584,3 +9584,5 @@ h1, .simple-letter {
   .view-faq-page .views-row .text-answer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.8rem; }
+  .view-faq-page .views-row .views-field-field-detailed-question {
+    font-size: 1.5rem; }
