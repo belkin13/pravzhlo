@@ -9579,3 +9579,8 @@ h1, .simple-letter {
   margin-bottom: 3rem; }
   .view-faq-page .views-row .views-field-title {
     font-size: 2rem; }
+  .view-faq-page .views-row label {
+    font-size: 1.5rem; }
+  .view-faq-page .views-row .text-answer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem; }
