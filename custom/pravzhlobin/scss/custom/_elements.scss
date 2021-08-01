@@ -99,6 +99,12 @@ h1 {
             font-size:1.5rem;
             font-weight:600;
             color:#999;
+            @include media-breakpoint-up(md){
+                font-size:1.1rem;
+            }
+            @include media-breakpoint-up(lg){
+                font-size:1.5rem;
+            }
             &:hover, &:active, &.active {
                 color:#000;
             }                    
