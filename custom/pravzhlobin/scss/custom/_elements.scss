@@ -96,13 +96,10 @@ h1 {
         .nav-link {
             padding-right:1.5rem;
             padding-left:1.5rem;
-            font-size:1.5rem;
+            font-size:1.1rem;
             font-weight:600;
             color:#999;
-            @include media-breakpoint-up(md){
-                font-size:1.1rem;
-            }
-            @include media-breakpoint-up(lg){
+            @include media-breakpoint-up(xl){
                 font-size:1.5rem;
             }
             &:hover, &:active, &.active {
