@@ -8935,6 +8935,12 @@ h1.display-4 {
   font-size: 1.5rem;
   font-weight: 600;
   color: #999; }
+  @media (min-width: 768px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+      font-size: 1.1rem; } }
+  @media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+      font-size: 1.5rem; } }
   .navbar-expand-lg .navbar-nav .nav-link:hover, .navbar-expand-lg .navbar-nav .nav-link:active, .navbar-expand-lg .navbar-nav .nav-link.active {
     color: #000; }
 .navbar-expand-lg .navbar-nav .dropdown-toggle::after {
