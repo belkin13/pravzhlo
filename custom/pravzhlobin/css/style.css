@@ -9023,19 +9023,19 @@ h1.display-4 {
     left: 50%;
     margin-left: -110px;
     width: 220px;
-    height: 110px; }
+    height: 50px; }
     @media (min-width: 768px) {
       .paragraph--type--information-card::before {
-        top: -67px;
-        margin-left: -130px;
-        width: 260px;
-        height: 110px; } }
+        top: -45px;
+        margin-left: -90px;
+        width: 180px;
+        height: 50px; } }
     @media (min-width: 992px) {
       .paragraph--type--information-card::before {
         top: -45px;
         margin-left: -90px;
         width: 180px;
-        height: 110px; } }
+        height: 50px; } }
 
 .calendar-day-add .fc-time {
   display: none; }
