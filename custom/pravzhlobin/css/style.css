@@ -8870,7 +8870,7 @@ h1.display-4 {
       font-size: 2rem; } }
   @media (min-width: 1200px) {
     h1.display-4 {
-      font-size: 2.2rem; } }
+      font-size: 2rem; } }
 
 .btn-lg, .btn-group-lg > .btn, .btn-group-lg > a.button, .btn-group-lg > .btn, .btn-group-lg > a.button, .btn-group-lg > a.button {
   padding: .3rem 1rem .25rem;
@@ -8925,6 +8925,13 @@ h1.display-4 {
 
 .region-nav-main {
   margin: 0 auto; }
+
+.main-page-hero {
+  display: flex;
+  max-width: 1084px;
+  margin: 0 auto; }
+  .main-page-hero .layout__region--content {
+    margin-right: 5rem; }
 
 @media (max-width: 991.98px) {
   .navbar-expand-lg {
@@ -8990,21 +8997,21 @@ h1.display-4 {
   border: 2px solid #ccc; }
   @media (min-width: 768px) {
     .paragraph--type--information-card {
-      margin: 7rem auto 0;
+      margin: 4rem auto 0;
       padding: 2.7rem 1.5rem 1.5rem; } }
   @media (min-width: 992px) {
     .paragraph--type--information-card {
-      margin: 8rem auto 0;
-      padding: 3rem 2rem 2rem; } }
+      margin: 5.5rem auto 0;
+      padding: 2rem 1.5rem 2rem; } }
   .paragraph--type--information-card p {
     font-size: 1.2rem;
     line-height: 1.5em; }
     @media (min-width: 768px) {
       .paragraph--type--information-card p {
-        font-size: 1.75rem; } }
+        font-size: 1.3rem; } }
     @media (min-width: 992px) {
       .paragraph--type--information-card p {
-        font-size: 2rem; } }
+        font-size: 1.5rem; } }
   .paragraph--type--information-card::before {
     display: block;
     content: "";
@@ -9477,21 +9484,21 @@ h2 {
       font-size: 2.5rem; } }
 
 .field--name-field-main-text {
-  padding: 1rem 0 .5rem; }
+  padding: 1rem 0 0; }
   @media (min-width: 768px) {
     .field--name-field-main-text {
-      padding: 1.5rem 0 .5rem; } }
+      padding: 1.5rem 0 0; } }
   @media (min-width: 992px) {
     .field--name-field-main-text {
-      padding: 2rem 0 .5rem; } }
+      padding: 2rem 0 0; } }
   .field--name-field-main-text p {
-    font-size: 1.3rem; }
+    font-size: 1.2rem; }
     @media (min-width: 768px) {
       .field--name-field-main-text p {
-        font-size: 1.8rem; } }
+        font-size: 1.3rem; } }
     @media (min-width: 992px) {
       .field--name-field-main-text p {
-        font-size: 2rem; } }
+        font-size: 1.5rem; } }
 
 footer {
   background-color: #ccc;
