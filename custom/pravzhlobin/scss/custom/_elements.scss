@@ -174,13 +174,13 @@ h1 {
     width:100%;
     min-height:100px;
     position:relative;
-    border:2px solid #ccc;
+    border:1px solid #000;
     @include media-breakpoint-up(md){
         margin:4rem auto 0;
         padding:2.7rem 1.5rem 1.5rem;
     }
     @include media-breakpoint-up(lg){
-        margin:5.5rem auto 0;
+        margin:3.5rem auto 0;
         padding:2rem 1.5rem 2rem;
     }
     p {
@@ -212,9 +212,9 @@ h1 {
             height:110px;
         }
         @include media-breakpoint-up(lg){
-            top:-80px;
-            margin-left:-150px;
-            width:300px;
+            top:-45px;
+            margin-left:-90px;
+            width:180px;
             height:110px;
         }
     }
