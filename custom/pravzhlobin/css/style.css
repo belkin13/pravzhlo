@@ -8870,7 +8870,7 @@ h1.display-4 {
       font-size: 2rem; } }
   @media (min-width: 1200px) {
     h1.display-4 {
-      font-size: 2rem; } }
+      font-size: 2.3rem; } }
 
 .btn-lg, .btn-group-lg > .btn, .btn-group-lg > a.button, .btn-group-lg > .btn, .btn-group-lg > a.button, .btn-group-lg > a.button {
   padding: .3rem 1rem .25rem;
@@ -9001,7 +9001,7 @@ h1.display-4 {
       padding: 2.7rem 1.5rem 1.5rem; } }
   @media (min-width: 992px) {
     .paragraph--type--information-card {
-      margin: 5.5rem auto 0;
+      margin: 3.5rem auto 0;
       padding: 2rem 1.5rem 2rem; } }
   .paragraph--type--information-card p {
     font-size: 1.2rem;
@@ -9531,7 +9531,7 @@ footer {
   display: none; }
 
 h1, .simple-letter {
-  font-weight: bold !important;
+  font-weight: 600 !important;
   color: #ffd249;
   line-height: 1em !important;
   text-transform: uppercase !important;
