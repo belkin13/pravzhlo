@@ -97,13 +97,13 @@ h1 {
     }
     .navbar-nav {
         .nav-link {
-            padding-right:1.5rem;
-            padding-left:1.5rem;
+            padding-right:1rem;
+            padding-left:1rem;
             font-size:1.1rem;
-            font-weight:600;
-            color:#999;
+            font-weight:400;
+            color:#000;
             @include media-breakpoint-up(xl){
-                font-size:1.5rem;
+                font-size:1.1rem;
             }
             &:hover, &:active, &.active {
                 color:#000;
@@ -118,7 +118,7 @@ h1 {
             @include media-breakpoint-up(md){
                 min-width:22rem;
                 .nav-link {
-                    font-size:1.3rem;
+                    font-size:1.1rem;
                     line-height:1.2em;
                 }
             }
