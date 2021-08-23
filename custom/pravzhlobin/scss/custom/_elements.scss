@@ -206,16 +206,16 @@ h1 {
         width:220px;
         height:50px;
         @include media-breakpoint-up(md){
-            top:-38px;
+            top:-40px;
             margin-left:-90px;
             width:180px;
-            height:50px;
+            height:57px;
         }
         @include media-breakpoint-up(lg){
-            top:-38px;
+            top:-40px;
             margin-left:-90px;
             width:180px;
-            height:50px;
+            height:57px;
         }
     }
 }

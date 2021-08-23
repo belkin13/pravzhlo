@@ -9026,16 +9026,16 @@ h1.display-4 {
     height: 50px; }
     @media (min-width: 768px) {
       .paragraph--type--information-card::before {
-        top: -38px;
+        top: -40px;
         margin-left: -90px;
         width: 180px;
-        height: 50px; } }
+        height: 57px; } }
     @media (min-width: 992px) {
       .paragraph--type--information-card::before {
-        top: -38px;
+        top: -40px;
         margin-left: -90px;
         width: 180px;
-        height: 50px; } }
+        height: 57px; } }
 
 .calendar-day-add .fc-time {
   display: none; }
