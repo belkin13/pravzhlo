@@ -8861,16 +8861,16 @@ p {
   border-bottom: dotted 3px #ccc; }
 
 h1.display-4 {
-  font-size: 1.7rem; }
+  font-size: 1.4rem; }
   @media (min-width: 768px) {
     h1.display-4 {
-      font-size: 1.7rem; } }
+      font-size: 1.75rem; } }
   @media (min-width: 992px) {
     h1.display-4 {
-      font-size: 2.2rem; } }
+      font-size: 2rem; } }
   @media (min-width: 1200px) {
     h1.display-4 {
-      font-size: 2.5rem; } }
+      font-size: 2.2rem; } }
 
 .btn-lg, .btn-group-lg > .btn, .btn-group-lg > a.button, .btn-group-lg > .btn, .btn-group-lg > a.button, .btn-group-lg > a.button {
   padding: .3rem 1rem .25rem;
@@ -9526,8 +9526,7 @@ h1, .simple-letter {
   color: #ffd249;
   line-height: 1em !important;
   text-transform: uppercase !important;
-  text-shadow: 1px 1px 1px #000 !important;
-  font-family: bukyvede, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important; }
+  text-shadow: 1px 1px 1px #000 !important; }
 
 .middle-letter {
   font-size: 150% !important;
@@ -9535,8 +9534,7 @@ h1, .simple-letter {
   color: #ffd249;
   line-height: 1em !important;
   text-transform: uppercase !important;
-  text-shadow: 1px 1px 1px #000 !important;
-  font-family: bukyvede, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important; }
+  text-shadow: 1px 1px 1px #000 !important; }
 
 .big-letter {
   font-size: 250% !important;
@@ -9544,8 +9542,7 @@ h1, .simple-letter {
   color: #ffd249;
   line-height: 1em !important;
   text-transform: uppercase !important;
-  text-shadow: 1px 1px 1px #000 !important;
-  font-family: bukyvede, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important; }
+  text-shadow: 1px 1px 1px #000 !important; }
 
 .article-teaser img, .temple-teaser img {
   max-width: 100%;
