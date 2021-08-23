@@ -8994,7 +8994,7 @@ h1.display-4 {
   width: 100%;
   min-height: 100px;
   position: relative;
-  border: 2px solid #ccc; }
+  border: 1px solid #000; }
   @media (min-width: 768px) {
     .paragraph--type--information-card {
       margin: 4rem auto 0;
@@ -9032,9 +9032,9 @@ h1.display-4 {
         height: 110px; } }
     @media (min-width: 992px) {
       .paragraph--type--information-card::before {
-        top: -80px;
-        margin-left: -150px;
-        width: 300px;
+        top: -45px;
+        margin-left: -90px;
+        width: 180px;
         height: 110px; } }
 
 .calendar-day-add .fc-time {
