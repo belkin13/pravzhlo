@@ -44,6 +44,10 @@ h1 {
             width:auto;
         }
     }
+    .site-slogan {
+        margin-bottom:.75rem;
+        font-size:1.2rem;
+    }
     .wrap-site-title {
         width:60%;
         @include media-breakpoint-up(lg){
@@ -64,7 +68,6 @@ h1 {
             }
             @include media-breakpoint-up(lg){
                 font-size:2.5rem;
-                line-height:1.3em;
             }
             @include media-breakpoint-up(xl){
                 font-size:3rem;
@@ -72,7 +75,7 @@ h1 {
         }
     }
     img {
-        height:70px;
+        height:97px;
     }
 } 
 
@@ -137,15 +140,15 @@ h1 {
 }
 
 .region-content {
-    padding-top:1.5rem;
-    padding-bottom:1.5rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
     @include media-breakpoint-up(md){
-        padding-top:2.2rem;
-        padding-bottom:2.2rem;
+        padding-top:1.25rem;
+        padding-bottom:1.25rem;
     }
     @include media-breakpoint-up(lg){
-        padding-top:3rem;
-        padding-bottom:3rem;
+        padding-top:2rem;
+        padding-bottom:2rem;
     }
 }
 
@@ -549,7 +552,7 @@ h1 {
     margin-bottom:2rem;
 }
 .field--name-field-main-image {
-    max-width:450px;
+    max-width:350px;
     margin:1.8rem auto;
     position:relative;
     @include media-breakpoint-up(md){
