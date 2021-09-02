@@ -97,8 +97,9 @@
           <div class="clergyman-body">
             {{ title_prefix }}
             {% if not page %}
+            {{kint(label.0.value)}}
               <h2 class="mt-4 text-center">
-                {{kint(label.0.value)}}
+                
                 {{ label.0.value|raw }}
               </h2>
             {% endif %}
