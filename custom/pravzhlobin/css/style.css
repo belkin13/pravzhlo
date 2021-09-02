@@ -9634,5 +9634,9 @@ h1, .simple-letter {
       padding-right: 4rem; } }
   .view-archiclergymans.view-display-id-page_2 .view-content .clergyman-body h2 {
     font-size: 2rem;
-    line-height: 1em;
+    line-height: 1.2em;
     margin-bottom: 1.5rem; }
+    .view-archiclergymans.view-display-id-page_2 .view-content .clergyman-body h2 span {
+      font-size: 1.5rem; }
+  .view-archiclergymans.view-display-id-page_2 .view-content .clergyman-body p {
+    font-size: 1.2rem; }

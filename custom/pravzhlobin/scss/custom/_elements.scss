@@ -942,8 +942,14 @@ h1, .simple-letter {
         .clergyman-body {
             h2 {
                 font-size:2rem;
-                line-height:1em;
+                line-height:1.2em;
                 margin-bottom:1.5rem;
+                span {
+                    font-size:1.5rem;
+                }
+            }
+            p {
+                font-size:1.2rem;
             }
         }
     }
