@@ -920,5 +920,11 @@ h1, .simple-letter {
     .view-content {
         display:flex;
         flex-wrap:wrap;
+        img {
+            max-width:100%;
+            height:auto;
+            display:inline-block;
+        }
     }
 }
+
