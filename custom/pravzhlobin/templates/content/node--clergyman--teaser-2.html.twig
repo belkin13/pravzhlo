@@ -98,8 +98,8 @@
             {{ title_prefix }}
             {% if not page %}
               <h2 class="mt-4 text-center">
-                {{kint(label)}}
-                {{ label.0.value | raw }}
+                {{kint(label.0.value)}}
+                {{ label.0.value|raw }}
               </h2>
             {% endif %}
             {{ title_suffix }}
