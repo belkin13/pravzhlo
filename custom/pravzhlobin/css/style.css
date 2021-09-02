@@ -9633,10 +9633,34 @@ h1, .simple-letter {
       padding-left: 4rem;
       padding-right: 4rem; } }
   .view-archiclergymans.view-display-id-page_2 .view-content .clergyman-body h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.2em;
     margin-bottom: 1.5rem; }
+    @media (min-width: 768px) {
+      .view-archiclergymans.view-display-id-page_2 .view-content .clergyman-body h2 {
+        font-size: 1.6rem; } }
+    @media (min-width: 992px) {
+      .view-archiclergymans.view-display-id-page_2 .view-content .clergyman-body h2 {
+        font-size: 1.8rem; } }
+    @media (min-width: 1200px) {
+      .view-archiclergymans.view-display-id-page_2 .view-content .clergyman-body h2 {
+        font-size: 2rem; } }
     .view-archiclergymans.view-display-id-page_2 .view-content .clergyman-body h2 span {
-      font-size: 1.5rem; }
+      font-size: 1rem; }
+      @media (min-width: 768px) {
+        .view-archiclergymans.view-display-id-page_2 .view-content .clergyman-body h2 span {
+          font-size: 1.2rem; } }
+      @media (min-width: 992px) {
+        .view-archiclergymans.view-display-id-page_2 .view-content .clergyman-body h2 span {
+          font-size: 1.3rem; } }
+      @media (min-width: 1200px) {
+        .view-archiclergymans.view-display-id-page_2 .view-content .clergyman-body h2 span {
+          font-size: 1.5rem; } }
   .view-archiclergymans.view-display-id-page_2 .view-content .clergyman-body p {
-    font-size: 1.2rem; }
+    font-size: 1rem; }
+    @media (min-width: 992px) {
+      .view-archiclergymans.view-display-id-page_2 .view-content .clergyman-body p {
+        font-size: 1.1rem; } }
+    @media (min-width: 1200px) {
+      .view-archiclergymans.view-display-id-page_2 .view-content .clergyman-body p {
+        font-size: 1.2rem; } }
