@@ -115,7 +115,10 @@ h1 {
             font-weight:400;
             color:#000;
             @include media-breakpoint-up(xl){
-                font-size:1.1rem;
+                font-size:1.2rem;
+            }
+            @include media-breakpoint-up(xl){
+                font-size:1.3rem;
             }
             &:hover, &:active, &.active {
                 color:#000;
