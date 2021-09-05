@@ -9463,6 +9463,17 @@ h1.display-4 {
   max-width: 1000px;
   margin: 0 auto; }
 
+.field--name-field-detailed-question {
+  font-size: 1.2rem;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif; }
+  @media (min-width: 768px) {
+    .field--name-field-detailed-question {
+      font-size: 1.4rem; } }
+  @media (min-width: 992px) {
+    .field--name-field-detailed-question {
+      font-size: 1.5rem; } }
+
 .field--name-body {
   font-size: 1.1rem;
   font-family: Arial, Helvetica, sans-serif; }
