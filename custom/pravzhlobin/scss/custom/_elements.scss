@@ -720,6 +720,19 @@ h1 {
     max-width:1000px;
     margin:0 auto;
 }
+
+.field--name-field-detailed-question {
+    font-size:1.2rem;
+    font-weight:100;
+    font-family:Arial, Helvetica, sans-serif;
+    @include media-breakpoint-up(md){
+        font-size:1.4rem;
+    }
+    @include media-breakpoint-up(lg){
+        font-size:1.5rem;
+    }
+}
+
 .field--name-body {
     font-size:1.1rem;
     font-family:Arial, Helvetica, sans-serif;
