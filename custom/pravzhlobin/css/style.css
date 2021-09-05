@@ -9465,14 +9465,15 @@ h1.display-4 {
 
 .field--name-field-detailed-question {
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 600;
+  font-style: italic;
   font-family: Arial, Helvetica, sans-serif; }
   @media (min-width: 768px) {
     .field--name-field-detailed-question {
-      font-size: 1.4rem; } }
+      font-size: 1.5rem; } }
   @media (min-width: 992px) {
     .field--name-field-detailed-question {
-      font-size: 1.5rem; } }
+      font-size: 1.6rem; } }
 
 .field--name-body {
   font-size: 1.1rem;
