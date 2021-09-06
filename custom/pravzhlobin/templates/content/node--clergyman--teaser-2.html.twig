@@ -97,12 +97,12 @@
           <div class="clergyman-body">
             {{ title_prefix }}
             {% if not page %}
-              <h2 class="text-center text-lowercase"><span>
+              <h2 class="text-center text-lowercase m-0"><span>
                 {% for item in node.field_dignity %}
                   {{ item.entity.name.value }}
                 {% endfor %}</span>
               </h2> 
-              <h2 class="mt-4 text-center">                    
+              <h2 class="text-center">                    
                 {{ label.0['#context'].value|raw }}
               </h2>
             {% endif %}
