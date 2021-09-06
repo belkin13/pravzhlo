@@ -1027,6 +1027,7 @@ h1, .simple-letter {
                 }
             }
             .field--name-body, p {
+                text-align:center;
                 font-size:1rem;          
                 @include media-breakpoint-up(lg){
                     font-size:1.1rem;

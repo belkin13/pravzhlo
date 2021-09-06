@@ -9706,6 +9706,7 @@ h1, .simple-letter {
       .view-archiclergymans.view-display-id-page_1 .view-content .clergyman-body h2 span {
         font-size: 1.3rem; } }
 .view-archiclergymans.view-display-id-page_1 .view-content .clergyman-body .field--name-body, .view-archiclergymans.view-display-id-page_1 .view-content .clergyman-body p {
+  text-align: center;
   font-size: 1rem; }
   @media (min-width: 992px) {
     .view-archiclergymans.view-display-id-page_1 .view-content .clergyman-body .field--name-body, .view-archiclergymans.view-display-id-page_1 .view-content .clergyman-body p {
