@@ -955,28 +955,28 @@ h1, .simple-letter {
         }
         .clergyman-body {
             h2 {
-                font-size:1.5rem;
+                font-size:1.2rem;
                 line-height:1.2em;
                 margin-bottom:1.5rem;
                 @include media-breakpoint-up(md){
-                    font-size:1.6rem;
+                    font-size:1.3rem;
                 }
                 @include media-breakpoint-up(lg){
-                    font-size:1.8rem;
+                    font-size:1.4rem;
                 }
                 @include media-breakpoint-up(xl){
-                    font-size:2rem;
+                    font-size:1.5rem;
                 }
                 span {
                     font-size:1rem;
                     @include media-breakpoint-up(md){
-                        font-size:1.2rem;
+                        font-size:1.1rem;
                     }
                     @include media-breakpoint-up(lg){
-                        font-size:1.3rem;
+                        font-size:1.2rem;
                     }
                     @include media-breakpoint-up(xl){
-                        font-size:1.5rem;
+                        font-size:1.3rem;
                     }
                 }
             }
