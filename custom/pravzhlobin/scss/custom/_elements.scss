@@ -997,3 +997,45 @@ h1, .simple-letter {
     }
 }
 
+.view-archiclergymans.view-display-id-page_1 {
+    .view-content {
+        .clergyman-body {
+            h2 {
+                font-size:1.2rem;
+                line-height:1.2em;
+                margin-bottom:1.5rem;
+                @include media-breakpoint-up(md){
+                    font-size:1.3rem;
+                }
+                @include media-breakpoint-up(lg){
+                    font-size:1.4rem;
+                }
+                @include media-breakpoint-up(xl){
+                    font-size:1.5rem;
+                }
+                span {
+                    font-size:1rem;
+                    @include media-breakpoint-up(md){
+                        font-size:1.1rem;
+                    }
+                    @include media-breakpoint-up(lg){
+                        font-size:1.2rem;
+                    }
+                    @include media-breakpoint-up(xl){
+                        font-size:1.3rem;
+                    }
+                }
+            }
+            p {
+                font-size:1rem;          
+                @include media-breakpoint-up(lg){
+                    font-size:1.1rem;
+                }
+                @include media-breakpoint-up(xl){
+                    font-size:1.2rem;
+                }
+            }
+        }
+    }
+}
+
