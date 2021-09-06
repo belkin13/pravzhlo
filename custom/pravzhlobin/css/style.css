@@ -8876,6 +8876,9 @@ h1.display-4 {
       font-size: 2.3rem;
       margin-bottom: 3rem; } }
 
+.node--type-main-page h1.display-4 {
+  margin-bottom: 1rem !important; }
+
 .btn-lg, .btn-group-lg > .btn, .btn-group-lg > a.button, .btn-group-lg > .btn, .btn-group-lg > a.button, .btn-group-lg > a.button {
   padding: .3rem 1rem .25rem;
   font-size: 1rem; }
