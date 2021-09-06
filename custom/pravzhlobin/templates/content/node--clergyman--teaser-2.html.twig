@@ -97,7 +97,7 @@
           <div class="clergyman-body">
             {{ title_prefix }}
             {% if not page %}
-              <h2><span class="text-center text-lowercase">
+              <h2 class="text-center text-lowercase"><span>
                 {% for item in node.field_dignity %}
                   {{ item.entity.name.value }}
                 {% endfor %}</span>
