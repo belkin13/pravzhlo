@@ -8861,16 +8861,20 @@ p {
   border-bottom: dotted 3px #ccc; }
 
 h1.display-4 {
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  margin-bottom: 2rem; }
   @media (min-width: 768px) {
     h1.display-4 {
-      font-size: 1.75rem; } }
+      font-size: 1.75rem;
+      margin-bottom: 2.3rem; } }
   @media (min-width: 992px) {
     h1.display-4 {
-      font-size: 2rem; } }
+      font-size: 2rem;
+      margin-bottom: 2.5rem; } }
   @media (min-width: 1200px) {
     h1.display-4 {
-      font-size: 2.3rem; } }
+      font-size: 2.3rem;
+      margin-bottom: 3rem; } }
 
 .btn-lg, .btn-group-lg > .btn, .btn-group-lg > a.button, .btn-group-lg > .btn, .btn-group-lg > a.button, .btn-group-lg > a.button {
   padding: .3rem 1rem .25rem;
