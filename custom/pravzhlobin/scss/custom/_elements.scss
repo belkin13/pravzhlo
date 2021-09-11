@@ -103,8 +103,12 @@ h1 {
 
 .main-page-hero {
     display:flex;
-    max-width:1084px;
-    margin:0 auto;
+    flex-direction:column;
+    @include media-breakpoint-up(md){
+        max-width:1084px;
+        margin:0 auto;
+        flex-direction:row;
+    }
     .layout__region--content {
         margin-right:5rem;
     }

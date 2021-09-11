@@ -8936,8 +8936,12 @@ h1.display-4 {
 
 .main-page-hero {
   display: flex;
-  max-width: 1084px;
-  margin: 0 auto; }
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    .main-page-hero {
+      max-width: 1084px;
+      margin: 0 auto;
+      flex-direction: row; } }
   .main-page-hero .layout__region--content {
     margin-right: 5rem; }
 
