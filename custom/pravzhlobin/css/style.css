@@ -9547,10 +9547,12 @@ footer {
 
 #shedule-table {
   font-size: 1rem;
-  line-height: 1.2em; }
+  line-height: 1.2em;
+  margin: 0 -1.5rem; }
   @media (min-width: 768px) {
     #shedule-table {
-      font-size: 1.2rem; } }
+      font-size: 1.2rem;
+      margin: 0; } }
   @media (min-width: 992px) {
     #shedule-table {
       font-size: 1.5rem; } }

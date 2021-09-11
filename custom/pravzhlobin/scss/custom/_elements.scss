@@ -813,11 +813,15 @@ footer {
     border-top:dotted 3px #444;
 }
 
+
+
 #shedule-table {
     font-size:1rem;
     line-height:1.2em;
+    margin:0 -1.5rem;
     @include media-breakpoint-up(md){
         font-size:1.2rem;
+        margin:0;
     }
     @include media-breakpoint-up(lg){
         font-size:1.5rem;
