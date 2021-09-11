@@ -92,6 +92,7 @@
     {% set firstdate = content.field_first_day.0["#attributes"]["datetime"] %}
 {{ title_prefix }}
 {{ title_suffix }}
+  <div class="wrap-shedule-table">
     <table id="shedule-table" class="table table-striped table-bordered table-hover">
       <thead class="thead-dark">
         <tr>
@@ -160,5 +161,6 @@
         </tr>
       </tbody>
     </table>
+  </div>  
   </div>
 </article>
