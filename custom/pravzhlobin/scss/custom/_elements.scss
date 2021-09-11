@@ -836,6 +836,7 @@ footer {
     background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
+    margin-bottom:2.5rem;
 }
 .views-row-last {
     .razdelitel {
@@ -886,6 +887,11 @@ h1, .simple-letter {
         margin:0 -15px;
         display:flex;
         flex-wrap:wrap;
+        img {
+            max-width:100%;
+            height:auto;
+            display:inline-block;
+        }
         .views-row {
             margin-bottom:2rem;
         }

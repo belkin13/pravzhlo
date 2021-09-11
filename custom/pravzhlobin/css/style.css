@@ -9560,7 +9560,8 @@ footer {
   background-image: url(../img/razdelitel.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  margin-bottom: 2.5rem; }
 
 .views-row-last .razdelitel {
   display: none; }
@@ -9598,6 +9599,10 @@ h1, .simple-letter {
   margin: 0 -15px;
   display: flex;
   flex-wrap: wrap; }
+  .view-taxonomy-term.view-display-id-page_1 .view-content img, .view-temples.view-display-id-page_1 .view-content img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block; }
   .view-taxonomy-term.view-display-id-page_1 .view-content .views-row, .view-temples.view-display-id-page_1 .view-content .views-row {
     margin-bottom: 2rem; }
   .view-taxonomy-term.view-display-id-page_1 .view-content .article-body h2, .view-temples.view-display-id-page_1 .view-content .article-body h2 {
