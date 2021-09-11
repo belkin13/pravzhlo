@@ -1032,6 +1032,12 @@ h1, .simple-letter {
             height:auto;
             display:inline-block;
         }
+        .photo-clergyman {
+            margin:0 1.5rem;
+            @include media-breakpoint-up(md){
+                margin:0;
+            }
+        }
         .clergyman-body {
             h2 {
                 font-size:1.2rem;
