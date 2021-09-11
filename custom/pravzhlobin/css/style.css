@@ -8976,9 +8976,11 @@ h1.display-4 {
     color: #000; }
 .navbar-expand-lg .navbar-nav .dropdown-toggle::after {
   vertical-align: .1em; }
-@media (max-width: 1199.98px) {
+@media (max-width: 991.98px) {
   .navbar-expand-lg .navbar-nav .dropdown-menu {
-    display: block !important; } }
+    display: block !important; }
+    .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-toggle:after {
+      display: none; } }
 @media (min-width: 768px) {
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     min-width: 22rem; }

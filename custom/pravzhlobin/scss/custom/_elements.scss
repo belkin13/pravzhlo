@@ -155,8 +155,13 @@ h1 {
             }
         } 
         .dropdown-menu {
-            @include media-breakpoint-down(lg){
+            @include media-breakpoint-down(md){
                 display:block !important;
+                .dropdown-toggle {
+                    &:after {
+                        display:none;
+                    }
+                }
             }
             @include media-breakpoint-up(md){
                 min-width:22rem;
