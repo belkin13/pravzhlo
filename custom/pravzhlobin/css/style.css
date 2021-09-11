@@ -9198,19 +9198,21 @@ h1.display-4 {
   background-image: url(../img/uzor-sq-y.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  z-index: 1; }
+  z-index: 1;
+  display: none; }
   @media (min-width: 768px) {
     .main-slider-uzor,
     .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::after,
     .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::before {
-      width: 100px;
-      height: 100px; } }
+      display: block;
+      width: 80px;
+      height: 50px; } }
   @media (min-width: 992px) {
     .main-slider-uzor,
     .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::after,
     .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::before {
-      width: 120px;
-      height: 85px; } }
+      width: 100px;
+      height: 70px; } }
 
 .page-node-type-main-page .block-views-blockmain-slider-block-1 {
   /*  .owl-carousel {

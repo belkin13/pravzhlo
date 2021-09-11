@@ -429,13 +429,15 @@ h1 {
     background-size:contain;
     background-repeat:no-repeat;
     z-index:1;
+    display:none;
     @include media-breakpoint-up(md){
-        width:100px;
-        height:100px;
+        display:block;
+        width:80px;
+        height:50px;
     }
     @include media-breakpoint-up(lg){
-        width:120px;
-        height:85px;
+        width:100px;
+        height:70px;
     }
 }
 
