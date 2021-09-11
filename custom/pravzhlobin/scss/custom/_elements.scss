@@ -136,10 +136,13 @@ h1 {
         .nav-link {
             padding-right:1rem;
             padding-left:1rem;
-            font-size:1.1rem;
+            font-size:1rem;
             font-weight:400;
             color:#000;
-            @include media-breakpoint-up(xl){
+            @include media-breakpoint-up(md){
+                font-size:1.1rem;
+            }
+            @include media-breakpoint-up(lg){
                 font-size:1.2rem;
             }
             @include media-breakpoint-up(xl){
@@ -152,23 +155,30 @@ h1 {
         .dropdown-toggle {
             &::after {
                 vertical-align:.1em;
+                @include media-breakpoint-down(md){
+                    display:none;
+                }
             }
         } 
+
         .dropdown-menu {
+            font-size:1rem;
+            min-width:22rem;
             @include media-breakpoint-down(md){
                 display:block !important;
-                .dropdown-toggle {
-                    &:after {
-                        display:none;
-                    }
-                }
-            }
-            @include media-breakpoint-up(md){
-                min-width:22rem;
-                .nav-link {
-                    font-size:1.1rem;
+                
+            }          
+            .nav-link {         
+                padding-left:2rem;
+                font-size:.95rem;
+                @include media-breakpoint-up(md){
+                    font-size:1rem;
                     line-height:1.2em;
+                    padding-left:1rem;
                 }
+                @include media-breakpoint-up(lg){
+                    font-size:1.1rem;
+                } 
             }
         }
     }
