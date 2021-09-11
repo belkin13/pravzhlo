@@ -9702,6 +9702,10 @@ h1, .simple-letter {
       .view-archiclergymans.view-display-id-page_2 .view-content .clergyman-body p {
         font-size: 1.2rem; } }
 
+.view-archiclergymans.view-display-id-page_1 .view-content img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block; }
 .view-archiclergymans.view-display-id-page_1 .view-content .clergyman-body h2 {
   font-size: 1.2rem;
   line-height: 1.2em;
