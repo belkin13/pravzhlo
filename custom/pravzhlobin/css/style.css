@@ -8944,7 +8944,7 @@ h1.display-4 {
       flex-direction: row; } }
   @media (min-width: 768px) {
     .main-page-hero .layout__region--content {
-      margin-right: 2rem; } }
+      margin-right: 3rem; } }
   @media (min-width: 992px) {
     .main-page-hero .layout__region--content {
       margin-right: 4rem; } }

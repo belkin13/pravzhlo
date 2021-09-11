@@ -111,7 +111,7 @@ h1 {
     }
     .layout__region--content {
         @include media-breakpoint-up(md){
-            margin-right:2rem;
+            margin-right:3rem;
         }
         @include media-breakpoint-up(lg){
             margin-right:4rem;
