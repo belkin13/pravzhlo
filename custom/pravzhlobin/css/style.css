@@ -8939,7 +8939,7 @@ h1.display-4 {
   flex-direction: column; }
   @media (min-width: 768px) {
     .main-page-hero {
-      max-width: 1084px;
+      max-width: 1120px;
       margin: 0 auto;
       flex-direction: row; } }
   @media (min-width: 768px) {
