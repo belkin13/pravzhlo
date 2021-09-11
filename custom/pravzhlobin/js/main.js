@@ -51,7 +51,7 @@
         .owlCarousel({
           dots:false,
           mouseDrag:false,
-          touchDrag:true,
+          touchDrag:false,
           pullDrag:false,
           margin:0,
           lazyLoad:true,
