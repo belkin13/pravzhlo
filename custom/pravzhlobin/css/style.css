@@ -9210,7 +9210,7 @@ h1.display-4 {
     .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::after,
     .page-node-type-main-page .block-views-blockmain-slider-block-1 .owl-controls::before {
       width: 120px;
-      height: 120px; } }
+      height: 85px; } }
 
 .page-node-type-main-page .block-views-blockmain-slider-block-1 {
   /*  .owl-carousel {
@@ -9327,12 +9327,12 @@ h1.display-4 {
   transform: rotate(136deg); }
   @media (min-width: 768px) {
     .left-top-uzor {
-      left: -35px;
-      top: -37px; } }
+      left: -29px;
+      top: -12px; } }
   @media (min-width: 992px) {
     .left-top-uzor {
-      left: -45px;
-      top: -49px; } }
+      left: -29px;
+      top: -12px; } }
 
 .right-top-uzor {
   right: -25px;
@@ -9340,12 +9340,12 @@ h1.display-4 {
   transform: rotate(-134deg); }
   @media (min-width: 768px) {
     .right-top-uzor {
-      right: -37px;
-      top: -36px; } }
+      right: -29px;
+      top: -12px; } }
   @media (min-width: 992px) {
     .right-top-uzor {
-      right: -49px;
-      top: -44px; } }
+      right: -29px;
+      top: -12px; } }
 
 .path-user .user-login-form {
   max-width: 400px;

@@ -435,7 +435,7 @@ h1 {
     }
     @include media-breakpoint-up(lg){
         width:120px;
-        height:120px;
+        height:85px;
     }
 }
 
@@ -575,12 +575,12 @@ h1 {
     top:-25px;
     transform:rotate(136deg);
     @include media-breakpoint-up(md){
-        left:-35px;
-        top:-37px;
+        left:-29px;
+        top:-12px;
     }
     @include media-breakpoint-up(lg){
-        left:-45px;
-        top:-49px;
+        left:-29px;
+        top:-12px;
     }
 }
 .right-top-uzor {
@@ -588,12 +588,12 @@ h1 {
     top:-24px;
     transform:rotate(-134deg);
     @include media-breakpoint-up(md){
-        right:-37px;
-        top:-36px;
+        right:-29px;
+        top:-12px;
     }
     @include media-breakpoint-up(lg){
-        right:-49px;
-        top:-44px;
+        right:-29px;
+        top:-12px
     }
 }
 
