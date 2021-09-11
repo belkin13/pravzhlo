@@ -110,7 +110,15 @@ h1 {
         flex-direction:row;
     }
     .layout__region--content {
-        margin-right:5rem;
+        @include media-breakpoint-up(md){
+            margin-right:2rem;
+        }
+        @include media-breakpoint-up(lg){
+            margin-right:4rem;
+        }
+        @include media-breakpoint-up(xl){
+            margin-right:5rem;
+        }
     }
 }
 
@@ -189,15 +197,15 @@ h1 {
 .paragraph--type--information-card {
     background-color:rgba(255, 210, 73,.3);
     max-width:1000px;
-    margin:5rem auto 0;
-    padding:2rem .75rem .75rem;
+    margin:2.5rem auto 0;
+    padding:1rem .75rem .75rem;
     width:100%;
     min-height:100px;
     position:relative;
     border:1px solid #000;
     @include media-breakpoint-up(md){
-        margin:4rem auto 0;
-        padding:2.7rem 1.5rem 1.5rem;
+        margin:3rem auto 0;
+        padding:1.5rem 1.5rem 1.5rem;
     }
     @include media-breakpoint-up(lg){
         margin:3.5rem auto 0;
@@ -220,10 +228,10 @@ h1 {
         background-image:url(../img/info-header.svg);
         background-size:contain;
         background-repeat:no-repeat;
-        top:-58px;
+        top:-35px;
         left:50%;
-        margin-left:-110px;
-        width:220px;
+        margin-left:-79px;
+        width:158px;
         height:50px;
         @include media-breakpoint-up(md){
             top:-40px;
