@@ -9707,7 +9707,7 @@ h1, .simple-letter {
   height: auto;
   display: inline-block; }
 .view-archiclergymans.view-display-id-page_1 .view-content .photo-clergyman {
-  margin: 0 1.5rem; }
+  margin: 0 15px; }
   @media (min-width: 768px) {
     .view-archiclergymans.view-display-id-page_1 .view-content .photo-clergyman {
       margin: 0; } }
