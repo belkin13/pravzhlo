@@ -944,14 +944,14 @@ h1, .simple-letter {
             h2 {
                 font-size:1.1rem;
                 font-weight:600;
-                margin-bottom:1rem;
+                margin-bottom:.5rem;
                 @include media-breakpoint-up(lg){
-                    font-size:1.1rem;
+                    font-size:.75rem;
                     margin-bottom:1.5rem;
                 }
                 @include media-breakpoint-up(xl){
                     font-size:1.2rem;
-                    margin-bottom:2rem;
+                    margin-bottom:1rem;
                 }
             }
             .field--name-body {
