@@ -75,7 +75,7 @@
 
     {%
       set classes = [
-        'node', 'clergyman-teaser', 'narrow-container', 'my-4',
+        'node', 'clergyman-teaser', 'narrow-container', 'my-3',
         'node--type-' ~ node.bundle|clean_class,
         node.isPromoted() ? 'node--promoted',
         node.isSticky() ? 'node--sticky',
@@ -86,7 +86,7 @@
 
     <article{{ attributes.addClass(classes)  }}>
           <div class="photo-clergyman text-center">
-            <div class="position-relative d-inline-block my-5">     
+            <div class="position-relative d-inline-block my-4">     
               {{ content.field_photo_gallery.0 }}
               <div class="ramka-top ramka"></div>
               <div class="ramka-bottom ramka"></div>
