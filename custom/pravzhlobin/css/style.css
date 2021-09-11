@@ -9632,9 +9632,17 @@ h1, .simple-letter {
 .view-faq-page .views-row {
   width: 100%;
   background-color: rgba(255, 210, 73, 0.3);
-  padding: 2rem 3rem;
+  padding: 1rem;
   border: 2px solid #ccc;
-  margin-bottom: 3rem; }
+  margin-bottom: 2rem; }
+  @media (min-width: 768px) {
+    .view-faq-page .views-row {
+      padding: 1.5rem 2rem;
+      margin-bottom: 2.5rem; } }
+  @media (min-width: 992px) {
+    .view-faq-page .views-row {
+      padding: 2rem 3rem;
+      margin-bottom: 3rem; } }
   .view-faq-page .views-row .views-field-title {
     font-size: 2rem; }
   .view-faq-page .views-row .label {
