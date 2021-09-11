@@ -155,6 +155,9 @@ h1 {
             }
         } 
         .dropdown-menu {
+            @include media-breakpoint-down(lg){
+                display:block !important;
+            }
             @include media-breakpoint-up(md){
                 min-width:22rem;
                 .nav-link {
