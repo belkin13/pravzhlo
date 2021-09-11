@@ -942,12 +942,16 @@ h1, .simple-letter {
         }
         .article-body {
             h2 {
-                font-size:1.2rem;
-                @include media-breakpoint-up(md){
-                    font-size:1.35rem;
-                }
+                font-size:1.1rem;
+                font-weight:600;
+                margin-bottom:1rem;
                 @include media-breakpoint-up(lg){
-                    font-size:1.5rem;
+                    font-size:1.1rem;
+                    margin-bottom:1.5rem;
+                }
+                @include media-breakpoint-up(xl){
+                    font-size:1.2rem;
+                    margin-bottom:2rem;
                 }
             }
             .field--name-body {

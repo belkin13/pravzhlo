@@ -9650,13 +9650,17 @@ h1, .simple-letter {
   .view-taxonomy-term.view-display-id-page_1 .view-content .views-row, .view-temples.view-display-id-page_1 .view-content .views-row {
     margin-bottom: 2rem; }
   .view-taxonomy-term.view-display-id-page_1 .view-content .article-body h2, .view-temples.view-display-id-page_1 .view-content .article-body h2 {
-    font-size: 1.2rem; }
-    @media (min-width: 768px) {
-      .view-taxonomy-term.view-display-id-page_1 .view-content .article-body h2, .view-temples.view-display-id-page_1 .view-content .article-body h2 {
-        font-size: 1.35rem; } }
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem; }
     @media (min-width: 992px) {
       .view-taxonomy-term.view-display-id-page_1 .view-content .article-body h2, .view-temples.view-display-id-page_1 .view-content .article-body h2 {
-        font-size: 1.5rem; } }
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem; } }
+    @media (min-width: 1200px) {
+      .view-taxonomy-term.view-display-id-page_1 .view-content .article-body h2, .view-temples.view-display-id-page_1 .view-content .article-body h2 {
+        font-size: 1.2rem;
+        margin-bottom: 2rem; } }
   .view-taxonomy-term.view-display-id-page_1 .view-content .article-body .field--name-body, .view-temples.view-display-id-page_1 .view-content .article-body .field--name-body {
     font-size: 1rem; }
   .view-taxonomy-term.view-display-id-page_1 .view-content .article-body .field--name-field-author, .view-temples.view-display-id-page_1 .view-content .article-body .field--name-field-author {
