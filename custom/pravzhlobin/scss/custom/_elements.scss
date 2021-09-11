@@ -163,12 +163,12 @@ h1 {
                 
             }          
             .nav-link {         
-                padding-left:2rem;
+                padding-left:2rem !important;
                 font-size:.95rem;
                 @include media-breakpoint-up(md){
                     font-size:1rem;
                     line-height:1.2em;
-                    padding-left:1rem;
+                    padding-left:1rem !important;
                 }
                 @include media-breakpoint-up(lg){
                     font-size:1.1rem;

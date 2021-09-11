@@ -8983,13 +8983,13 @@ h1.display-4 {
     .navbar-expand-lg .navbar-nav .dropdown-menu {
       display: block !important; } }
   .navbar-expand-lg .navbar-nav .dropdown-menu .nav-link {
-    padding-left: 2rem;
+    padding-left: 2rem !important;
     font-size: .95rem; }
     @media (min-width: 768px) {
       .navbar-expand-lg .navbar-nav .dropdown-menu .nav-link {
         font-size: 1rem;
         line-height: 1.2em;
-        padding-left: 1rem; } }
+        padding-left: 1rem !important; } }
     @media (min-width: 992px) {
       .navbar-expand-lg .navbar-nav .dropdown-menu .nav-link {
         font-size: 1.1rem; } }
