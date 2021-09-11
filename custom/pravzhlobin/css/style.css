@@ -9655,7 +9655,6 @@ h1, .simple-letter {
     margin-bottom: .5rem; }
     @media (min-width: 992px) {
       .view-taxonomy-term.view-display-id-page_1 .view-content .article-body h2, .view-temples.view-display-id-page_1 .view-content .article-body h2 {
-        font-size: .75rem;
         margin-bottom: 1.5rem; } }
     @media (min-width: 1200px) {
       .view-taxonomy-term.view-display-id-page_1 .view-content .article-body h2, .view-temples.view-display-id-page_1 .view-content .article-body h2 {

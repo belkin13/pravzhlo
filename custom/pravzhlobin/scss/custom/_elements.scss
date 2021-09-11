@@ -946,7 +946,6 @@ h1, .simple-letter {
                 font-weight:600;
                 margin-bottom:.5rem;
                 @include media-breakpoint-up(lg){
-                    font-size:.75rem;
                     margin-bottom:1.5rem;
                 }
                 @include media-breakpoint-up(xl){
