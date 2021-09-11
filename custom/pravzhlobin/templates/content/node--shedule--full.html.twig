@@ -87,8 +87,8 @@
   <div{{ content_attributes.addClass('node__content') }}>
     {#{ content }#}
     {#{kint(content)}#}
-    {{ node.body.value }}
-    
+    {{ node.body.value|raw }}
+
     {% set firstdate = content.field_first_day.0["#attributes"]["datetime"] %}
 {{ title_prefix }}
 {{ title_suffix }}
