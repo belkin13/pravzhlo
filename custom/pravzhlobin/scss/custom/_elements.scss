@@ -927,6 +927,13 @@ h1, .simple-letter {
     }
 }
 
+.page-node-type-article {
+    .field--name-field-author {
+        font-size:1.2rem;
+        font-style:italic;
+        text-align:right;
+    }
+}
 .view-taxonomy-term.view-display-id-page_1, .view-temples.view-display-id-page_1 {
     .view-content {
         margin:0 -15px;
