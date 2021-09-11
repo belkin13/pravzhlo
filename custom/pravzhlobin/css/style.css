@@ -9014,7 +9014,7 @@ h1.display-4 {
   margin: 2.5rem auto 0;
   padding: 1.2rem .75rem .75rem;
   width: 100%;
-  min-height: 100px;
+  min-height: 50px;
   position: relative;
   border: 1px solid #000; }
   @media (min-width: 768px) {
@@ -9023,6 +9023,7 @@ h1.display-4 {
       padding: 1.5rem 1.5rem 1.5rem; } }
   @media (min-width: 992px) {
     .paragraph--type--information-card {
+      min-height: 100px;
       margin: 3.5rem auto 0;
       padding: 2rem 1.5rem 2rem; } }
   .paragraph--type--information-card p {
