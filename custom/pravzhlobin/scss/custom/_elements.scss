@@ -433,7 +433,7 @@ h1 {
     @include media-breakpoint-up(md){
         display:block;
         width:80px;
-        height:50px;
+        height:55px;
     }
     @include media-breakpoint-up(lg){
         width:100px;
@@ -556,6 +556,9 @@ h1 {
                 left:-15px;
                 top:-32px;       
                 @include media-breakpoint-up(md){
+                    left:-20px;
+                }
+                @include media-breakpoint-up(xl){
                     left:-42px;
                 }
             }
@@ -565,6 +568,9 @@ h1 {
                 top:-32px;
                 font-size:.75rem;
                 @include media-breakpoint-up(md){
+                    right:-20px;
+                }
+                @include media-breakpoint-up(xl){
                     right:-42px;
                 }
             }
@@ -574,10 +580,10 @@ h1 {
 
 .left-top-uzor {
     left:-23px;
-    top:-25px;
+    top:-12px;
     transform:rotate(136deg);
     @include media-breakpoint-up(md){
-        left:-29px;
+        left:-23px;
         top:-12px;
     }
     @include media-breakpoint-up(lg){
@@ -586,11 +592,11 @@ h1 {
     }
 }
 .right-top-uzor {
-    right:-25px;
-    top:-24px;
+    right:-23px;
+    top:-12px;
     transform:rotate(-134deg);
     @include media-breakpoint-up(md){
-        right:-29px;
+        right:-23px;
         top:-12px;
     }
     @include media-breakpoint-up(lg){
