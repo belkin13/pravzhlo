@@ -9555,13 +9555,13 @@ h2 {
       font-size: 2.5rem; } }
 
 .field--name-field-main-text {
-  padding: 1rem 0 0; }
-  @media (min-width: 768px) {
-    .field--name-field-main-text {
-      padding: 1.5rem 0 0; } }
-  @media (min-width: 992px) {
-    .field--name-field-main-text {
-      padding: 2rem 0 0; } }
+  /*padding:1rem 0 0;
+  @include media-breakpoint-up(md){
+      padding:1.5rem 0 0;
+  }
+  @include media-breakpoint-up(lg){
+      padding:2rem 0 0;
+  }*/ }
   .field--name-field-main-text p {
     font-size: 1.2rem; }
     @media (min-width: 768px) {
