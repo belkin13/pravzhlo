@@ -641,11 +641,11 @@ h1 {
 .tabs {
     margin-bottom:2rem;
 }
-.field--name-field-main-image {
-    max-width:350px;
+.field--name-field-main-image {    
     margin:1.8rem auto 1rem;
     position:relative;
     @include media-breakpoint-up(md){
+        max-width:350px;
         margin:2.4rem auto 1rem;
     }
     @include media-breakpoint-up(lg){

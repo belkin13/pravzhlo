@@ -9391,11 +9391,11 @@ h1.display-4 {
   margin-bottom: 2rem; }
 
 .field--name-field-main-image {
-  max-width: 350px;
   margin: 1.8rem auto 1rem;
   position: relative; }
   @media (min-width: 768px) {
     .field--name-field-main-image {
+      max-width: 350px;
       margin: 2.4rem auto 1rem; } }
   @media (min-width: 992px) {
     .field--name-field-main-image {
