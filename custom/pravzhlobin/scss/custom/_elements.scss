@@ -109,7 +109,15 @@ h1 {
 .region-nav-main {
     margin:0 auto;
 }
-
+.img-description {
+    font-size:.9rem;
+    @include media-breakpoint-up(md){
+        font-size:.75rem;
+    }
+    @include media-breakpoint-up(lg){
+        font-size:1rem;
+    }
+}
 .main-page-hero {
     display:flex;
     flex-direction:column;
@@ -120,13 +128,13 @@ h1 {
     }
     .layout__region--content {
         @include media-breakpoint-up(md){
-            margin-right:3rem;
+            margin-right:1.8rem;
         }
         @include media-breakpoint-up(lg){
-            margin-right:4rem;
+            margin-right:3rem;
         }
         @include media-breakpoint-up(xl){
-            margin-right:5rem;
+            margin-right:3.5rem;
         }
     }
 }
