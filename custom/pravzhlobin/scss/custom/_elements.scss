@@ -635,14 +635,14 @@ h1 {
 }
 .field--name-field-main-image {
     max-width:350px;
-    margin:1.8rem auto;
+    margin:1rem auto;
     position:relative;
-    @include media-breakpoint-up(md){
-        margin:2.4rem auto;
-    }
-    @include media-breakpoint-up(lg){
-        margin:3rem auto;
-    }
+   // @include media-breakpoint-up(md){
+   //     margin:2.4rem auto;
+   // }
+  //  @include media-breakpoint-up(lg){
+  //      margin:3rem auto;
+  //  }
     img {
         width:100%;
         height:auto;

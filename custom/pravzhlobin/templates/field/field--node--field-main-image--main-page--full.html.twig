@@ -65,12 +65,8 @@
     {% for item in items %}
       <div{{ attributes.addClass(classes, 'field__item') }}>
         {{ item.content }}
-        <div class="ramka-top ramka"></div>
-        <div class="ramka-bottom ramka"></div>
-        <div class="ramka-left ramka"></div>
-        <div class="ramka-right ramka"></div>
       </div>
-      <div class="d-none img-description text-center">Храм Святой Живоначальной Троицы</br>в г.Жлобине</div>
+      <div class="img-description text-center mb-3 mb-md-4">Храм Святой Живоначальной Троицы</br>в г.Жлобине</div>
     {% endfor %}
   {% endif %}
 {% else %}

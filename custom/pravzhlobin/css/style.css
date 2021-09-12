@@ -9383,14 +9383,8 @@ h1.display-4 {
 
 .field--name-field-main-image {
   max-width: 350px;
-  margin: 1.8rem auto;
+  margin: 1rem auto;
   position: relative; }
-  @media (min-width: 768px) {
-    .field--name-field-main-image {
-      margin: 2.4rem auto; } }
-  @media (min-width: 992px) {
-    .field--name-field-main-image {
-      margin: 3rem auto; } }
   .field--name-field-main-image img {
     width: 100%;
     height: auto;
