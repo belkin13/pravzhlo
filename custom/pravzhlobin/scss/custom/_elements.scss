@@ -72,7 +72,9 @@ h1 {
     }
     .wrap-site-title {
         width:60%;
-        margin:0 auto;
+        @include media-breakpoint-up(sm){
+            margin:0 auto;
+        }
         @include media-breakpoint-up(lg){
             width:auto;
             margin:0;

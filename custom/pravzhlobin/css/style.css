@@ -8914,8 +8914,10 @@ h1.display-4 {
     margin-bottom: .75rem;
     font-size: 1.2rem; }
   .navbar-brand .wrap-site-title {
-    width: 60%;
-    margin: 0 auto; }
+    width: 60%; }
+    @media (min-width: 576px) {
+      .navbar-brand .wrap-site-title {
+        margin: 0 auto; } }
     @media (min-width: 992px) {
       .navbar-brand .wrap-site-title {
         width: auto;
