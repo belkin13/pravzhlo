@@ -8952,6 +8952,9 @@ h1.display-4 {
       font-size: .75rem; } }
   @media (min-width: 992px) {
     .img-description {
+      font-size: .9rem; } }
+  @media (min-width: 1200px) {
+    .img-description {
       font-size: 1rem; } }
 
 .main-page-hero {
