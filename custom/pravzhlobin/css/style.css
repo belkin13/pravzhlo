@@ -8914,10 +8914,12 @@ h1.display-4 {
     margin-bottom: .75rem;
     font-size: 1.2rem; }
   .navbar-brand .wrap-site-title {
-    width: 60%; }
+    width: 60%;
+    margin: 0 auto; }
     @media (min-width: 992px) {
       .navbar-brand .wrap-site-title {
-        width: auto; } }
+        width: auto;
+        margin: 0; } }
   .navbar-brand a.site-title {
     font-size: 1.3rem;
     font-weight: 600;
