@@ -9625,15 +9625,19 @@ h1, .simple-letter {
   font-weight: 600 !important;
   color: #ffd249;
   line-height: 1em !important;
-  text-transform: uppercase !important;
+  text-transform: uppercase;
   text-shadow: 1px 1px 1px #000 !important; }
+
+.small-letter {
+  font-size: 80% !important;
+  text-transform: none; }
 
 .middle-letter {
   font-size: 150% !important;
   font-weight: bold !important;
   color: #ffd249;
   line-height: 1em !important;
-  text-transform: uppercase !important;
+  text-transform: uppercase;
   text-shadow: 1px 1px 1px #000 !important; }
 
 .big-letter {
@@ -9641,7 +9645,7 @@ h1, .simple-letter {
   font-weight: bold !important;
   color: #ffd249;
   line-height: 1em !important;
-  text-transform: uppercase !important;
+  text-transform: uppercase;
   text-shadow: 1px 1px 1px #000 !important; }
 
 .article-teaser img, .temple-teaser img {
