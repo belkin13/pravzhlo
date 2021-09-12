@@ -8877,8 +8877,19 @@ h1.display-4 {
       font-size: 2.3rem;
       margin-bottom: 3rem; } }
 
-.node--type-main-page h1.display-4 {
-  margin-bottom: 1rem !important; }
+.node--type-main-page h1 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  line-height: 1.1em !important; }
+  @media (min-width: 768px) {
+    .node--type-main-page h1 {
+      font-size: 1.75rem; } }
+  @media (min-width: 992px) {
+    .node--type-main-page h1 {
+      font-size: 2rem; } }
+  @media (min-width: 1200px) {
+    .node--type-main-page h1 {
+      font-size: 2.3rem; } }
 
 .btn-lg, .btn-group-lg > .btn, .btn-group-lg > a.button, .btn-group-lg > .btn, .btn-group-lg > a.button, .btn-group-lg > a.button {
   padding: .3rem 1rem .35rem;
