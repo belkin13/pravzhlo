@@ -9042,11 +9042,14 @@ h1.display-4 {
   @media (min-width: 768px) {
     .paragraph--type--information-card {
       margin: 2.4rem auto 0;
-      padding: 1.5rem 1.5rem 1.5rem; } }
+      padding: 1.5rem 1rem 1.5rem; } }
   @media (min-width: 992px) {
     .paragraph--type--information-card {
       min-height: 100px;
       margin: 2.95rem auto 0;
+      padding: 2rem 1.2rem 2rem; } }
+  @media (min-width: 992px) {
+    .paragraph--type--information-card {
       padding: 2rem 1.5rem 2rem; } }
   .paragraph--type--information-card p {
     font-size: 1.2rem;
@@ -9056,8 +9059,11 @@ h1.display-4 {
         font-size: 1.1rem; } }
     @media (min-width: 992px) {
       .paragraph--type--information-card p {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         line-height: 1.5em; } }
+    @media (min-width: 1200px) {
+      .paragraph--type--information-card p {
+        font-size: 1.5rem; } }
     .paragraph--type--information-card p:last-child {
       margin-bottom: 0; }
   .paragraph--type--information-card::before {

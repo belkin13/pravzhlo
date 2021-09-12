@@ -226,11 +226,14 @@ h1 {
     border:1px solid #000;
     @include media-breakpoint-up(md){
         margin:2.4rem auto 0;
-        padding:1.5rem 1.5rem 1.5rem;
+        padding:1.5rem 1rem 1.5rem;
     }
     @include media-breakpoint-up(lg){
         min-height:100px;
         margin:2.95rem auto 0;
+        padding:2rem 1.2rem 2rem;
+    }
+    @include media-breakpoint-up(lg){
         padding:2rem 1.5rem 2rem;
     }
     p {
@@ -240,8 +243,11 @@ h1 {
             font-size:1.1rem;
         }
         @include media-breakpoint-up(lg){
-            font-size:1.5rem;
+            font-size:1.25rem;
             line-height:1.5em;
+        }
+        @include media-breakpoint-up(xl){
+            font-size:1.5rem;
         }
         &:last-child {
             margin-bottom:0;
