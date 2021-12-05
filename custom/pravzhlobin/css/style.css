@@ -9516,14 +9516,15 @@ h1.display-4 {
         position: relative; }
         .field--name-field-gallery .field__item.field-item-1 a::after, .field--name-field-gallery .field__item.field-item-1 a::before, .field--name-field-photo-gallery .field__item.field-item-1 a::after, .field--name-field-photo-gallery .field__item.field-item-1 a::before {
           opacity: 0;
-          display: flex; }
+          display: flex;
+          content: ""; }
         .field--name-field-gallery .field__item.field-item-1 a:hover::after, .field--name-field-photo-gallery .field__item.field-item-1 a:hover::after {
           position: absolute;
           opacity: 1;
           transition: opacity 0.3s ease;
           top: 0;
           left: 0;
-          content: "Нажмите для просмотра";
+          content: "╨Э╨░╨╢╨╝╨╕╤В╨╡ ╨┤╨╗╤П ╨┐╤А╨╛╤Б╨╝╨╛╤В╤А╨░";
           width: 100%;
           height: 100%;
           background-repeat: no-repeat;
@@ -9542,7 +9543,6 @@ h1.display-4 {
           left: 0;
           width: 100%;
           height: 100%;
-          content: "";
           background-color: rgba(255, 255, 255, 0.3); }
     .field--name-field-gallery .field__item img, .field--name-field-photo-gallery .field__item img {
       max-width: 100%;
