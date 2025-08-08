@@ -8768,12 +8768,14 @@ td .form-item {
       clear: both;
       float: none; } }
 
-.navbar-brand .site-slogan {
-  display: none;
-  font-size: 0.875rem; }
+  .navbar-brand .site-slogan {
+    font-size: 0.65rem; 
+  }
   @media (min-width: 992px) {
     .navbar-brand .site-slogan {
-      display: block; } }
+      font-size: 0.875rem;
+    } 
+  }
 .navbar-brand a.site-title {
   color: #343a40;
   text-decoration: none; }
@@ -8781,10 +8783,12 @@ td .form-item {
     color: #343a40;
     text-decoration: none; }
 .navbar-brand .site-title {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: bold;
   letter-spacing: 2px;
-  text-transform: uppercase; }
+  text-transform: uppercase; 
+
+}
 .navbar-brand img {
   height: 36px;
   margin: 0 1rem 0 0;
@@ -8915,14 +8919,16 @@ h1.display-4 {
     margin-bottom: .75rem;
     font-size: 1.2rem; }
   .navbar-brand .wrap-site-title {
-    width: 60%; }
+    padding-right: 4rem; }
     @media (min-width: 576px) {
       .navbar-brand .wrap-site-title {
         margin: 0 auto; } }
     @media (min-width: 992px) {
       .navbar-brand .wrap-site-title {
         width: auto;
-        margin: 0; } }
+        margin: 0;
+        padding-right: 0;
+       } }
   .navbar-brand a.site-title {
     font-size: 1.3rem;
     font-weight: 600;
