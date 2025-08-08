@@ -8769,11 +8769,12 @@ td .form-item {
       float: none; } }
 
   .navbar-brand .site-slogan {
-    font-size: 0.65rem; 
+    font-size: 0.65rem !important;
+    display: block !important; 
   }
   @media (min-width: 992px) {
     .navbar-brand .site-slogan {
-      font-size: 0.875rem;
+      font-size: 0.875rem !important;
     } 
   }
 .navbar-brand a.site-title {
